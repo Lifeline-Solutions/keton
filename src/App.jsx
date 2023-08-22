@@ -1,9 +1,9 @@
-import TopBar from './layouts/TopBar';
+import MainPage from './layouts/MainPage';
 
 function App() {
   return (
     <div className="App">
-      <TopBar />
+      <MainPage />
     </div>
   );
 }
