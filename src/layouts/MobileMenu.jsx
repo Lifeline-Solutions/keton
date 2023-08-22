@@ -4,8 +4,8 @@ import { IoCloseSharp } from 'react-icons/io5';
 const MobileMenu = ({ isOpen, toggle }) => {
   return (
     isOpen && (
-      <ul className="flex-col flex items-center fixed inset-0 left-1/4 bg-primaryBlue gap-8 justify-center p-10  text-white font-normal capitalize text-sm">
-        <div className="absolute right-16 top-10">
+      <ul className="flex-col flex items-center fixed inset-0 left-1/4 bg-primaryBlue gap-8 justify-center p-10  text-white font-normal capitalize xs:text-sm text-xs">
+        <div className="absolute sm:right-16 right-6 sm:top-10 top-40">
           <IoCloseSharp className="text-xl" onClick={toggle} />
         </div>
         <li onClick={toggle}>

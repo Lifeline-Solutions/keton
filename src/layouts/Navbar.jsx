@@ -8,11 +8,12 @@ const NavBar = () => {
   const toggle = () => setIsOpen(!isOpen);
   const [activeTab, setActiveTab] = useState('home');
 
+
   return (
     <nav className="flex justify-between items-center mx-auto py-4 px-10 absolute right-0 transition-all duration-500 ease-in-out text-white w-full">
       <div className='sm:mt-0 mt-4'>
         <a href="/">
-          <img src={logo} alt="logo" width={150} height={150} />
+          <img src={logo} alt="logo" width={100} height={100} className='sm:mt-0 mt-8' />
         </a>
       </div>
       <ul className="hidden md:flex gap-6 p-2 font-normal text-sm capitalize ml-auto">

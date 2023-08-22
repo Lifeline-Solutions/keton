@@ -36,24 +36,24 @@ const Header = () => {
             <Navbar />
           </div>
           <div className='sm:mt-40 mt-32 sm:w-8/12'>
-            <div className="sm:text-3xl text-xl font-semibold uppercase sm:leading-[3.2rem] leading-[2.5rem] text-white ">
+            <div className="sm:text-3xl xs:text-xl font-semibold uppercase sm:leading-[3.2rem] xs:leading-[2.5rem] text-white ">
               QUALIFIED STAFF WITH
               <br />
               EXPERTISE IN SERVICES WE OFFER
             </div>
-            <div className="mt-4 leading-7 text-white  ">
+            <div className="mt-4 xs:leading-7 leading-6 sm:text-base xs:text-md text-xs text-white  ">
               As an organization we pride ourselves in valuable collaboration
               with big brands such as Bibby Scientific, Meslo, Tanbead,
               Vitassay, Neomedica, Diagon, Euromex, Biotechne, Audit
               Microcontrols, ESfEQA, Diamex, Noex, Aiken among other reputable
               life sciences organizations globally
             </div>
-            <div className="mt-4 flex items-center space-x-0.5">
+            <div className="sm:mt-8 mt-4 flex xs:flex-row flex-col xs:space-y-0 space-y-2 items-center space-x-0.5 sm:text-base xs:text-md text-xs">
               <input
-                className="border border-gray-300 rounded-md px-4 py-2 sm:w-96 w-40 rounded-r-none"
+                className="border border-gray-300 rounded-md px-4 py-2 sm:w-96 w-40  xs:rounded-r-none"
                 placeholder="Search Here"
               />
-              <button className="bg-primaryGreen text-white px-4 py-2 rounded-l-none rounded-md">
+              <button className="bg-primaryGreen text-white px-4 py-2 xs:rounded-l-none rounded-md xs:w-40 w-40">
                 Get a Quote
               </button>
             </div>

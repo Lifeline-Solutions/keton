@@ -16,6 +16,10 @@ module.exports = {
         primaryBlue: '#2AA7DF',
         secondaryBlue: '#0A5171',
         primaryGreen: '#7CC248',
+        primaryBg: '#E5F5FD',
+      },
+      screens: {
+        xs: '290px',
       },
     },
   },
