@@ -1,10 +1,11 @@
-function App() {
+import TopBar from './layouts/TopBar';
 
+function App() {
   return (
-    <h1 className="text-4xl text-center text-blue-500">
-    Keton
-    </h1>
-  )
+    <div className="App">
+      <TopBar />
+    </div>
+  );
 }
 
-export default App
+export default App;
