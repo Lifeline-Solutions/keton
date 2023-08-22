@@ -8,12 +8,17 @@ const NavBar = () => {
   const toggle = () => setIsOpen(!isOpen);
   const [activeTab, setActiveTab] = useState('home');
 
-
   return (
     <nav className="flex justify-between items-center mx-auto py-4 px-10 absolute right-0 transition-all duration-500 ease-in-out text-white w-full">
-      <div className='sm:mt-0 mt-4'>
+      <div className="sm:mt-0 mt-4">
         <a href="/">
-          <img src={logo} alt="logo" width={100} height={100} className='sm:mt-0 mt-8' />
+          <img
+            src={logo}
+            alt="logo"
+            width={100}
+            height={100}
+            className="sm:mt-0 mt-8"
+          />
         </a>
       </div>
       <ul className="hidden md:flex gap-6 p-2 font-normal text-sm capitalize ml-auto">
@@ -21,7 +26,9 @@ const NavBar = () => {
           <a
             href="/"
             className={`hover:underline ${
-              activeTab === 'home' ? 'border-b-2 border-green-500 font-bold' : ''
+              activeTab === 'home'
+                ? 'border-b-2 border-green-500 font-bold'
+                : ''
             }`}
             onClick={() => setActiveTab('home')}
           >
@@ -32,7 +39,9 @@ const NavBar = () => {
           <a
             href="#about"
             className={`hover:underline ${
-              activeTab === 'about' ? 'border-b-2 border-green-500 font-bold' : ''
+              activeTab === 'about'
+                ? 'border-b-2 border-green-500 font-bold'
+                : ''
             }`}
             onClick={() => setActiveTab('about')}
           >
@@ -54,7 +63,9 @@ const NavBar = () => {
           <a
             href="/training"
             className={`hover:underline ${
-              activeTab === 'training' ? 'border-b-2 border-green-500 font-bold' : ''
+              activeTab === 'training'
+                ? 'border-b-2 border-green-500 font-bold'
+                : ''
             }`}
             onClick={() => setActiveTab('training')}
           >

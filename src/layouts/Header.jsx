@@ -35,7 +35,7 @@ const Header = () => {
           <div className="mt-10">
             <Navbar />
           </div>
-          <div className='sm:mt-40 mt-32 sm:w-8/12'>
+          <div className="sm:mt-40 mt-32 sm:w-8/12">
             <div className="sm:text-3xl xs:text-xl font-semibold uppercase sm:leading-[3.2rem] xs:leading-[2.5rem] text-white ">
               QUALIFIED STAFF WITH
               <br />
