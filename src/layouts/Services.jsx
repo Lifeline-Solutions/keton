@@ -63,7 +63,7 @@ const Services = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16">
           <div className="col-span-1 flex flex-col items-center">
-            <h1 className="sm:text-8xl text-primaryBlue font-bold">10</h1>
+            <h1 className="sm:text-8xl text-6xl text-primaryBlue font-bold">10</h1>
             <h6 className="font-medium capitalize mt-2 text-sm">
               Years of Service
             </h6>
@@ -100,7 +100,7 @@ const Services = () => {
             </p>
 
             <button
-              className="bg-primaryBlue text-white px-4 py-2 mt-4 rounded-md capitalize w-60 hover:bg-primaryGreen"
+              className="bg-primaryBlue text-white px-4 py-2 mt-4 rounded-md capitalize sm:w-60 w-40 hover:bg-primaryGreen"
               href="/training"
             >
               2023 training calendar

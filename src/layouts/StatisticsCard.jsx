@@ -48,7 +48,7 @@ const StatisticsCard = () => {
   }, []);
 
   return (
-    <div className="flex justify-center sm:gap-28 bg-white shadow sm:p-8 sm:w-8/12 w-8/12 rounded-xl absolute sm:-top-20 -top-10">
+    <div className="flex justify-center sm:gap-28 gap-4 bg-white shadow sm:p-8 p-4 sm:w-8/12 w-10/12 rounded-xl absolute sm:-top-20 xs:-top-10 -top-2">
       {animatedNumbers.map((statistic) => (
         <div className="text-center flex flex-col justify-center items-center" key={statistic.id}>
           <div className="sm:text-3xl text:md text-primaryGreen flex sm:flex-row flex-col sm:gap-4">
