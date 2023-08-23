@@ -1,10 +1,10 @@
 const Founder = () => {
   return (
-    <div className="h-[28rem] flex justify-center items-center bg-primaryBg py-10 relative">
-      <div className="absolute -top-10 left-0 w-10/12 md:ml-24 ml-4 bg-white rounded flex justify-center items-center">
+    <div className="h-[28rem] flex justify-center items-center bg-primaryBg sm:pt-10 pt-[30rem] relative">
+      <div className="md:absolute md:-top-10 left-0 md:w-10/12 w-11/12 md:ml-24 ml-4 bg-white rounded flex justify-center items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="col-span-1 flex flex-col items-center mt-8 px-6">
-            <h2 className="capitalize sm:text-2xl font-bold mt-2">
+            <h2 className="capitalize sm:text-2xl font-bold md:mt-2 mt-4">
               the founder
             </h2>
             <hr className="w-20 mx-auto border-2 border-primaryGreen rounded my-1" />
@@ -26,7 +26,11 @@ const Founder = () => {
             </p>
           </div>
           <div className="col-span-1 flex flex-col">
-            <img src="/images/founder.png" alt="logo" className="w-full h-full" />
+            <img
+              src="/images/founder.png"
+              alt="logo"
+              className="w-full h-full"
+            />
           </div>
         </div>
       </div>

@@ -5,14 +5,14 @@ const MobileMenu = ({ isOpen, toggle }) => {
   return (
     isOpen && (
       <ul className="flex-col flex items-center fixed inset-0 left-1/4 bg-primaryBlue gap-8 justify-center p-10  text-white font-normal capitalize xs:text-sm text-xs">
-        <div className="absolute sm:right-16 right-6 sm:top-10 top-40 z-1">
+        <div className="absolute sm:right-16 right-6 sm:top-10 top-40 z-[12]">
           <IoCloseSharp className="text-xl" onClick={toggle} />
         </div>
-        <li onClick={toggle}>
+        <li onClick={toggle} className="sm:mt-0 mt-12">
           <a href="/">home</a>
         </li>
         <li onClick={toggle}>
-          <a href="#about">about us</a>
+          <a href="about-us">about us</a>
         </li>
         <li onClick={toggle}>
           <a href="/eqa" className=" uppercase">

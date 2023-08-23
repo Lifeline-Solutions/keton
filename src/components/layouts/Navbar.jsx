@@ -6,10 +6,14 @@ import logo from '/logo.png';
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  const [activeTab, setActiveTab] = useState('home');
+  // I have path pages eg '/', '/about-us', '/eqa', '/training', '/lab'
+  // I want to set the active page based on the path
+  const path = window.location.pathname;
+  const page = path.split('/')[1];
+
+  const [activePage, setActivePage] = useState(page);
 
   return (
-    // <nav className="flex justify-between items-center mx-auto py-20 px-10 right-0 top-60 transition-all duration-500 ease-in-out text-white w-full bg-red-500 absolute">
     <nav className="flex justify-between items-center mx-auto py-10 px-10 right-0 transition-all duration-500 ease-in-out text-white w-full absolute top-10 z-10">
       <div className="sm:mt-0 mt-4">
         <a href="/">
@@ -27,11 +31,9 @@ const NavBar = () => {
           <a
             href="/"
             className={`hover:underline ${
-              activeTab === 'home'
-                ? 'border-b-2 border-green-500 font-bold'
-                : ''
+              activePage === '' ? 'border-b-2 border-green-500 font-bold' : ''
             }`}
-            onClick={() => setActiveTab('home')}
+            onClick={() => setActivePage('')}
           >
             home
           </a>
@@ -40,11 +42,11 @@ const NavBar = () => {
           <a
             href="/about-us"
             className={`hover:underline ${
-              activeTab === 'about'
+              activePage === 'about-us'
                 ? 'border-b-2 border-green-500 font-bold'
                 : ''
             }`}
-            onClick={() => setActiveTab('about')}
+            onClick={() => setActivePage('about-us')}
           >
             about us
           </a>
@@ -52,34 +54,38 @@ const NavBar = () => {
         <li>
           <a
             href="/eqa"
-            className={`hover:underline ${
-              activeTab === 'eqa' ? 'border-b-2 border-green-500 font-bold' : ''
+            className={`hover:underline uppercase ${
+              activePage === 'eqa'
+                ? 'border-b-2 border-green-500 font-bold'
+                : ''
             }`}
-            onClick={() => setActiveTab('eqa')}
+            onClick={() => setActivePage('eqa')}
           >
             eqa
           </a>
         </li>
         <li>
           <a
-            href="/training"
+            href="/training-services"
             className={`hover:underline ${
-              activeTab === 'training'
+              activePage === 'training-services'
                 ? 'border-b-2 border-green-500 font-bold'
                 : ''
             }`}
-            onClick={() => setActiveTab('training')}
+            onClick={() => setActivePage('training-services')}
           >
             training services
           </a>
         </li>
         <li>
           <a
-            href="/lab"
+            href="/lab-equipment-and-services"
             className={`hover:underline ${
-              activeTab === 'lab' ? 'border-b-2 border-green-500 font-bold' : ''
+              activePage === 'lab-equipment-and-services'
+                ? 'border-b-2 border-green-500 font-bold'
+                : ''
             }`}
-            onClick={() => setActiveTab('lab')}
+            onClick={() => setActivePage('lab-equipment-and-services')}
           >
             lab equipment and services
           </a>

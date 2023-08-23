@@ -49,8 +49,8 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-0.5 border-white mt-10 mb-6 w-3/4 justify-center mx-auto" />
-      <div className="flex justify-between items-center px-28">
-        <p className="text-sm font-bold leading-6">
+      <div className="flex sm:flex-row flex-col gap-8 justify-between items-center sm:px-28">
+        <p className="sm:text-sm text-xs font-bold">
           Copyrights @2023 Kenton Consulting
         </p>
         <div className="flex gap-4">

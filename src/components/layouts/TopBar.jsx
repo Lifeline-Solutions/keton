@@ -2,7 +2,7 @@ import NavBar from './Navbar';
 const TopBar = () => {
   return (
     <>
-      <nav className="bg-primaryBlue p-4 flex sm:flex-row flex-col sm:items-center items-start justify-between sm:text-sm text-xs font-bold text-white fixed w-full z-10 shadow-lg sm:space-y-0 space-y-4">
+      <nav className="bg-primaryBlue p-4 flex sm:flex-row flex-col sm:items-center items-start justify-between sm:text-sm text-xs font-bold text-white fixed w-full z-[12] shadow-lg sm:space-y-0 space-y-4">
         <div className="flex items-center space-x-4">
           <div>Opening Hours : Monday to Saturday - 8am to 5pm</div>
         </div>

@@ -7,8 +7,8 @@ const Hero = () => {
       }}
     >
       <div className="absolute top-0 left-0 w-full h-96 bg-black opacity-50"></div>
-      <div className="relative z-10 text-center mt-12">
-        <h1 className="text-4xl font-bold text-center uppercase mt-8">
+      <div className="relative z-8 text-center md:mt-12 mt-20">
+        <h1 className="md:text-4xl text-2xl font-bold text-center uppercase mt-8">
           About Us
         </h1>
         <p className="text-sm mt-4">
