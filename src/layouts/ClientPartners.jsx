@@ -56,16 +56,16 @@ const ClientPartners = () => {
         <hr className="w-20 mx-auto border-2 border-primaryGreen rounded my-1" />
       </div>
 
-      <div className="flex sm:flex-row flex-col sm:gap-0 gap-8 justify-center mt-8 items-center">
-        <button onClick={handlePrev} className="sm:mr-2 mr-0">
+      <div className="flex sm:flex-row sm:gap-0  justify-center mt-8 items-center">
+        <button onClick={handlePrev} className="sm:mr-2 mr-0 sm:block hidden">
           <BiSolidChevronLeftCircle className="text-3xl text-secondaryBlue" />
         </button>
         {displayedLogos.map(logo => (
-          <div key={logo.id} className="rounded-md p-6 mx-2 w-56 h-56">
-            <img src={logo.image} alt={logo.name} className="sm:w-full sm:h-full w-24 h-24 mx-auto mb-4" />
+          <div key={logo.id} className="rounded-md mx-1 mb-2">
+            <img src={logo.image} alt={logo.name} className="sm:w-full sm:h-full w-24 h-20 mx-auto mb-4" />
           </div>
         ))}
-        <button onClick={handleNext} className="sm:ml-2 ml-0">
+        <button onClick={handleNext} className="sm:ml-2 ml-0 sm:block hidden">
           <BiSolidChevronRightCircle className="text-3xl text-secondaryBlue" />
         </button>
       </div>

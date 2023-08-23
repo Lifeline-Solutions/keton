@@ -4,6 +4,7 @@ import Services from './Services';
 import Products from './Products';
 import News from './News';
 import ClientPartners from './ClientPartners';
+import Footer from './Footer';
 
 const MainPage = () => {
   return (
@@ -14,6 +15,7 @@ const MainPage = () => {
       <Products />
       <News />
       <ClientPartners />
+      <Footer />
     </>
   );
 };
