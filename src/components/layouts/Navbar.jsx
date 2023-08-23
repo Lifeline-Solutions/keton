@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
     // <nav className="flex justify-between items-center mx-auto py-20 px-10 right-0 top-60 transition-all duration-500 ease-in-out text-white w-full bg-red-500 absolute">
-    <nav className='flex justify-between items-center mx-auto py-10 px-10 right-0 transition-all duration-500 ease-in-out text-white w-full absolute top-10 z-10'>
+    <nav className="flex justify-between items-center mx-auto py-10 px-10 right-0 transition-all duration-500 ease-in-out text-white w-full absolute top-10 z-10">
       <div className="sm:mt-0 mt-4">
         <a href="/">
           <img

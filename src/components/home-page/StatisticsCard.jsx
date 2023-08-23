@@ -33,7 +33,8 @@ const StatisticsCard = () => {
         prevNumbers.map((statistic) => ({
           ...statistic,
           currentNumber:
-            statistic.currentNumber + Math.ceil((statistic.number - statistic.currentNumber) / 10),
+            statistic.currentNumber +
+            Math.ceil((statistic.number - statistic.currentNumber) / 10),
         }))
       );
     }, 100);
@@ -44,18 +45,27 @@ const StatisticsCard = () => {
   }, []);
 
   useEffect(() => {
-    setAnimatedNumbers(statistics.map((statistic) => ({ ...statistic, currentNumber: 0 })));
+    setAnimatedNumbers(
+      statistics.map((statistic) => ({ ...statistic, currentNumber: 0 }))
+    );
   }, []);
 
   return (
     <div className="flex justify-center sm:gap-28 gap-4 bg-white shadow sm:p-8 p-4 sm:w-8/12 w-10/12 rounded-xl absolute sm:-top-20 xs:-top-10 -top-2">
       {animatedNumbers.map((statistic) => (
-        <div className="text-center flex flex-col justify-center items-center" key={statistic.id}>
+        <div
+          className="text-center flex flex-col justify-center items-center"
+          key={statistic.id}
+        >
           <div className="sm:text-3xl text:md text-primaryGreen flex sm:flex-row flex-col sm:gap-4">
             <span>{statistic.icon}</span>
-            <span className='text-black font-bold'>{statistic.currentNumber}+</span>
+            <span className="text-black font-bold">
+              {statistic.currentNumber}+
+            </span>
           </div>
-          <h3 className="sm:text-lg text-[10px] font-semibold mt-2">{statistic.title}</h3>
+          <h3 className="sm:text-lg text-[10px] font-semibold mt-2">
+            {statistic.title}
+          </h3>
         </div>
       ))}
     </div>

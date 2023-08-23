@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
-import { BiSolidChevronRightCircle, BiSolidChevronLeftCircle } from 'react-icons/bi';
+import {
+  BiSolidChevronRightCircle,
+  BiSolidChevronLeftCircle,
+} from 'react-icons/bi';
 
 const products = [
   {
@@ -38,18 +41,25 @@ const Products = () => {
   };
 
   const handlePrev = () => {
-    const prevIndex = (currentIndex - itemsPerPage + products.length) % products.length;
+    const prevIndex =
+      (currentIndex - itemsPerPage + products.length) % products.length;
     setCurrentIndex(prevIndex);
   };
 
-  const displayedProducts = products.slice(currentIndex, currentIndex + itemsPerPage);
+  const displayedProducts = products.slice(
+    currentIndex,
+    currentIndex + itemsPerPage
+  );
 
   return (
     <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-6">
       <div className="text-center mt-24">
-        <h1 className="capitalize sm:text-3xl font-bold">We are Offering Reliable Products</h1>
+        <h1 className="capitalize sm:text-3xl font-bold">
+          We are Offering Reliable Products
+        </h1>
         <h5 className="capitalize sm:text-md text-base font-light mt-2">
-          Keton Consulting offers some of the best products in the healthcare sector.
+          Keton Consulting offers some of the best products in the healthcare
+          sector.
         </h5>
         <hr className="w-80 mx-auto border-2 border-primaryGreen rounded my-2" />
       </div>
@@ -58,9 +68,16 @@ const Products = () => {
         <button onClick={handlePrev} className="sm:mr-2 mr-0">
           <BiSolidChevronLeftCircle className="text-3xl text-secondaryBlue" />
         </button>
-        {displayedProducts.map(product => (
-          <div key={product.id} className="card bg-white rounded-md shadow-md p-6 mx-2 sm:w-96 sm:h-96 w-60 h-60">
-            <img src={product.image} alt={product.name} className="sm:w-56 sm:h-56 w-24 h-24 mx-auto mb-4" />
+        {displayedProducts.map((product) => (
+          <div
+            key={product.id}
+            className="card bg-white rounded-md shadow-md p-6 mx-2 sm:w-96 sm:h-96 w-60 h-60"
+          >
+            <img
+              src={product.image}
+              alt={product.name}
+              className="sm:w-56 sm:h-56 w-24 h-24 mx-auto mb-4"
+            />
             <h3 className="text-center sm:text-base text-sm">{product.name}</h3>
             <button className="block mx-auto mt-4 bg-primaryGreen text-white px-4 py-2 rounded sm:text-sm text-xs">
               Read More

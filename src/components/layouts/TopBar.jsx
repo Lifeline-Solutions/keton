@@ -1,4 +1,4 @@
-import NavBar from "./Navbar";
+import NavBar from './Navbar';
 const TopBar = () => {
   return (
     <>
@@ -15,7 +15,6 @@ const TopBar = () => {
         <NavBar />
       </div>
     </>
-
   );
 };
 

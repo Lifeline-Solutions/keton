@@ -1,24 +1,26 @@
-
 const news = [
   {
     id: 1,
     image: '/images/news-1.png',
     title: 'Keton Consulting Ltd-ESfEQA Meeting Heidelberg-Germany',
-    content: 'Keton Consulting continues partnership with ESfEQA to provide quality External Assurance Services in the region Kenya, Uganda & Tanzania. We provide reliable and cost effective programs with great report content.',
+    content:
+      'Keton Consulting continues partnership with ESfEQA to provide quality External Assurance Services in the region Kenya, Uganda & Tanzania. We provide reliable and cost effective programs with great report content.',
   },
   {
     id: 2,
     image: '/images/news-2.png',
     title: '2022 – TOP 40 UNDER 40 AWARDS CEREMONY – KE.',
-    content: 'When he was a boy, Anthony dissented with his mother on the question of his future career. The mother finally won the battle…” starts the article on page 18 of Business Daily. The story seeks to celebrate the top 40...',
+    content:
+      'When he was a boy, Anthony dissented with his mother on the question of his future career. The mother finally won the battle…” starts the article on page 18 of Business Daily. The story seeks to celebrate the top 40...',
   },
   {
     id: 3,
     image: '/images/news-3.png',
     title: 'TRAINING INVITATION TO ISO 15189:2012 IMPLEMENTATION TRAINING',
-    content: 'Keton Consulting continues partnership with ESfEQA to provide quality External Assurance Services in the region Kenya, Uganda & Tanzania. We provide reliable and cost effective programs with great report content.',
-  }
-]
+    content:
+      'Keton Consulting continues partnership with ESfEQA to provide quality External Assurance Services in the region Kenya, Uganda & Tanzania. We provide reliable and cost effective programs with great report content.',
+  },
+];
 
 const News = () => {
   return (
@@ -49,7 +51,7 @@ const News = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default News
+export default News;

@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
-import { BiSolidChevronRightCircle, BiSolidChevronLeftCircle } from 'react-icons/bi';
+import {
+  BiSolidChevronRightCircle,
+  BiSolidChevronLeftCircle,
+} from 'react-icons/bi';
 
 const clientsPartners = [
   {
@@ -43,16 +46,23 @@ const ClientPartners = () => {
   };
 
   const handlePrev = () => {
-    const prevIndex = (currentIndex - itemsPerPage + clientsPartners.length) % clientsPartners.length;
+    const prevIndex =
+      (currentIndex - itemsPerPage + clientsPartners.length) %
+      clientsPartners.length;
     setCurrentIndex(prevIndex);
   };
 
-  const displayedLogos = clientsPartners.slice(currentIndex, currentIndex + itemsPerPage);
+  const displayedLogos = clientsPartners.slice(
+    currentIndex,
+    currentIndex + itemsPerPage
+  );
 
   return (
     <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-6">
       <div className="text-center mt-24">
-        <h2 className="capitalize sm:text-3xl font-bold mt-2">Our Clients & Partners</h2>
+        <h2 className="capitalize sm:text-3xl font-bold mt-2">
+          Our Clients & Partners
+        </h2>
         <hr className="w-20 mx-auto border-2 border-primaryGreen rounded my-1" />
       </div>
 
@@ -60,9 +70,13 @@ const ClientPartners = () => {
         <button onClick={handlePrev} className="sm:mr-2 mr-0 sm:block hidden">
           <BiSolidChevronLeftCircle className="text-3xl text-secondaryBlue" />
         </button>
-        {displayedLogos.map(logo => (
+        {displayedLogos.map((logo) => (
           <div key={logo.id} className="rounded-md mx-1 mb-2">
-            <img src={logo.image} alt={logo.name} className="sm:w-full sm:h-full w-24 h-20 mx-auto mb-4" />
+            <img
+              src={logo.image}
+              alt={logo.name}
+              className="sm:w-full sm:h-full w-24 h-20 mx-auto mb-4"
+            />
           </div>
         ))}
         <button onClick={handleNext} className="sm:ml-2 ml-0 sm:block hidden">

@@ -63,7 +63,9 @@ const Services = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16">
           <div className="col-span-1 flex flex-col items-center">
-            <h1 className="sm:text-8xl text-6xl text-primaryBlue font-bold">10</h1>
+            <h1 className="sm:text-8xl text-6xl text-primaryBlue font-bold">
+              10
+            </h1>
             <h6 className="font-medium capitalize mt-2 text-sm">
               Years of Service
             </h6>
