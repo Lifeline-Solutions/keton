@@ -1,28 +1,28 @@
 import { BsCart } from 'react-icons/bs';
 import { MdOutlineMedicalServices } from 'react-icons/md';
 import { HiUserGroup } from 'react-icons/hi';
-import maskImage from '../../public/images/medical-mask.png';
+import maskImage from '/images/medical-mask.png';
 import StatisticsCard from './StatisticsCard';
 
 const cards = [
   {
     id: 1,
     icon: <BsCart />,
-    title: 'Kenton Products',
+    title: 'Keton Products',
     description:
       'We offer a wide range of products ranging from clinical lab equipment among others',
   },
   {
     id: 2,
     icon: <MdOutlineMedicalServices />,
-    title: 'Kenton Services',
+    title: 'Keton Services',
     description:
-      "Kenton is renowned for offering exceptional services to it's various clients globally",
+      "Keton is renowned for offering exceptional services to it's various clients globally",
   },
   {
     id: 3,
     icon: <HiUserGroup />,
-    title: 'Kenton Training',
+    title: 'Keton Training',
     description:
       'Keton Consulting is the leading agency that offers different ISO/IEC trainings in Kenya.',
   },
