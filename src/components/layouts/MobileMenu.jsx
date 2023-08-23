@@ -5,7 +5,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
   return (
     isOpen && (
       <ul className="flex-col flex items-center fixed inset-0 left-1/4 bg-primaryBlue gap-8 justify-center p-10  text-white font-normal capitalize xs:text-sm text-xs">
-        <div className="absolute sm:right-16 right-6 sm:top-10 top-40">
+        <div className="absolute sm:right-16 right-6 sm:top-10 top-40 z-1">
           <IoCloseSharp className="text-xl" onClick={toggle} />
         </div>
         <li onClick={toggle}>

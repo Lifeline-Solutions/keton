@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 import MobileMenu from './MobileMenu';
-import logo from '../../public/logo.png';
+import logo from '/logo.png';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,8 @@ const NavBar = () => {
   const [activeTab, setActiveTab] = useState('home');
 
   return (
-    <nav className="flex justify-between items-center mx-auto py-4 px-10 absolute right-0 transition-all duration-500 ease-in-out text-white w-full">
+    // <nav className="flex justify-between items-center mx-auto py-20 px-10 right-0 top-60 transition-all duration-500 ease-in-out text-white w-full bg-red-500 absolute">
+    <nav className='flex justify-between items-center mx-auto py-10 px-10 right-0 transition-all duration-500 ease-in-out text-white w-full absolute top-10 z-10'>
       <div className="sm:mt-0 mt-4">
         <a href="/">
           <img
@@ -37,7 +38,7 @@ const NavBar = () => {
         </li>
         <li>
           <a
-            href="#about"
+            href="/about-us"
             className={`hover:underline ${
               activeTab === 'about'
                 ? 'border-b-2 border-green-500 font-bold'

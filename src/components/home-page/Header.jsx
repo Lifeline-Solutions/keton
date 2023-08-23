@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import Navbar from '../layouts/Navbar';
 
 const images = ['/header-bg.png', '/header-bg.png', '/header-bg.png'];
 
@@ -17,7 +16,7 @@ const Header = () => {
   return (
     <>
       <header
-        className="relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        className="h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${images[currentImage]})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-primaryBlue to-transparent"></div>
@@ -32,9 +31,6 @@ const Header = () => {
           ))}
         </div>
         <div className="z-1 absolute inset-0 flex flex-col justify-left  p-10">
-          <div className="mt-10">
-            <Navbar />
-          </div>
           <div className="sm:mt-40 mt-32 sm:w-8/12">
             <div className="sm:text-3xl xs:text-xl font-semibold uppercase sm:leading-[3.2rem] xs:leading-[2.5rem] text-white ">
               QUALIFIED STAFF WITH
