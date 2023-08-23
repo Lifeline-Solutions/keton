@@ -1,7 +1,7 @@
 const Mission = () => {
   return (
     <div className="relative">
-      <div className="md:absolute md:-top-8 bg-primaryBlue h-80 flex flex-col justify-center items-center py-10 w-full text-white md:mt-0 mt-[33rem]">
+      <div className="md:absolute md:-top-8 bg-primaryBlue h-80 flex flex-col justify-center items-center py-10 w-full text-white md:mt-0 mt-[580px]">
         <div>
           <h2 className="capitalize sm:text-2xl font-bold mt-2">mission</h2>
           <hr className="w-20 mx-auto border-2 border-primaryGreen rounded my-1" />

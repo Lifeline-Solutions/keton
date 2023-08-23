@@ -1,6 +1,6 @@
 const Founder = () => {
   return (
-    <div className="h-[28rem] flex justify-center items-center bg-primaryBg sm:pt-10 pt-[30rem] relative">
+    <div className="h-[28rem] flex justify-center items-center bg-primaryBg sm:pt-10 pt-[520px] relative">
       <div className="md:absolute md:-top-10 left-0 md:w-10/12 w-11/12 md:ml-24 ml-4 bg-white rounded flex justify-center items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="col-span-1 flex flex-col items-center mt-8 px-6">

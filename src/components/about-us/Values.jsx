@@ -35,8 +35,8 @@ const values = [
 
 const Values = () => {
   return (
-    <div className="h-full flex justify-center items-center bg-primaryBg py-10">
-      <div className="grid sm:grid-cols-4 grid-cols-1 sm:gap-4 gap-10 mt-16 px-10">
+    <div className="h-full flex justify-center items-center bg-primaryBg sm:py-10">
+      <div className="grid sm:grid-cols-4 grid-cols-1 sm:gap-4 gap-10 sm:mt-16 mt-8 px-10">
         {values.map((value) => (
           <div key={value.id} className="bg-white shadow-lg rounded-lg p-4">
             <div className="flex justify-center items-center relative">
@@ -44,11 +44,11 @@ const Values = () => {
                 {value.icon}
               </div>
             </div>
-            <div className="text-center sm:mt-10 mt-4 mb-10">
-              <h3 className="text-xl font-semibold uppercase">
-                {value.title}
-              </h3>
-              <p className="font-light mt-6 leading-7 text-sm">{value.description}</p>
+            <div className="text-center sm:mt-10 mt-8 sm:mb-10 mb-4">
+              <h3 className="sm:text-xl text-sm font-semibold uppercase">{value.title}</h3>
+              <p className="font-light mt-6 leading-6 sm:text-sm text-xs">
+                {value.description}
+              </p>
             </div>
           </div>
         ))}
