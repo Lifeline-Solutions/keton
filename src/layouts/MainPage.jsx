@@ -1,6 +1,7 @@
 import TopBar from './TopBar';
 import Header from './Header';
 import Services from './Services';
+import Products from './Products';
 
 const MainPage = () => {
   return (
@@ -8,6 +9,7 @@ const MainPage = () => {
       <TopBar />
       <Header />
       <Services />
+      <Products />
     </>
   );
 };
