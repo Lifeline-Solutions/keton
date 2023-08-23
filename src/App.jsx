@@ -1,9 +1,9 @@
-import MainPage from './layouts/MainPage';
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <HomePage />
     </div>
   );
 }
