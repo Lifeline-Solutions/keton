@@ -45,7 +45,9 @@ const Values = () => {
               </div>
             </div>
             <div className="text-center sm:mt-10 mt-8 sm:mb-10 mb-4">
-              <h3 className="sm:text-xl text-sm font-semibold uppercase">{value.title}</h3>
+              <h3 className="sm:text-xl text-sm font-semibold uppercase">
+                {value.title}
+              </h3>
               <p className="font-light mt-6 leading-6 sm:text-sm text-xs">
                 {value.description}
               </p>

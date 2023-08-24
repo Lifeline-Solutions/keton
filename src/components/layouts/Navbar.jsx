@@ -53,6 +53,19 @@ const NavBar = () => {
         </li>
         <li>
           <a
+            href="/consulting"
+            className={`hover:underline ${
+              activePage === 'consulting'
+                ? 'border-b-2 border-green-500 font-bold'
+                : ''
+            }`}
+            onClick={() => setActivePage('consulting')}
+          >
+            consulting
+          </a>
+        </li>
+        <li>
+          <a
             href="/eqa"
             className={`hover:underline uppercase ${
               activePage === 'eqa'

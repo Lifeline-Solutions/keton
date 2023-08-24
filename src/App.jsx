@@ -3,6 +3,7 @@ import Footer from './components/layouts/Footer';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import About from './pages/About';
+import Consulting from './pages/Consulting';
 import NotFound from './components/404/NotFound';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about-us" element={<About />} />
+        <Route path="/consulting" element={<Consulting />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
