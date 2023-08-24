@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 import MobileMenu from './MobileMenu';
 import logo from '/logo.png';
+import EqaDropDown from './EqaDropDown';
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
-  // I have path pages eg '/', '/about-us', '/eqa', '/training', '/lab'
-  // I want to set the active page based on the path
+  const [isMobileMenu, setIsMobileMenu] = useState(false);
+  const toggle = () => setIsMobileMenu(!isMobileMenu);
+
   const path = window.location.pathname;
   const page = path.split('/')[1];
 
@@ -65,17 +65,7 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <a
-            href="/eqa"
-            className={`hover:underline uppercase ${
-              activePage === 'eqa'
-                ? 'border-b-2 border-green-500 font-bold'
-                : ''
-            }`}
-            onClick={() => setActivePage('eqa')}
-          >
-            eqa
-          </a>
+          <EqaDropDown activePage={activePage} setActivePage={setActivePage} />
         </li>
         <li>
           <a
@@ -106,11 +96,11 @@ const NavBar = () => {
       </ul>
       <div>
         <div className="absolute md:hidden right-4 sm:mt-0 mt-4">
-          {!isOpen && (
+          {!isMobileMenu && (
             <HiOutlineMenuAlt2 className="text-xl" onClick={toggle} />
           )}
         </div>
-        <MobileMenu isOpen={isOpen} toggle={toggle} />
+        <MobileMenu isMobileMenu={isMobileMenu} toggle={toggle} />
       </div>
     </nav>
   );
