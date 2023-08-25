@@ -6,7 +6,7 @@ const courses = [
   'ISO 19011:2011 Guidelines for Auditing Management Systems',
   'ISO 9001:2015 Quality Management Systems Requirements Implementation',
   'ISO 31000 Risk Management Training',
-]
+];
 
 const IsoCourses = () => {
   return (

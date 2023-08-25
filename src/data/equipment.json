@@ -1,0 +1,163 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Clinical Chemistry",
+      "products": [
+        {
+          "id": 101,
+          "title": "SNIBE Bioassay 240 Plus",
+          "image": "/images/equipments/clinical-1.png"
+        },
+        {
+          "id": 102,
+          "title": "Genrui Electrolyte",
+          "image": "/images/equipments/clinical-2.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Hematology",
+      "products": [
+        {
+          "id": 201,
+          "title": "Phoenix 5 partn 61",
+          "image": "/images/equipments/hematology-1.png"
+        },
+        {
+          "id": 202,
+          "title": "Phoenix 5 Part with Autoloader NCC 51",
+          "image": "/images/equipments/hematology-2.png"
+        },
+        {
+          "id": 203,
+          "title": "Genrui KT 42 3 Part Analyzer",
+          "image": "/images/equipments/hematology-3.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Immunoassay",
+      "products": [
+        {
+          "id": 301,
+          "title": "NAISSA Monolayer",
+          "image": "/images/equipments/immuno-1.png"
+        },
+        {
+          "id": 302,
+          "title": "Tests under NAISSA",
+          "image": "/images/equipments/immuno-2.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Coagulation",
+      "products": [
+        {
+          "id": 401,
+          "title": "NAISSA Monolayer",
+          "image": "/images/equipments/coag-1.png"
+        },
+        {
+          "id": 402,
+          "title": "COAGM",
+          "image": "/images/equipments/coag-2.png"
+        },
+        {
+          "id": 403,
+          "title": "COAG X",
+          "image": "/images/equipments/coag-3.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Blood Gas",
+      "products": [
+        {
+          "id": 501,
+          "title": "OPTI CCA",
+          "image": "/images/equipments/blood-1.png"
+        },
+        {
+          "id": 502,
+          "title": "TS2 Blood Gas Analyzer from USA",
+          "image": "/images/equipments/blood-2.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Molecular Equipment",
+      "products": [
+        {
+          "id": 601,
+          "title": "PCR Max Realtime PCR",
+          "image": "/images/equipments/molecular-1.png"
+        },
+        {
+          "id": 602,
+          "title": "Tan bead Nucleic Acid Extraction System",
+          "image": "/images/equipments/molecular-2.png"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Semen Analyzer",
+      "products": [
+        {
+          "id": 701,
+          "title": "Lenshook X1 Pro Semen Analyzer",
+          "image": "/images/equipments/semen-1.png"
+        },
+        {
+          "id": 702,
+          "title": "Sperm DNA Fragmentation test kit",
+          "image": "/images/equipments/semen-2.png"
+        },
+        {
+          "id": 703,
+          "title": "Lenshook X12 Pro Semen Analyzer",
+          "image": "/images/equipments/semen-3.png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "POCT",
+      "products": [
+        {
+          "id": 801,
+          "title": "HALO Dry Fluorescence Immunoanalyzer",
+          "image": "/images/equipments/poct-1.png"
+        },
+        {
+          "id": 802,
+          "title": "Calmark Neo-bilirubinometer",
+          "image": "/images/equipments/poct-2.png"
+        },
+        {
+          "id": 803,
+          "title": "Glucoleader Glucometer",
+          "image": "/images/equipments/poct-3.png"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "POCT",
+      "products": [
+        {
+          "id": 901,
+          "title": " All-Test HB",
+          "image": "/images/equipments/poct-2-1.png"
+        }
+      ]
+    }
+  ]
+}

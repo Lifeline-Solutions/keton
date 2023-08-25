@@ -1,6 +1,6 @@
-import Header from "../components/training/Header"
-import IsoTraining from "../components/training/IsoTraining";
-import BioMedicineCourses from "../components/training/BioMedicine";
+import Header from '../components/training/Header';
+import IsoTraining from '../components/training/IsoTraining';
+import BioMedicineCourses from '../components/training/BioMedicine';
 
 const TrainingServices = () => {
   const path = window.location.pathname;
@@ -8,10 +8,13 @@ const TrainingServices = () => {
   return (
     <>
       <Header />
-      {path === '/training-services/iso-training' ? <IsoTraining /> : <BioMedicineCourses />}
-
+      {path === '/training-services/iso-training' ? (
+        <IsoTraining />
+      ) : (
+        <BioMedicineCourses />
+      )}
     </>
-  )
-}
+  );
+};
 
-export default TrainingServices
+export default TrainingServices;

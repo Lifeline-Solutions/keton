@@ -5,7 +5,7 @@ const Services = () => {
         PROVIDING YOU WITH THE BEST SERVICES AND CONSULTING.
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-20 gap-4 mt-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-20 gap-4 mt-4 sm:px-10">
         <div className="col-span-1">
           <img
             src="/images/consulting-2.png"

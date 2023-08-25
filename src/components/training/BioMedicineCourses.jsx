@@ -5,8 +5,8 @@ const courses = [
   'Risk Management',
   'Competency in Malaria Microscopy Training.',
   'Good Clinical Laboratory Practice Training',
-  'Best Practices in Safe Phlebotomy'
-]
+  'Best Practices in Safe Phlebotomy',
+];
 
 const BioMedicineCourses = () => {
   return (

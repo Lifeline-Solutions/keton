@@ -6,6 +6,7 @@ import About from './pages/About';
 import Eqa from './pages/Eqa';
 import Consulting from './pages/Consulting';
 import TrainingServices from './pages/TrainingServices';
+import LabEquipment from './pages/LabEquipment';
 import NotFound from './components/404/NotFound';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/consulting" element={<Consulting />} />
         <Route path="/eqa/*" element={<Eqa />} />
         <Route path="/training-services/*" element={<TrainingServices />} />
+        <Route path="/lab-equipment-and-supplies" element={<LabEquipment />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

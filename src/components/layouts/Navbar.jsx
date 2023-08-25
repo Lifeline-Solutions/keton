@@ -76,15 +76,15 @@ const NavBar = () => {
         </li>
         <li>
           <a
-            href="/lab-equipment-and-services"
+            href="/lab-equipment-and-supplies"
             className={`hover:underline ${
-              activePage === 'lab-equipment-and-services'
+              activePage === 'lab-equipment-and-supplies'
                 ? 'border-b-2 border-green-500 font-bold'
                 : ''
             }`}
-            onClick={() => setActivePage('lab-equipment-and-services')}
+            onClick={() => setActivePage('lab-equipment-and-supplies')}
           >
-            lab equipment and services
+            lab equipment and supplies
           </a>
         </li>
       </ul>
