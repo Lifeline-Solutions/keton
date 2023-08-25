@@ -9,10 +9,10 @@ const TrainingDropDown = ({ activePage, setActivePage }) => {
     <div className="relative flex flex-col items-center">
       <button
         className={`hover:underline flex flex-row items-center justify-center capitalize ${
-          activePage === 'training' ? 'border-b-2 border-green-500 font-bold' : ''
+          activePage === 'training-services' ? 'border-b-2 border-green-500 font-bold' : ''
         }`}
         onClick={() => {
-          setActivePage('training');
+          setActivePage('training-services');
           setIsOpen(!isOpen);
         }}
       >
