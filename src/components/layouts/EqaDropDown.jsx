@@ -1,20 +1,18 @@
 import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
-import PropTypes from 'prop-types';
 
-const EqaDropDown = ({ activePage, setActivePage }) => {
+const EqaDropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
+  console.log(isOpen)
 
   return (
     <div className="relative flex flex-col items-center">
       <button
-        className={`hover:underline flex flex-row items-center justify-center uppercase ${
-          activePage === 'eqa' ? 'border-b-2 border-green-500 font-bold' : ''
-        }`}
-        onClick={() => {
-          setActivePage('eqa');
-          setIsOpen(!isOpen);
-        }}
+        className='hover:underline flex flex-row items-center justify-center uppercase'
+        onClick={toggle}
       >
         eqa
         {isOpen ? (
@@ -24,7 +22,7 @@ const EqaDropDown = ({ activePage, setActivePage }) => {
         )}
       </button>
       <div
-        className={`absolute top-10 bg-primaryBlue/80 w-64 h-20 flex flex-col items-center justify-center rounded shadow-lg ${
+        className={`absolute top-10 bg-primaryBlue w-64 h-20 flex flex-col items-center justify-center rounded shadow-lg z-[20] ${
           isOpen ? 'block' : 'hidden'
         }`}
       >
@@ -51,10 +49,4 @@ const EqaDropDown = ({ activePage, setActivePage }) => {
     </div>
   );
 };
-
-EqaDropDown.propTypes = {
-  activePage: PropTypes.string,
-  setActivePage: PropTypes.func,
-};
-
 export default EqaDropDown;

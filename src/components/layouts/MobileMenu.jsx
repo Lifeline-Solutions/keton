@@ -19,14 +19,14 @@ const MobileMenu = ({ isMobileMenu, toggle }) => {
         <li onClick={toggle}>
           <a href="/consulting">consulting</a>
         </li>
-        <li onClick={toggle}>
+        <li>
           <EqaDropDown />
         </li>
-        <li onClick={toggle}>
+        <li>
           <TrainingDropDown />
         </li>
         <li onClick={toggle}>
-          <a href="/lab">lab equipment and services</a>
+          <a href="/lab-equipment-and-supplies">lab equipment and supplies</a>
         </li>
       </ul>
     )

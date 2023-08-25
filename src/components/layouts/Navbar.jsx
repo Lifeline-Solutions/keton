@@ -66,12 +66,10 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <EqaDropDown activePage={activePage} setActivePage={setActivePage} />
+          <EqaDropDown />
         </li>
         <li>
           <TrainingDropDown
-            activePage={activePage}
-            setActivePage={setActivePage}
           />
         </li>
         <li>

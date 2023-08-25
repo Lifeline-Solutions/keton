@@ -1,20 +1,14 @@
 import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
-import PropTypes from 'prop-types';
 
-const TrainingDropDown = ({ activePage, setActivePage }) => {
+const TrainingDropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="relative flex flex-col items-center">
       <button
-        className={`hover:underline flex flex-row items-center justify-center capitalize ${
-          activePage === 'training-services'
-            ? 'border-b-2 border-green-500 font-bold'
-            : ''
-        }`}
+        className='hover:underline flex flex-row items-center justify-center capitalize'
         onClick={() => {
-          setActivePage('training-services');
           setIsOpen(!isOpen);
         }}
       >
@@ -26,7 +20,7 @@ const TrainingDropDown = ({ activePage, setActivePage }) => {
         )}
       </button>
       <div
-        className={`absolute top-10 bg-primaryBlue/80 w-64 h-20 flex flex-col items-center justify-center rounded shadow-lg ${
+        className={`absolute top-10 bg-primaryBlue w-64 h-20 flex flex-col items-center justify-center rounded shadow-lg ${
           isOpen ? 'block' : 'hidden'
         }`}
       >
@@ -52,11 +46,6 @@ const TrainingDropDown = ({ activePage, setActivePage }) => {
       </div>
     </div>
   );
-};
-
-TrainingDropDown.propTypes = {
-  activePage: PropTypes.string,
-  setActivePage: PropTypes.func,
 };
 
 export default TrainingDropDown;
