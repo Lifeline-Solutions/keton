@@ -6,8 +6,6 @@ const EqaDropDown = () => {
 
   const toggle = () => setIsOpen(!isOpen);
 
-  console.log(isOpen)
-
   return (
     <div className="relative flex flex-col items-center">
       <button
