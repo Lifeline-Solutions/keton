@@ -3,6 +3,7 @@ import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 import MobileMenu from './MobileMenu';
 import logo from '/logo.png';
 import EqaDropDown from './EqaDropDown';
+import TrainingDropDown from './TrainingDropDown';
 
 const NavBar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
@@ -68,17 +69,10 @@ const NavBar = () => {
           <EqaDropDown activePage={activePage} setActivePage={setActivePage} />
         </li>
         <li>
-          <a
-            href="/training-services"
-            className={`hover:underline ${
-              activePage === 'training-services'
-                ? 'border-b-2 border-green-500 font-bold'
-                : ''
-            }`}
-            onClick={() => setActivePage('training-services')}
-          >
-            training services
-          </a>
+          <TrainingDropDown
+            activePage={activePage}
+            setActivePage={setActivePage}
+          />
         </li>
         <li>
           <a

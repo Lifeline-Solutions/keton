@@ -2,21 +2,21 @@ import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
 import PropTypes from 'prop-types';
 
-const EqaDropDown = ({ activePage, setActivePage }) => {
+const TrainingDropDown = ({ activePage, setActivePage }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="relative flex flex-col items-center">
       <button
-        className={`hover:underline flex flex-row items-center justify-center uppercase ${
-          activePage === 'eqa' ? 'border-b-2 border-green-500 font-bold' : ''
+        className={`hover:underline flex flex-row items-center justify-center capitalize ${
+          activePage === 'training' ? 'border-b-2 border-green-500 font-bold' : ''
         }`}
         onClick={() => {
-          setActivePage('eqa');
+          setActivePage('training');
           setIsOpen(!isOpen);
         }}
       >
-        eqa
+        training services
         {isOpen ? (
           <AiOutlineCaretUp className="ml-1" />
         ) : (
@@ -29,32 +29,32 @@ const EqaDropDown = ({ activePage, setActivePage }) => {
         }`}
       >
         <a
-          href="/eqa"
+          href="/training-services/iso-training"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
-          external quality assessment{' '}
+          ISO training
         </a>
         <hr className="w-3/4 my-2" />
         <a
-          href="/eqa/third-party-controls"
+          href="/training-services/bio-medicine-courses"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
-          third party controls
+          Bio medicine courses
         </a>
       </div>
     </div>
   );
 };
 
-EqaDropDown.propTypes = {
+TrainingDropDown.propTypes = {
   activePage: PropTypes.string,
   setActivePage: PropTypes.func,
 };
 
-export default EqaDropDown;
+export default TrainingDropDown;
