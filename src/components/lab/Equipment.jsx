@@ -15,7 +15,7 @@ const Equipment = () => {
               </a>
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-4 p-4 pt-28">
+          <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 p-4 pt-28">
             {category.products.map(product => (
               <div key={product.id} className="p-2">
                 <img
