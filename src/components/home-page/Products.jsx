@@ -57,7 +57,7 @@ const Products = () => {
         <h1 className="capitalize sm:text-3xl font-bold">
           We are Offering Reliable Products
         </h1>
-        <h5 className="capitalize sm:text-md text-base font-light mt-2">
+        <h5 className="capitalize xs:text-md text-sm font-light mt-4 mb-2">
           Keton Consulting offers some of the best products in the healthcare
           sector.
         </h5>

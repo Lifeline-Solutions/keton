@@ -30,7 +30,7 @@ const Programs = () => {
             <div key={index} className="text-center font-medium mt-6 mb-2">
               {program}
               {index !== programs.length - 1 && (
-                <hr className="border-primaryGreen my-2 w-10/12 sm:ml-16" />
+                <hr className="border-primaryGreen my-2 w-10/12 sm:ml-16 ml-4" />
               )}
             </div>
           ))}

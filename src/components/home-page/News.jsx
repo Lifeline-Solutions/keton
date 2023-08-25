@@ -25,7 +25,7 @@ const news = [
 const News = () => {
   return (
     <div className="h-full flex flex-col justify-center items-center bg-primaryBg pt-20">
-      <h1 className="uppercase sm:text-2xl text-xl font-bold mb-10">
+      <h1 className="uppercase sm:text-2xl text-xl font-bold mb-10 sm:ml-0 ml-6">
         Providing you with the latest News & Events Updates
       </h1>
 

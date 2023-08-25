@@ -11,12 +11,12 @@ const courses = [
 const IsoCourses = () => {
   return (
     <header
-      className="bg-cover bg-top h-[28rem] flex flex-col justify-start items-start text-black bg-no-repeat relative"
+      className="bg-cover bg-top sm:h-[28rem] h-[36rem] flex flex-col justify-start items-start text-black bg-no-repeat relative"
       style={{
         backgroundImage: `url(/images/consulting-3.png)`,
       }}
     >
-      <div className="absolute top-0 left-0 w-full h-[28rem] bg-primaryBlue opacity-50"></div>
+      <div className="absolute top-0 left-0 w-full sm:h-[28rem] h-[36rem] bg-primaryBlue opacity-80"></div>
       <div className="relative z-8  md:mt-8 mt-20 sm:ml-8 ml-4">
         <h1 className="md:text-2xl text-lg font-bold uppercase mt-2">
           <p>based courses</p>

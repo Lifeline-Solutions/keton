@@ -66,7 +66,7 @@ const ClientPartners = () => {
         <hr className="w-20 mx-auto border-2 border-primaryGreen rounded my-1" />
       </div>
 
-      <div className="flex sm:flex-row sm:gap-0  justify-center mt-8 items-center">
+      <div className="sm:flex grid sm:grid-cols-0 grid-cols-2 sm:gap-0  justify-center mt-8 items-center">
         <button onClick={handlePrev} className="sm:mr-2 mr-0 sm:block hidden">
           <BiSolidChevronLeftCircle className="text-3xl text-secondaryBlue" />
         </button>
