@@ -1,6 +1,11 @@
 import { useState, useEffect } from 'react';
 
-const images = ['/header-bg.png', '/header-bg.png', '/header-bg.png'];
+const images = [
+  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693384557/keton/keton_new_bbqbao.jpg',
+  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693326949/keton/Lab_Tecs7_akq2wq.jpg',
+  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327554/keton/Keton_Consulting16_abf6zk.jpg',
+  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327554/keton/Keton_Consulting13_fzzijw.jpg'
+];
 
 const Header = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -16,16 +21,16 @@ const Header = () => {
   return (
     <>
       <header
-        className="h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        className="sm:h-screen xs:h-[900px] h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${images[currentImage]})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-primaryBlue to-transparent"></div>
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+        <div className="absolute sm:h-screen xs:h-[900px] h-screen inset-0 bg-gradient-to-r from-primaryBlue/70 to-transparent"></div>
+        <div className="absolute sm:bottom-16 sm:mt-0 mt-[47rem]  left-1/2 transform -translate-x-1/2">
           {images.map((_, index) => (
             <span
               key={index}
-              className={`inline-block w-2 h-2 rounded-full mx-1 ${
-                currentImage === index ? 'bg-primaryBlue' : 'bg-white'
+              className={`inline-block rounded-full mx-0.5 bg-white ${
+                currentImage === index ? 'w-3 h-3' : 'w-2 h-2'
               }`}
             ></span>
           ))}
@@ -46,7 +51,7 @@ const Header = () => {
             </div>
             <div className="sm:mt-8 xs:mt-16 mt-4 flex xs:flex-row flex-col xs:space-y-0 space-y-2 items-center space-x-0.5 xs:text-base  text-xs">
               <input
-                className="border border-gray-300 rounded-md px-4 py-2 sm:w-96 w-40  xs:rounded-r-none"
+                className="border border-gray-300 rounded-md px-4 py-2 sm:w-96 w-36  xs:rounded-r-none"
                 placeholder="Search Here"
               />
               <button className="bg-primaryGreen text-white px-4 py-2 xs:rounded-l-none rounded-md xs:w-40 w-40">

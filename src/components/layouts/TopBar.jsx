@@ -1,10 +1,12 @@
 import NavBar from './Navbar';
+import { BiLogoInstagram, BiLogoFacebook, BiLogoTwitter, BiLogoLinkedinSquare } from 'react-icons/bi';
+import { AiOutlineYoutube } from 'react-icons/ai';
 const TopBar = () => {
   return (
     <>
       <nav className="bg-primaryBlue p-4 flex sm:flex-row flex-col sm:items-center items-start justify-between sm:text-sm text-xs font-bold text-white fixed w-full z-[12] shadow-lg sm:space-y-0 space-y-4">
         <div className="flex items-center space-x-4">
-          <div>Opening Hours : Monday to Saturday - 8am to 5pm</div>
+          <SocialMediaIcons />
         </div>
         <div className="flex-grow text-center">
           Hazina Place, 2nd Floor, Off Ngong Road
@@ -17,5 +19,54 @@ const TopBar = () => {
     </>
   );
 };
+
+const SocialMediaIcons = () => {
+  return(
+    <>
+      <div className="flex items-center space-x-4">
+        <a
+          href="https://www.instagram.com/kentonconsulting/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-primaryGreen"
+        >
+          <BiLogoInstagram className="text-2xl" />
+        </a>
+        <a
+          href="https://www.facebook.com/kentonconsulting/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-primaryGreen"
+        >
+          <BiLogoFacebook className="text-2xl" />
+        </a>
+        <a
+          href="https://twitter.com/kentonconsultin"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-primaryGreen"
+        >
+          <BiLogoTwitter className="text-2xl" />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UC8JH4dU1O0x5YzX7YQ5xY1g"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-primaryGreen"
+        >
+          <AiOutlineYoutube className="text-2xl" />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/kenton-consulting-limited/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-primaryGreen"
+        >
+          <BiLogoLinkedinSquare className="text-2xl" />
+        </a>
+      </div>
+    </>
+  )
+}
 
 export default TopBar;

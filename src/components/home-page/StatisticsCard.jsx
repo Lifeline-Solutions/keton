@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { MdGroup } from 'react-icons/md';
+import { MdGroup, MdGroups } from 'react-icons/md';
 import { AiOutlineFileProtect } from 'react-icons/ai';
 import { GiMicroscope } from 'react-icons/gi';
 
@@ -7,17 +7,23 @@ const statistics = [
   {
     id: 1,
     icon: <MdGroup />,
-    title: 'Partners & Clients',
-    number: 200,
+    title: 'Partners',
+    number: 20,
   },
   {
     id: 2,
+    icon: <MdGroups />,
+    title: 'Clients',
+    number: 200,
+  },
+  {
+    id: 3,
     icon: <AiOutlineFileProtect />,
     title: 'Training Programs',
     number: 20,
   },
   {
-    id: 3,
+    id: 4,
     icon: <GiMicroscope />,
     title: 'Lab Equipments',
     number: 200,
@@ -51,7 +57,7 @@ const StatisticsCard = () => {
   }, []);
 
   return (
-    <div className="flex justify-center sm:gap-28 gap-4 bg-white shadow sm:p-8 p-4 sm:w-8/12 w-10/12 rounded-xl absolute sm:-top-20 xs:-top-10 -top-2">
+    <div className="flex justify-center sm:gap-28 gap-4 bg-white shadow sm:p-10 p-4 sm:w-8/12 w-10/12 rounded-xl absolute sm:-top-10 xs:-top-10 -top-2">
       {animatedNumbers.map((statistic) => (
         <div
           className="text-center flex flex-col justify-center items-center"

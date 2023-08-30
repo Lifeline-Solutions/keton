@@ -30,7 +30,7 @@ const cards = [
 
 const Services = () => {
   return (
-    <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-10 relative">
+    <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-28 relative">
       <StatisticsCard />
       <div className="text-center mt-24">
         <h1 className="capitalize sm:text-md text-base font-light">
