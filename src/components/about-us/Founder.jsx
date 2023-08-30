@@ -1,6 +1,6 @@
 const Founder = () => {
   return (
-    <div className="h-full flex justify-center items-center bg-primaryBg sm:pt-10 py-5">
+    <div className="h-full flex justify-center items-center bg-primaryBg sm:py-16 py-5">
       <div className="md:px-8 md:mx-10 mx-4 bg-white rounded flex  justify-center items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="col-span-1 flex flex-col items-center mt-8 px-6">
@@ -27,8 +27,7 @@ const Founder = () => {
           </div>
           <div className="col sm:col-span-1 flex flex-col">
             <div className="relative bg-primaryBlue">
-              <div className="absolute left-20 bg-primaryBlue w-11/12 sm:h-[27rem] rounded-lg sm:block hidden">
-              </div>
+              <div className="absolute left-20 bg-primaryBlue w-11/12 sm:h-[27rem] rounded-lg sm:block hidden"></div>
               <div className="sm:absolute sm:top-24">
                 <img
                   src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327524/keton/Keton_Consulting5_iyqeqc.jpg"
@@ -36,9 +35,9 @@ const Founder = () => {
                   className="w-full h-full rounded-lg"
                   loading="lazy"
                 />
-                </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>

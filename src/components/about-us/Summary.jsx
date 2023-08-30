@@ -10,7 +10,7 @@ const Summary = () => {
             <img
               src="/images/values-1.png"
               alt="mission"
-              className="w-full sm:h-[40rem] h-[20rem] object-cover rounded-lg"
+              className="w-full sm:h-[30rem] h-[20rem] object-cover rounded-lg"
             />
           </div>
         </div>
