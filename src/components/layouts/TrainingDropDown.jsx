@@ -7,7 +7,7 @@ const TrainingDropDown = () => {
   return (
     <div className="relative flex flex-col items-center">
       <button
-        className='hover:underline flex flex-row items-center justify-center capitalize'
+        className="hover:underline flex flex-row items-center justify-center capitalize"
         onClick={() => {
           setIsOpen(!isOpen);
         }}

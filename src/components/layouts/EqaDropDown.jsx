@@ -9,7 +9,7 @@ const EqaDropDown = () => {
   return (
     <div className="relative flex flex-col items-center">
       <button
-        className='hover:underline flex flex-row items-center justify-center uppercase'
+        className="hover:underline flex flex-row items-center justify-center uppercase"
         onClick={toggle}
       >
         eqa

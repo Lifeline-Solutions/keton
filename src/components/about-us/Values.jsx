@@ -35,7 +35,7 @@ const values = [
 
 const Values = () => {
   return (
-    <div className="h-full flex justify-center items-center bg-primaryBg sm:py-10">
+    <div className="h-full flex justify-center items-center bg-gradient-to-l from-primaryBlue/40 sm:py-10 py-6">
       <div className="grid sm:grid-cols-4 grid-cols-1 sm:gap-4 gap-10 sm:mt-16 mt-8 px-10">
         {values.map((value) => (
           <div key={value.id} className="bg-white shadow-lg rounded-lg p-4">

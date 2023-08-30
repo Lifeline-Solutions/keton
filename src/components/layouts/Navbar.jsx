@@ -69,8 +69,7 @@ const NavBar = () => {
           <EqaDropDown />
         </li>
         <li>
-          <TrainingDropDown
-          />
+          <TrainingDropDown />
         </li>
         <li>
           <a

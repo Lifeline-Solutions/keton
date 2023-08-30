@@ -1,5 +1,10 @@
 import NavBar from './Navbar';
-import { BiLogoInstagram, BiLogoFacebook, BiLogoTwitter, BiLogoLinkedinSquare } from 'react-icons/bi';
+import {
+  BiLogoInstagram,
+  BiLogoFacebook,
+  BiLogoTwitter,
+  BiLogoLinkedinSquare,
+} from 'react-icons/bi';
 import { AiOutlineYoutube } from 'react-icons/ai';
 const TopBar = () => {
   return (
@@ -21,7 +26,7 @@ const TopBar = () => {
 };
 
 const SocialMediaIcons = () => {
-  return(
+  return (
     <>
       <div className="flex items-center space-x-4">
         <a
@@ -66,7 +71,7 @@ const SocialMediaIcons = () => {
         </a>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default TopBar;

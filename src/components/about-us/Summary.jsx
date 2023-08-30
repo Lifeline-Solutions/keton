@@ -1,30 +1,23 @@
 const Summary = () => {
   return (
-    <div className="h-full flex justify-center items-center bg-primaryBg py-10 md:mt-64">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
+    <div className="h-full flex justify-center items-center bg-primaryBg py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         <div className="col-span-1 px-4">
-          <div>
-            <img src="/images/values-1.png" alt="mission" className="w-full" />
-          </div>
-          <div className="flex justify-center items-center mt-2 gap-2">
+          <div className="flex flex-col gap-8 px-12">
+            <h2 className="uppercase sm:text-3xl text-xl font-bold mt-2">
+              Get to know us better.
+            </h2>
             <img
-              src="/images/values-2.png"
+              src="/images/values-1.png"
               alt="mission"
-              className="sm:w-96 sm:h-64 w-32 h-32"
-            />
-            <img
-              src="/images/values-3.png"
-              alt="mission"
-              className="sm:w-96 sm:h-64 w-32 h-32"
+              className="w-full sm:h-[40rem] h-[20rem] object-cover rounded-lg"
             />
           </div>
         </div>
 
-        <div className="col-span-1 px-4 relative">
-          <div className="w-2 h-2 rounded-full bg-primaryBlue absolute top-5 -left-5"></div>
-          <hr className="sm:absolute sm:top-72 sm:right-[385px] border-primaryBlue sm:w-10/12 w-full sm:rotate-90"></hr>
+        <div className="col-span-1 sm:px-4 px-12">
           <div>
-            <h2 className="capitalize sm:text-2xl font-bold mt-2">
+            <h2 className="capitalize sm:text-2xl font-bold mt-16">
               Executive Summary
             </h2>
             <p className="font-light text-sm leading-6 sm:w-9/12 w-full mt-3">
@@ -39,7 +32,6 @@ const Summary = () => {
               laboratory business.
             </p>
           </div>
-          <div className="w-2 h-2 rounded-full bg-primaryBlue absolute top-[20rem] -left-5"></div>
           <div>
             <h2 className="capitalize sm:text-2xl font-bold mt-16">
               Corporate Governance
