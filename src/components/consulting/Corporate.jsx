@@ -1,13 +1,13 @@
 const Corporate = () => {
   return (
-    <div className="h-full flex flex-col justify-center items-start bg-primaryBg py-16 px-4">
+    <div className="h-full flex flex-col justify-center items-start bg-primaryBg py-16 sm:px-20 px-4">
       <h1 className="uppercase sm:text-2xl text-xl font-bold mb-4 mx-6">
         WE ARE SETTING STANDARD WITH THE
         <br />
         TOP NOTCH CONSULTANCY
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-80 gap-4 mt-4 px-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-10 gap-4 mt-4">
         <div className="col-span-1">
           <hr className="w-20  border-2 border-primaryGreen rounded my-1" />
           <h2 className="uppercase sm:text-2xl font-medium mt-2">
@@ -31,9 +31,9 @@ const Corporate = () => {
 
         <div className="col-span-1">
           <img
-            src="/images/consulting-4.png"
+            src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327250/keton/Keton_Consulting61_sv465q.jpg"
             alt="consulting-4"
-            className="w-full h-[30rem] rounded object-cover"
+            className="w-full h-full rounded object-cover"
           />
         </div>
       </div>

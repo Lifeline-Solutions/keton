@@ -25,7 +25,7 @@ const Mission = () => {
               <h2 className="capitalize sm:text-2xl font-bold mt-2">mission</h2>
               <hr className="w-20 border-2 border-primaryGreen rounded my-1" />
             </div>
-            <p className="text-left text-sm font-normal mt-4 leading-6 w-8/12">
+            <p className="text-left text-sm font-normal mt-4 leading-6 sm:w-8/12">
               To create communities where people continually expand their
               capacity to create the results they truly desire, where new and
               expansive patterns of thinking are nurtured and collective
@@ -36,7 +36,7 @@ const Mission = () => {
               <h2 className="capitalize sm:text-2xl font-bold mt-2">vision</h2>
               <hr className="w-20 border-2 border-primaryGreen rounded my-1" />
             </div>
-            <p className="text-left text-sm font-normal mt-4 leading-6 w-8/12">
+            <p className="text-left text-sm font-normal mt-4 leading-6 sm:w-8/12">
               A leading bio-medicine consultancy firm that creates solutions
               through simplicity, innovation, freedom and excellence.
             </p>

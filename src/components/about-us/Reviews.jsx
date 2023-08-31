@@ -32,9 +32,9 @@ const Reviews = () => {
           <h2 className="uppercase sm:text-3xl text-xl font-bold">
             BRINgING VALUE ACROSS DIFFERENT BRANCHES OF BRANDS
           </h2>
-          <p className="font-light text-sm leading-6 sm:w-9/12 w-full mt-5">
+          <p className="font-light text-sm leading-6 sm:w-9/12 w-11/12 mt-5">
             Keton Consulting Limited is a multiagency consulting and service
-            firm grounded on{' '}
+            firm grounded on
             <span className="text-primaryGreen"> creating communities</span>{' '}
             where people continually expand their capacity to create the results
             they truly desire, where new and expansive patterns of thinking are
@@ -43,7 +43,7 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div className="col-span-1 sm:px-4 px-12">
+        <div className="col-span-1 sm:px-4">
           <div className="flex flex-col gap-8 px-12">
             {reviews.map((review) => {
               const { id, name, img, content } = review;
@@ -54,7 +54,7 @@ const Reviews = () => {
                 >
 
                     <BiSolidQuoteLeft className="text-xl absolute left-8" />
-                    <div className="flex items-center gap-6">
+                    <div className="flex justify-center items-center gap-6">
                     <p className="text-left text-xs leading-6 pt-6">
                       {content}
                     </p>

@@ -61,7 +61,7 @@ const GallerySection = () => {
         <hr className="w-20 mx-auto border-2 border-primaryGreen rounded my-1" />
       </div>
 
-      <div className="mt-10 flex flex-col gap-2 sm:px-3 px-1">
+      <div className="mt-10 flex flex-col gap-2 sm:px-3 px-4">
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           {imagesArrayOne.map((image) => {
@@ -93,7 +93,7 @@ const GallerySection = () => {
           })}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-2">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           {imagesArrayThree.map((image) => {
             const { id, src } = image;
             return (
