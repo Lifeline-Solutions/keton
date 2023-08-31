@@ -25,7 +25,7 @@ const EqaDropDown = () => {
         }`}
       >
         <a
-          href="/eqa"
+          href="/eqa/programs"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
@@ -35,7 +35,7 @@ const EqaDropDown = () => {
         </a>
         <hr className="w-3/4 my-2" />
         <a
-          href="/eqa/third-party-controls"
+          href="/eqa/process"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);

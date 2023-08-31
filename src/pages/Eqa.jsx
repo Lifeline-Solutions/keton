@@ -1,14 +1,23 @@
 import Header from '../components/eqa/Header';
 import Programs from '../components/eqa/Programs';
-import ThirdParty from '../components/eqa/ThirdParty';
+import Process from '../components/eqa/Process';
 
 const Eqa = () => {
   const path = window.location.pathname;
+  const renderComponent = () => {
+    if (path === '/eqa/progrmas') {
+      return <Programs />;
+    } else if (path === '/eqa/process') {
+      return <Process />;
+    } else {
+      return <Programs />;
+    }
+  }
 
   return (
     <>
       <Header />
-      {path === '/eqa/third-party-controls' ? <ThirdParty /> : <Programs />}
+     {renderComponent()}
     </>
   );
 };

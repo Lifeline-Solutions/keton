@@ -5,7 +5,7 @@ const programs = [
   'Infectious diseases controls- Diamex',
 ];
 
-const ThirdParty = () => {
+const Process = () => {
   return (
     <div className="bg-primaryBg pt-10">
       <div className="flex flex-col justify-center items-center">
@@ -28,4 +28,4 @@ const ThirdParty = () => {
   );
 };
 
-export default ThirdParty;
+export default Process;
