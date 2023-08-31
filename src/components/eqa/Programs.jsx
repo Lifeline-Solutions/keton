@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import InquiryForm from './InquiryForm';
 import { PiCaretDownBold, PiCaretUpBold } from 'react-icons/pi';
 import programsArray from './programs';
 
@@ -79,7 +78,6 @@ const Programs = () => {
           ))}
         </ul>
       </div>
-      <InquiryForm />
     </div>
   );
 };

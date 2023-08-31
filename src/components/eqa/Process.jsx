@@ -1,29 +1,17 @@
-const programs = [
-  'Hematology controls – Biotechne',
-  'Urinalysis controls - Clinica',
-  'Biochemistry controls - Audit Microcontrols',
-  'Infectious diseases controls- Diamex',
-];
+
 
 const Process = () => {
   return (
     <div className="bg-primaryBg pt-10">
-      <div className="flex flex-col justify-center items-center">
-        <h2 className=" text-center uppercase sm:text-2xl font-medium mt-2">
-          KETON EQA PROGRAMS
+      <div className="flex flex-col justify-center items-center mb-4">
+       <hr className="w-44 border-4 border-primaryGreen rounded my-2" />
+        <h2 className=" text-center uppercase sm:text-2xl font-medium">
+          KETON EQA process
         </h2>
-        <hr className="w-44 border-4 border-primaryGreen rounded my-1 mb-8" />
       </div>
-      {programs.map((program, index) => (
-        <div
-          key={program}
-          className={`py-10 flex justify-center items-center font-bold ${
-            index % 2 === 0 ? 'bg-secondaryBlue/10' : 'bg-primaryBg'
-          }`}
-        >
-          {program}
-        </div>
-      ))}
+      <div className="flex flex-col justify-center items-center py-4">
+      <img src="/images/eqa-process.png" alt="eqa process" className="w-3/4 pb-6" />
+      </div>
     </div>
   );
 };
