@@ -24,9 +24,10 @@ const BioMedicine = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-20 gap-4 mt-4 sm:px-10">
           <div className="col-span-1">
             <img
-              src="/images/bio-1.png"
+              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327390/keton/Keton_Consulting47_qvtczz.jpg"
               alt="bio"
               className="w-full h-96 rounded object-cover"
+              loading='lazy'
             />
           </div>
 

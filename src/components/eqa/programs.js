@@ -34,7 +34,7 @@ const programsArray = [
       'Specific Proteins',
       'Thyroid Antibodies',
       'Tumor Marker',
-      'Tumor Marker & Hormones'
+      'Tumor Marker & Hormones',
     ],
   },
   {
@@ -80,7 +80,7 @@ const programsArray = [
       'ToRCH',
       'Varicella Zoster Virus',
       'West Nile Virus',
-      'Zika Virus'
+      'Zika Virus',
     ],
   },
   {
@@ -91,7 +91,7 @@ const programsArray = [
       'HBV Molecular',
       'HCV Molecular',
       'HIV Molecular',
-      'SARS-CoV-2 Molecular'
+      'SARS-CoV-2 Molecular',
     ],
   },
   {
@@ -106,16 +106,14 @@ const programsArray = [
       'Erythrocyte Sedimentation Rate',
       'Hemogram',
       'Hemogram incl. 3-Part Diff.',
-      'Hemogram incl. 5-Part Diff.'
+      'Hemogram incl. 5-Part Diff.',
     ],
   },
   {
     id: 6,
     title: 'Educational Programs',
     isOpen: false,
-    courses: [
-      'Clinical Case Study Program'
-    ],
+    courses: ['Clinical Case Study Program'],
   },
 ];
 

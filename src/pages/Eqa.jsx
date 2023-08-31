@@ -13,7 +13,7 @@ const Eqa = () => {
     } else {
       return <Programs />;
     }
-  }
+  };
 
   return (
     <>

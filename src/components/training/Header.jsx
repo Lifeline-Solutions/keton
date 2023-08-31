@@ -12,11 +12,7 @@ const Header = () => {
           Training Services
         </h1>
         <p className="text-sm mt-4 w-3/4 leading-6 sm:ml-40 ml-12">
-          Keton Consulting in collaboration with the European Society for
-          External Quality Assessment offers laboratories a wide range of EQA
-          schemes organized in the following areas: biochemistry, immunology,
-          microbiology, haematology, malaria, parasitology, infectious diseases,
-          mycobacteria and mycology
+        Knowledge management holds the key to better patient outcomes centered on rapid, reliable, reproducible and informative patient laboratory reports. Keton Training services has reached over 2500 laboratory medicine professionals in Africa and beyond
         </p>
       </div>
     </header>

@@ -2,11 +2,8 @@ import { useState } from 'react';
 import { PiCaretDownBold, PiCaretUpBold } from 'react-icons/pi';
 import programsArray from './programs';
 
-
 const Programs = () => {
-
   const [programs, setPrograms] = useState(programsArray);
-
 
   const toggleProgram = (programId) => {
     const updatedPrograms = programs.map((program) => {
@@ -18,7 +15,6 @@ const Programs = () => {
     });
     setPrograms(updatedPrograms);
   };
-
 
   return (
     <div>
@@ -51,22 +47,26 @@ const Programs = () => {
                       }`}
                     >
                       <div className="w-full">
-                          {program.courses
-                            .map((course, index) => (
-                              <div
-                                key={index}
-                                className="flex flex-col justify-center items-center"
-                              >
-                                <h5 className="text-xs capitalize my-4">{course}</h5>
-                              </div>
-                            ))}
+                        {program.courses.map((course, index) => (
+                          <div
+                            key={index}
+                            className="flex flex-col justify-center items-center"
+                          >
+                            <h5 className="text-xs capitalize my-4">
+                              {course}
+                            </h5>
+                          </div>
+                        ))}
                       </div>
 
-                      <button className="bg-primaryGreen text-white px-4 py-2 rounded-full capitalize"
-                      onClick = {() => {
-                        window.open("/ESfEQA_Catalogue_2023_40.pdf", "_blank");
-                      }
-                      }
+                      <button
+                        className="bg-primaryGreen text-white px-4 py-2 rounded-full capitalize"
+                        onClick={() => {
+                          window.open(
+                            '/ESfEQA_Catalogue_2023_40.pdf',
+                            '_blank'
+                          );
+                        }}
                       >
                         Download file
                       </button>
