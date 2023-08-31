@@ -5,8 +5,7 @@ const reviews = [
     id: 1,
     name: 'Mary Wangui',
     img: 'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693402826/r1_sgivhm.png',
-    content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     id: 2,
@@ -19,8 +18,7 @@ const reviews = [
     id: 3,
     name: 'Stella W. Chea',
     img: 'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693402826/r3_euuae1.png',
-    content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
 
@@ -35,7 +33,10 @@ const Reviews = () => {
           <p className="font-light text-sm leading-6 sm:w-9/12 w-11/12 mt-5">
             Keton Consulting Limited is a multiagency consulting and service
             firm grounded on
-            <span className="text-primaryGreen"> creating communities</span>{' '}
+            <span className="text-primaryGreen">
+              {' '}
+              creating communities
+            </span>{' '}
             where people continually expand their capacity to create the results
             they truly desire, where new and expansive patterns of thinking are
             nurtured, where collective aspiration is set free, and where people
@@ -52,9 +53,8 @@ const Reviews = () => {
                   key={id}
                   className="col-span-1 flex flex-col items-center  px-6 py-4 bg-white text-black rounded-lg relative"
                 >
-
-                    <BiSolidQuoteLeft className="text-xl absolute left-8" />
-                    <div className="flex justify-center items-center gap-6">
+                  <BiSolidQuoteLeft className="text-xl absolute left-8" />
+                  <div className="flex justify-center items-center gap-6">
                     <p className="text-left text-xs leading-6 pt-6">
                       {content}
                     </p>
@@ -65,7 +65,9 @@ const Reviews = () => {
                     />
                   </div>
                   <div className="flex items-center py-6">
-                    <p className="text-sm font-bold absolute left-8">----- {name}</p>
+                    <p className="text-sm font-bold absolute left-8">
+                      ----- {name}
+                    </p>
                   </div>
                 </div>
               );

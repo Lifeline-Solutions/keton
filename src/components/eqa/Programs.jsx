@@ -1,23 +1,26 @@
+import { useState } from 'react';
 import InquiryForm from './InquiryForm';
+import { PiCaretDownBold, PiCaretUpBold } from 'react-icons/pi';
+import programsArray from './programs';
 
-const programs = [
-  'Cardiac Markers 12/4- CM12/4',
-  'Clinical Chemistry 12/4/2 - CC12/4/2',
-  'Brucella - BRU',
-  'Blood Gas 12/4 - BG12/4',
-  'Bacteriology - BAC',
-  'Coagulation',
-  'Drugs od Abuse - DAT',
-  'Erythrocyte Sedimentation Rate - ESR',
-  'Parasitology- PAR12',
-  'Erythrocyte Sedimentation Rate - ESR',
-  'HBV DNA VIral Load - HBV 12',
-  'Erythrocyte Sedimentation Rate - ESR',
-  'Lymphocyte Immunophenotyping - LYMP3',
-  'Erythrocyte Sedimentation Rate - ESR',
-];
 
 const Programs = () => {
+
+  const [programs, setPrograms] = useState(programsArray);
+
+
+  const toggleProgram = (programId) => {
+    const updatedPrograms = programs.map((program) => {
+      if (program.id === programId) {
+        return { ...program, isOpen: !program.isOpen };
+      } else {
+        return { ...program, isOpen: false };
+      }
+    });
+    setPrograms(updatedPrograms);
+  };
+
+
   return (
     <div>
       <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-10 px-4 ">
@@ -25,14 +28,54 @@ const Programs = () => {
           KETON EQA PROGRAMS
         </h2>
         <hr className="w-44 border-4 border-primaryGreen rounded my-1" />
-        <ul className="text-left mt-8 text-sm leading-6 list-none flex flex-col gap-4 border-4 border-secondaryBlue w-3/4">
+        <ul className="text-left mt-8 text-sm leading-6 list-none flex flex-col gap-4 w-full">
           {programs.map((program, index) => (
-            <div key={index} className="text-center font-medium mt-6 mb-2">
-              {program}
-              {index !== programs.length - 1 && (
-                <hr className="border-primaryGreen my-2 w-10/12 sm:ml-16 ml-4" />
-              )}
-            </div>
+            <>
+              <div
+                key={program.id}
+                className={`py-10 flex flex-col justify-center items-center relative ${
+                  index % 2 === 0 ? 'bg-secondaryBlue/10' : 'bg-primaryBg'
+                }`}
+              >
+                <h5 className="text-xl font-semibold capitalize flex justify-center items-center gap-3">
+                  <span>{program.title}</span>
+                  <span span onClick={() => toggleProgram(program.id)}>
+                    {program.isOpen ? <PiCaretUpBold /> : <PiCaretDownBold />}
+                  </span>
+                </h5>
+
+                <div>
+                  {program.isOpen && (
+                    <div
+                      className={`absolute top-20 right-60 bg-white flex flex-col z-10 items-center justify-center rounded shadow-lg gap-4 w-[50rem] py-6 ${
+                        program.isOpen ? 'block' : 'hidden'
+                      }`}
+                    >
+                      <div className="w-full">
+                          {program.courses
+                            .map((course, index) => (
+                              <div
+                                key={index}
+                                className="flex flex-col justify-center items-center"
+                              >
+                                <h5 className="text-xs capitalize my-4">{course}</h5>
+                              </div>
+                            ))}
+                      </div>
+
+                      <button className="bg-primaryGreen text-white px-4 py-2 rounded-full capitalize"
+                      onClick = {() => {
+                        window.open("/ESfEQA_Catalogue_2023_40.pdf", "_blank");
+                      }
+                      }
+                      >
+                        Download file
+                      </button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </>
           ))}
         </ul>
       </div>

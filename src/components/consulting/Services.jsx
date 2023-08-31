@@ -1,19 +1,17 @@
 const services = [
-'Gap Analysis for ISO/IEC 17043:2023,ISO 17025:2017, ISO 15189:2022',
-'Accreditation Mentorship for ISO/IEC 17043:2010, 17025:2017 and 15189:2012',
-'Kenya Quality Model for Health',
-'Joint Inspection Checklist',
-'Baseline Survey',
-'Midterm Evaluation',
-'Endline Evaluation',
-'Monitoring and Evaluation',
-'Pre-certification Audit for ISO 9001:2015',
-'Writing SOPs and Documentation',
-'Project Planning and Management',
-'Professional Building Design for Health Facilities'
-]
-
-
+  'Gap Analysis for ISO/IEC 17043:2023,ISO 17025:2017, ISO 15189:2022',
+  'Accreditation Mentorship for ISO/IEC 17043:2010, 17025:2017 and 15189:2012',
+  'Kenya Quality Model for Health',
+  'Joint Inspection Checklist',
+  'Baseline Survey',
+  'Midterm Evaluation',
+  'Endline Evaluation',
+  'Monitoring and Evaluation',
+  'Pre-certification Audit for ISO 9001:2015',
+  'Writing SOPs and Documentation',
+  'Project Planning and Management',
+  'Professional Building Design for Health Facilities',
+];
 
 const Services = () => {
   return (

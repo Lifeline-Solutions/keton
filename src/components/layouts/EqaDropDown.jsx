@@ -31,7 +31,7 @@ const EqaDropDown = () => {
             setIsOpen(false);
           }}
         >
-          external quality assessment{' '}
+          EQA programs
         </a>
         <hr className="w-3/4 my-2" />
         <a
@@ -41,7 +41,7 @@ const EqaDropDown = () => {
             setIsOpen(false);
           }}
         >
-          third party controls
+          EQA process
         </a>
       </div>
     </div>
