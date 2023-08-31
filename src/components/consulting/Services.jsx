@@ -36,7 +36,7 @@ const Services = () => {
           <h2 className="uppercase sm:text-2xl font-semibold mt-2">
             mentorship & ema
           </h2>
-          <ul className="text-left mt-8 text-sm leading-6 list-disc flex flex-col gap-4">
+          <ul className="text-left mt-8 text-sm leading-6 list-disc flex flex-col gap-4 px-6">
             {services.map((service) => {
               return (
                 <li key={service} className="capitalize">

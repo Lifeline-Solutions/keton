@@ -86,9 +86,9 @@ const NavBar = () => {
         </li>
       </ul>
       <div>
-        <div className="absolute md:hidden right-4 sm:mt-0 mt-4">
+        <div className="absolute md:hidden right-8 sm:mt-0 mt-4">
           {!isMobileMenu && (
-            <HiOutlineMenuAlt2 className="text-xl" onClick={toggle} />
+            <HiOutlineMenuAlt2 className="text-2xl text-primaryGreen" onClick={toggle} />
           )}
         </div>
         <MobileMenu isMobileMenu={isMobileMenu} toggle={toggle} />

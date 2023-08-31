@@ -13,7 +13,7 @@ const Corporate = () => {
           <h2 className="uppercase sm:text-2xl font-medium mt-2">
             CORPORATE BASED
           </h2>
-          <ul className="text-left mt-8 text-sm leading-6 list-disc flex flex-col gap-4">
+          <ul className="text-left mt-8 text-sm leading-6 list-disc flex flex-col gap-4 px-6">
             <li>Strategic Analysis and Planning</li>
             <li>Business Intelligence and Monitoring</li>
             <li>Trade Exhibition</li>

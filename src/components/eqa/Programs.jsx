@@ -33,7 +33,9 @@ const Programs = () => {
                 }`}
               >
                 <h5 className="text-xl font-semibold capitalize flex justify-center items-center gap-3">
-                  <span>{program.title}</span>
+                  <span
+                  onClick={() => toggleProgram(program.id)}
+                  >{program.title}</span>
                   <span span onClick={() => toggleProgram(program.id)}>
                     {program.isOpen ? <PiCaretUpBold /> : <PiCaretDownBold />}
                   </span>
@@ -42,7 +44,7 @@ const Programs = () => {
                 <div>
                   {program.isOpen && (
                     <div
-                      className={`absolute top-20 right-60 bg-white flex flex-col z-10 items-center justify-center rounded shadow-lg gap-4 w-[50rem] py-6 ${
+                      className={`absolute top-20 sm:right-60 right-10 bg-white flex flex-col z-10 items-center justify-center rounded shadow-lg gap-4 sm:w-[50rem] w-72 py-6 ${
                         program.isOpen ? 'block' : 'hidden'
                       }`}
                     >
