@@ -39,7 +39,7 @@ const Reviews = ({ equipment, renderStars }) => {
         </div>
       </div>
 
-      <div className="col-span-1 px-20">
+      <div className="col-span-1 sm:px-20 px-4">
         <p className="text-xs">
           {reviews && reviews.length < 1
             ? 'There are no reviews yet\n Be the first to review'

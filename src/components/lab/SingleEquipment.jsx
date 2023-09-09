@@ -20,15 +20,15 @@ const SingleEquipment = () => {
     setActiveTab(tab);
   };
 
-  const allProducts = equipmentData.categories.flatMap((category) =>
-  category.products
-);
+  const allProducts = equipmentData.categories.flatMap(
+    (category) => category.products
+  );
 
-const equipment = allProducts.find((product) => product.id === parseInt(id));
+  const equipment = allProducts.find((product) => product.id === parseInt(id));
 
-if (equipment === undefined) {
-  return <NotFound />;
-}
+  if (equipment === undefined) {
+    return <NotFound />;
+  }
 
   const specifications = equipment.specifications && equipment.specifications;
   const firstTwoSpecs = specifications && specifications.slice(0, 2);

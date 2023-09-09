@@ -6,7 +6,8 @@ const RelatedProducts = ({ equipment }) => {
 
   const relatedEquipment = equipmentData.categories.flatMap((category) =>
     category.products.filter(
-      (product) => product.category === equipment.category && product.id !== equipment.id
+      (product) =>
+        product.category === equipment.category && product.id !== equipment.id
     )
   );
 
