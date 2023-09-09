@@ -33,9 +33,9 @@ const Programs = () => {
                 }`}
               >
                 <h5 className="text-xl font-semibold capitalize flex justify-center items-center gap-3">
-                  <span
-                  onClick={() => toggleProgram(program.id)}
-                  >{program.title}</span>
+                  <span onClick={() => toggleProgram(program.id)}>
+                    {program.title}
+                  </span>
                   <span span onClick={() => toggleProgram(program.id)}>
                     {program.isOpen ? <PiCaretUpBold /> : <PiCaretDownBold />}
                   </span>

@@ -27,7 +27,7 @@ const BioMedicine = () => {
               src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327390/keton/Keton_Consulting47_qvtczz.jpg"
               alt="bio"
               className="w-full h-96 rounded object-cover"
-              loading='lazy'
+              loading="lazy"
             />
           </div>
 

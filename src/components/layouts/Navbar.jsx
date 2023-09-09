@@ -88,7 +88,10 @@ const NavBar = () => {
       <div>
         <div className="absolute md:hidden right-8 sm:mt-0 mt-4">
           {!isMobileMenu && (
-            <HiOutlineMenuAlt2 className="text-2xl text-primaryGreen" onClick={toggle} />
+            <HiOutlineMenuAlt2
+              className="text-2xl text-primaryGreen"
+              onClick={toggle}
+            />
           )}
         </div>
         <MobileMenu isMobileMenu={isMobileMenu} toggle={toggle} />

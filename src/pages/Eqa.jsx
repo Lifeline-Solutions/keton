@@ -6,7 +6,7 @@ import InquiryForm from '../components/eqa/InquiryForm';
 const Eqa = () => {
   const path = window.location.pathname;
   const renderComponent = () => {
-    if (path === '/eqa/progrmas') {
+    if (path === '/eqa/programs') {
       return <Programs />;
     } else if (path === '/eqa/process') {
       return <Process />;

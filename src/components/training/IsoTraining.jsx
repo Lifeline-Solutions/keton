@@ -14,7 +14,7 @@ const IsoTraining = () => {
               src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693326949/keton/Lab_Tecs7_akq2wq.jpg"
               alt="training"
               className="w-full h-96 rounded object-cover"
-              loading='lazy'
+              loading="lazy"
             />
           </div>
 
