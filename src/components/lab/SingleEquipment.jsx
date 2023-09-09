@@ -20,15 +20,15 @@ const SingleEquipment = () => {
     setActiveTab(tab);
   };
 
-  const foundEquipment = equipmentData.categories.flatMap((category) =>
-    category.products.find((product) => product.id === parseInt(id))
-  );
+  const allProducts = equipmentData.categories.flatMap((category) =>
+  category.products
+);
 
-  const equipment = foundEquipment[0];
+const equipment = allProducts.find((product) => product.id === parseInt(id));
 
-  if (equipment === undefined) {
-    return <NotFound />;
-  }
+if (equipment === undefined) {
+  return <NotFound />;
+}
 
   const specifications = equipment.specifications && equipment.specifications;
   const firstTwoSpecs = specifications && specifications.slice(0, 2);
@@ -80,7 +80,9 @@ const SingleEquipment = () => {
   };
 
   const tabContent = {
-    description: <Description equipment={equipment} renderSpecs={renderSpecs} />,
+    description: (
+      <Description equipment={equipment} renderSpecs={renderSpecs} />
+    ),
     reviews: <Reviews equipment={equipment} renderStars={renderStars} />,
   };
 
@@ -121,16 +123,14 @@ const SingleEquipment = () => {
           </div>
         </div>
 
-        <div className="px-4 mt-16">
-          <div className='bg-white rounded-lg'>
+        <div className="px-8 mt-16">
+          <div className="bg-white rounded-lg">
             <div className="flex xs:flex-row flex-col items-center px-4 pt-10 rounded-lg">
               {tabs.map((tab) => (
                 <button
                   key={tab}
                   className={`sm:px-4 sm:py-2 px-2 py-1 mr-2 uppercase ${
-                    activeTab === tab
-                      ? 'bg-gray-500 text-white'
-                      : 'text-black'
+                    activeTab === tab ? 'bg-gray-500 text-white' : 'text-black'
                   }`}
                   onClick={() => handleTabClick(tab)}
                 >
@@ -143,9 +143,7 @@ const SingleEquipment = () => {
           </div>
         </div>
       </div>
-      <RelatedProducts
-        equipment={equipment}
-       />
+      <RelatedProducts equipment={equipment} />
     </>
   );
 };
