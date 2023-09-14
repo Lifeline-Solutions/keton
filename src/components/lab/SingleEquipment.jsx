@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import equipmentData from '../../data/equipment.json';
+import { equipmentData } from "../../data/equipmentData";
 import NotFound from '../404/NotFound';
 import Header from './Header';
 import { IoIosStar } from 'react-icons/io';
@@ -20,7 +20,7 @@ const SingleEquipment = () => {
     setActiveTab(tab);
   };
 
-  const allProducts = equipmentData.categories.flatMap(
+  const allProducts = equipmentData.flatMap(
     (category) => category.products
   );
 

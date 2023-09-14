@@ -1,9 +1,9 @@
-import equipmentData from '../../data/equipment.json';
+import { equipmentData } from "../../data/equipmentData";
 
 const Equipment = () => {
   return (
     <div className="py-10 md:px-40 px-8 bg-primaryBg">
-      {equipmentData.categories.map((category) => (
+      {equipmentData.map((category) => (
         <div key={category.id} className="mb-6 relative bg-white rounded-lg">
           <div className="bg-primaryBlue py-4 px-6 rounded-lg capitalize font-medium">
             {category.title}

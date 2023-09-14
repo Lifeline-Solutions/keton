@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
-import equipmentData from '../../data/equipment.json';
+import { equipmentData } from "../../data/equipmentData";
 
 const RelatedProducts = ({ equipment }) => {
-  // Get equipment in the same category as the current equipment
 
-  const relatedEquipment = equipmentData.categories.flatMap((category) =>
+  const relatedEquipment = equipmentData.flatMap((category) =>
     category.products.filter(
       (product) =>
         product.category === equipment.category && product.id !== equipment.id
