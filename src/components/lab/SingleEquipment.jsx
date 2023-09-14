@@ -75,6 +75,11 @@ const SingleEquipment = () => {
               Description
             </h4>
             <p className="font-medium w-3/4 uppercase">{equipment.title}</p>
+            {equipment.long_title && (
+              <p className="font-medium w-3/4 uppercase text-sm">
+                {equipment.long_title}
+              </p>
+            )}
             <div className="text-sm text-primaryBlue mt-4">
               Category:{' '}
               <span className="font-semibold">{equipment.category}</span>
