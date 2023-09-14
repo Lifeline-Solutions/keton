@@ -1,10 +1,36 @@
+import emailjs from "emailjs-com";
+emailjs.init("user_5X2Z0Q8Q8QZ0Q8Q8QZ0Q8");
+
 const InquiryForm = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_5x2z0q8q8qz0q8q8qz0q8",
+        "template_5x2z0q8q8qz0q8q8qz0q8",
+        e.target,
+        "user_5X2Z0Q8Q8QZ0Q8Q8QZ0Q8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message Sent, We will get back to you shortly", result.text);
+        },
+        (error) => {
+          console.log(error.text);
+          alert("An error occurred, Please try again", error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-10 px-4 ">
       <h2 className="capitalize sm:text-2xl font-bold mt-2">
         Inquire About Our EQA
       </h2>
-      <form className="flex flex-col gap-4 mt-10 w-3/4">
+      <form className="flex flex-col gap-4 mt-10 w-3/4" onSubmit={sendEmail}>
         <label htmlFor="name">Name</label>
         <input
           type="text"
