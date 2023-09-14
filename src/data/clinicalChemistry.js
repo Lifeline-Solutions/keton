@@ -5,8 +5,7 @@ const clinicalChemistry = {
     {
       id: 101,
       category: 'Clinical Chemistry',
-      title: 'SNIBE Bioassay 240 Plus',
-      long_title: 'SNIBE BIOSSAYS 240 PLUS AUTOMATED BIOCHEMISTRY ANALYZER',
+      title: 'SNIBE BIOSSAYS 240 PLUS AUTOMATED BIOCHEMISTRY ANALYZER',
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233421/equip-1_cnrero.png',
       description: [
@@ -50,8 +49,7 @@ const clinicalChemistry = {
     {
       id: 102,
       category: 'Clinical Chemistry',
-      title: 'Genrui Electrolyte',
-      long_title: 'GENRUI KT6610 5 PART HEMATOLOGY ANALYZER',
+      title: 'GENRUI KT6610 5 PART HEMATOLOGY ANALYZER',
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233420/equip-2_blgn5u.png',
       description: [

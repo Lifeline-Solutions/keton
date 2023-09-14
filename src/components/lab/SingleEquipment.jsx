@@ -74,8 +74,7 @@ const SingleEquipment = () => {
             <h4 className="uppercase font-semibold text-xl mb-4">
               Description
             </h4>
-            <p className="font-medium">{equipment.title}</p>
-            <p className="font-medium w-3/4">{equipment.long_title}</p>
+            <p className="font-medium w-3/4 uppercase">{equipment.title}</p>
             <div className="text-sm text-primaryBlue mt-4">
               Category:{' '}
               <span className="font-semibold">{equipment.category}</span>
