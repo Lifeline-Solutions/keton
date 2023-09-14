@@ -1,4 +1,4 @@
-import { equipmentData } from "../../data/equipmentData";
+import { equipmentData } from '../../data/equipmentData';
 
 const Equipment = () => {
   return (

@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
-import { equipmentData } from "../../data/equipmentData";
+import { equipmentData } from '../../data/equipmentData';
 
 const RelatedProducts = ({ equipment }) => {
-
   const relatedEquipment = equipmentData.flatMap((category) =>
     category.products.filter(
       (product) =>

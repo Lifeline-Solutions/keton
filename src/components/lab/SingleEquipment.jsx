@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { equipmentData } from "../../data/equipmentData";
+import { equipmentData } from '../../data/equipmentData';
 import NotFound from '../404/NotFound';
 import Header from './Header';
 import { IoIosStar } from 'react-icons/io';
@@ -20,9 +20,7 @@ const SingleEquipment = () => {
     setActiveTab(tab);
   };
 
-  const allProducts = equipmentData.flatMap(
-    (category) => category.products
-  );
+  const allProducts = equipmentData.flatMap((category) => category.products);
 
   const equipment = allProducts.find((product) => product.id === parseInt(id));
 
@@ -30,35 +28,10 @@ const SingleEquipment = () => {
     return <NotFound />;
   }
 
-  const specifications = equipment.specifications && equipment.specifications;
-  const firstTwoSpecs = specifications && specifications.slice(0, 2);
   const reviews = equipment.reviews && equipment.reviews;
   const averageRating =
     reviews &&
     reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length;
-
-  const renderSpecs = (specifications) => {
-    return (
-      specifications &&
-      specifications.map((spec) => {
-        for (const [key, value] of Object.entries(spec)) {
-          const specTitle = key;
-          const specArray = value;
-
-          return (
-            <div className="flex flex-col gap-2" key={specTitle}>
-              {specArray.map((item, index) => (
-                <div className="text-sm flex gap-6" key={index}>
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          );
-        }
-        return null;
-      })
-    );
-  };
 
   const renderStars = (averageRating) => {
     const maxRating = 5;
@@ -80,9 +53,7 @@ const SingleEquipment = () => {
   };
 
   const tabContent = {
-    description: (
-      <Description equipment={equipment} renderSpecs={renderSpecs} />
-    ),
+    description: <Description equipment={equipment} />,
     reviews: <Reviews equipment={equipment} renderStars={renderStars} />,
   };
 
@@ -90,12 +61,12 @@ const SingleEquipment = () => {
     <>
       <Header />
       <div className="h-full  bg-primaryBg py-4 text-black">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 px-4">
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 px-4 flex justify-center items-center">
           <div className="col-span-1 px-8 bg-white rounded-lg">
             <img
               src={equipment.image}
               alt={equipment.title}
-              className="mx-auto mb-2 w-3/4 h-full"
+              className="mx-auto my-2 w-1/2 h-full flex justify-center items-center"
             />
           </div>
 
@@ -103,10 +74,8 @@ const SingleEquipment = () => {
             <h4 className="uppercase font-semibold text-xl mb-4">
               Description
             </h4>
-            <p className="">{equipment.title}</p>
-            <div className="flex flex-col gap-4 w-3/4">
-              {renderSpecs(firstTwoSpecs)}
-            </div>
+            <p className="font-medium">{equipment.title}</p>
+            <p className="font-medium w-3/4">{equipment.long_title}</p>
             <div className="text-sm text-primaryBlue mt-4">
               Category:{' '}
               <span className="font-semibold">{equipment.category}</span>
