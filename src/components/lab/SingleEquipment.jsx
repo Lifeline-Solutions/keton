@@ -80,13 +80,11 @@ const SingleEquipment = () => {
                 {equipment.long_title}
               </p>
             )}
-            {
-              equipment.short_description && (
-                <p className='text-sm leading-7 mt-4 font-light'>
-                  {equipment.short_description}
-                </p>
-              )
-            }
+            {equipment.short_description && (
+              <p className="text-sm leading-7 mt-4 font-light">
+                {equipment.short_description}
+              </p>
+            )}
             <div className="text-sm text-primaryBlue mt-4">
               Category:{' '}
               <span className="font-semibold">{equipment.category}</span>

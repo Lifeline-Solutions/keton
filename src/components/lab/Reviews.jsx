@@ -41,9 +41,7 @@ const Reviews = ({ equipment, renderStars }) => {
 
       <div className="col-span-1 sm:px-20 px-4">
         <p className="text-xs">
-          {!reviews
-            ? 'There are no reviews yet\n Be the first to review'
-            : ''}
+          {!reviews ? 'There are no reviews yet\n Be the first to review' : ''}
         </p>
         <h5 className="text-md font-semibold my-4">Review {equipment.title}</h5>
         <p className="text-xs">

@@ -1,25 +1,24 @@
-import emailjs from "emailjs-com";
-emailjs.init("user_5X2Z0Q8Q8QZ0Q8Q8QZ0Q8");
+import emailjs from 'emailjs-com';
+emailjs.init('user_5X2Z0Q8Q8QZ0Q8Q8QZ0Q8');
 
 const InquiryForm = () => {
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_5x2z0q8q8qz0q8q8qz0q8",
-        "template_5x2z0q8q8qz0q8q8qz0q8",
+        'service_5x2z0q8q8qz0q8q8qz0q8',
+        'template_5x2z0q8q8qz0q8q8qz0q8',
         e.target,
-        "user_5X2Z0Q8Q8QZ0Q8Q8QZ0Q8"
+        'user_5X2Z0Q8Q8QZ0Q8Q8QZ0Q8'
       )
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message Sent, We will get back to you shortly", result.text);
+          alert('Message Sent, We will get back to you shortly', result.text);
         },
         (error) => {
           console.log(error.text);
-          alert("An error occurred, Please try again", error.text);
+          alert('An error occurred, Please try again', error.text);
         }
       );
     e.target.reset();
