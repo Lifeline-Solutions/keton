@@ -15,7 +15,7 @@ const RelatedProducts = ({ equipment }) => {
         <div className="grid grid-cols-4 gap-4 px-4">
           {relatedEquipment.map((product) => (
             <div
-              className="flex flex-col gap-4 bg-white rounded-lg w-88 h-88 justify-center items-center px-4 py-4"
+              className="flex flex-col gap-4 bg-white rounded-lg sm:w-96 sm:h-88 w-72 h-full justify-center items-center px-4 py-4"
               key={product.id}
             >
               <img
