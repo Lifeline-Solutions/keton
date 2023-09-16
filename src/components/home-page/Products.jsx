@@ -80,8 +80,13 @@ const Products = () => {
               alt={product.title}
               className="sm:w-56 sm:h-56 w-24 h-24 mx-auto mb-4"
             />
-            <h3 className="text-center sm:text-base text-sm">{product.title}</h3>
-            <a href={`lab-equipment-and-supplies/${product.id}`} className="block mx-auto mt-4 bg-primaryGreen text-white px-4 py-2 rounded sm:text-sm text-xs text-center">
+            <h3 className="text-center sm:text-base text-sm">
+              {product.title}
+            </h3>
+            <a
+              href={`lab-equipment-and-supplies/${product.id}`}
+              className="block mx-auto mt-4 bg-primaryGreen text-white px-4 py-2 rounded sm:text-sm text-xs text-center"
+            >
               Read More
             </a>
           </div>
