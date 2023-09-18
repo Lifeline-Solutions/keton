@@ -10,6 +10,7 @@ import LabEquipment from './pages/LabEquipment';
 import NotFound from './components/404/NotFound';
 import SingleEquipment from './components/lab/SingleEquipment';
 import NewsAndEvents from './pages/NewsAndEvents';
+import SingleNews from './components/news-events/SingleNews';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/training-services/*" element={<TrainingServices />} />
         <Route path="/lab-equipment-and-supplies" element={<LabEquipment />} />
         <Route path="/news-and-events" element={<NewsAndEvents />} />
+        <Route path="/news-and-events/:id" element={<SingleNews />} />
         <Route
           path="/lab-equipment-and-supplies/:id"
           element={<SingleEquipment />}
