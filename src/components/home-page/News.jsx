@@ -1,4 +1,4 @@
-import blogs from "../../data/blogContent";
+import blogs from '../../data/blogContent';
 
 const News = () => {
   return (
@@ -21,7 +21,7 @@ const News = () => {
             <div className="text-left mt-4 mb-10">
               <h3 className="text-xl font-semibold capitalize">{item.title}</h3>
               <p className="text-gray-500 mt-6 text-sm">
-               {item.content && item.content.slice(0, 100)}...
+                {item.content && item.content.slice(0, 100)}...
               </p>
               <a href={`/news-and-events/${item.id}`}>
                 <button className="text-primary text-sm font-semibold mt-6 border border-primaryBlue px-4 py-2 rounded-lg">
