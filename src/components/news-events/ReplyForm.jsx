@@ -1,14 +1,14 @@
 const ReplyForm = () => {
   return (
     <>
-    <hr className="w-full border border-black my-16" />
-    <div className="flex flex-col justify-center items-start gap-5 mt-16 sm:px-32 px-0">
-      <h1 className="font-bold">Leave a Reply</h1>
-      <p className="text-sm">
-        Your email address will not be published. Required fields are marked *
-      </p>
+      <hr className="w-full border border-black my-16" />
+      <div className="flex flex-col justify-center items-start gap-5 mt-16 sm:px-32 px-0">
+        <h1 className="font-bold">Leave a Reply</h1>
+        <p className="text-sm">
+          Your email address will not be published. Required fields are marked *
+        </p>
 
-      <form className="flex flex-col justify-start items-start gap-5 mt-5 w-full">
+        <form className="flex flex-col justify-start items-start gap-5 mt-5 w-full">
           <label className="text-sm" htmlFor="name">
             Name*
           </label>
@@ -57,9 +57,8 @@ const ReplyForm = () => {
           <button className="text-white bg-primaryGreen px-8 py-4 hover:bg-primaryBlueHover">
             Submit
           </button>
-  
-      </form>
-    </div>
+        </form>
+      </div>
     </>
   );
 };
