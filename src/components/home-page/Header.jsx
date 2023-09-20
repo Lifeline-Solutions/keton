@@ -54,9 +54,11 @@ const Header = () => {
                 className="border border-gray-300 rounded-md px-4 py-2 sm:w-96 w-36  xs:rounded-r-none"
                 placeholder="Search Here"
               />
-              <button className="bg-primaryGreen text-white px-4 py-2 xs:rounded-l-none rounded-md xs:w-40 w-40">
-                Get a Quote
-              </button>
+              <a href="/get-quote">
+                <button className="bg-primaryGreen text-white px-4 py-2 xs:rounded-l-none rounded-md xs:w-40 w-40">
+                  Get a Quote
+                </button>
+              </a>
             </div>
           </div>
         </div>

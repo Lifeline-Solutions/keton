@@ -37,14 +37,17 @@ const UpcomingEvents = () => {
                 <h3 className="text-xl font-semibold capitalize">
                   {item.title}
                 </h3>
-                {
-                  item.content && (
-                    <p className={`text-sm font-light ${item.content_hidden ? 'text-primaryBg user-select-none text-opacity-0' : 'text-black'
-                    }`}>
-                      {item.content.substring(0, 200)}...
-                    </p>
-                  )
-                }
+                {item.content && (
+                  <p
+                    className={`text-sm font-light ${
+                      item.content_hidden
+                        ? 'text-primaryBg user-select-none text-opacity-0'
+                        : 'text-black'
+                    }`}
+                  >
+                    {item.content.substring(0, 200)}...
+                  </p>
+                )}
                 <a
                   href={`/news-and-events/${item.id}`}
                   className="text-primary text-sm font-semibold mt-6 text-primaryBlue px-4 py-2 rounded-lg hover:text-white"

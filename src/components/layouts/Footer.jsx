@@ -3,9 +3,9 @@ import { BiLogoInstagram, BiLogoFacebook, BiLogoTwitter } from 'react-icons/bi';
 const Footer = () => {
   return (
     <footer className="bg-secondaryBlue h-full py-4 px-10 text-white">
+      <img src="/logo.png" alt="logo" className="w-44" />
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mt-6">
         <div className="col-span-1">
-          <img src="/logo.png" alt="logo" className="w-44" />
           <h1 className="font-bold text-sm mt-4">About Keton Consulting.</h1>
           <p className="text-sm mt-4 font-light leading-6 w-9/12">
             Keton Consulting Limited is a multiagency consulting and service

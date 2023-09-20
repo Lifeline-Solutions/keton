@@ -11,6 +11,7 @@ import NotFound from './components/404/NotFound';
 import SingleEquipment from './components/lab/SingleEquipment';
 import NewsAndEvents from './pages/NewsAndEvents';
 import SingleNews from './components/news-events/SingleNews';
+import Quote from './components/home-page/Quote';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/lab-equipment-and-supplies" element={<LabEquipment />} />
         <Route path="/news-and-events" element={<NewsAndEvents />} />
         <Route path="/news-and-events/:id" element={<SingleNews />} />
+        <Route path="/get-quote" element={<Quote />} />
         <Route
           path="/lab-equipment-and-supplies/:id"
           element={<SingleEquipment />}

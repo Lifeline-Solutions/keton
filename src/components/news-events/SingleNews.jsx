@@ -39,7 +39,8 @@ const SingleNews = () => {
           <h1 className="sm:text-2xl text-lg font-medium uppercase mt-4">
             {news.title}
           </h1>
-          {news.content && !news.content_hidden &&
+          {news.content &&
+            !news.content_hidden &&
             news.content.split('\n').map((item, index) => (
               <p key={index} className="mt-6 text-sm">
                 {item}
