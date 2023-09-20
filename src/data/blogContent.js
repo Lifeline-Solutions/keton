@@ -14,6 +14,8 @@ const blogs = [
     image:
       'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327165/keton/Keton20_a2waer.jpg',
     title: '2022 – TOP 40 UNDER 40 AWARDS CEREMONY – KE.',
+    content:'Keton Consulting continues partnership with ESfEQA to provide quality\nExternal Assurance Services in the region Kenya, Uganda &amp; Tanzania. We provide reliable and cost effective programs with great report content.\nOur programs are fully Accredited to ISO/IEC 17043:2010 by German Accreditation Body DAKKS\nWe offer monthly programs and the Quarterly Surveys cover the months of\nFebruary, April, July &amp; October.\nReports also applicable to up-to 2 back up machines at no extra cost.\nKeton is a regional collaborator of European society for EQA present in over 30 countries – Kenya, Nigeria, Botswana, Uganda, Tanzania, Zimbabwe, Zambia,Ghana, India, Italy, United Arab Emirates, China, Turkey, Serbia, Romania, Portugal, Pakistan, Germany, Malaysia, Israel, Jordan, Iran, Greece, Georgia, Egypt, United Kingdom, France, Croatia, Costa Rica, Chile &amp; Belgium.',
+    content_hidden: true,
     images: [
       'https://www.ketonconsulting.com/wp-content/uploads/2022/11/DSC00015-2-683x1024.jpg',
       'https://www.ketonconsulting.com/wp-content/uploads/2022/11/DSC00233-3-1024x683.jpg',

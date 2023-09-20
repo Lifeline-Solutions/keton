@@ -10,4 +10,8 @@
     @apply font-inter;
     @apply font-normal;
   }
+
+  .user-select-none {
+    user-select: none;
+  }
 }

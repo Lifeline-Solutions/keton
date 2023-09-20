@@ -36,7 +36,7 @@ const Header = () => {
           ))}
         </div>
         <div className="z-1 absolute inset-0 flex flex-col justify-left  p-10">
-          <div className="sm:mt-40 xs:mt-60 mt-40 sm:w-8/12">
+          <div className="sm:mt-52 xs:mt-60 mt-40 sm:w-8/12">
             <div className="sm:text-3xl xs:text-xl text-sm font-semibold uppercase sm:leading-[3.2rem] xs:leading-[2.5rem] text-white ">
               QUALIFIED STAFF WITH
               <br />
