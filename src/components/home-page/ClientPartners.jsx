@@ -4,32 +4,13 @@ import {
   BiSolidChevronLeftCircle,
 } from 'react-icons/bi';
 
-const clientsPartners = [
-  {
-    id: 1,
-    image: '/images/cp-1.png',
-  },
-  {
-    id: 2,
-    image: '/images/cp-2.png',
-  },
-  {
-    id: 3,
-    image: '/images/cp-3.png',
-  },
-  {
-    id: 4,
-    image: '/images/cp-4.png',
-  },
-  {
-    id: 5,
-    image: '/images/cp-5.png',
-  },
-];
+import clientsPartners from '../../data/clientsPartners';
+
+
 
 const ClientPartners = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsPerPage = 5;
+  const itemsPerPage = 6;
 
   useEffect(() => {
     const interval = setInterval(() => {
