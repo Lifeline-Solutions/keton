@@ -20,13 +20,13 @@ const statistics = [
     id: 3,
     icon: <AiOutlineFileProtect />,
     title: 'Training Programs',
-    number: 20,
+    number: 15,
   },
   {
     id: 4,
     icon: <GiMicroscope />,
     title: 'Lab Equipments',
-    number: 200,
+    number: 30,
   },
 ];
 

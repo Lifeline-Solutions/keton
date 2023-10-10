@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  $animation-timing: 27s;
+  $carousel-items: 3;
+  $animation-delay-fraction: calc($animation-timing / $carousel-items);
+  $animation-steps-fraction: calc(100 / $carousel-items);
+  $slide-change-timing: 3; // percentage of total animation cycle
+
+  html {
+    scroll-behavior: smooth;
+    @apply font-inter;
+    @apply font-normal;
+  }
+
+  .user-select-none {
+    user-select: none;
+  }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .carousel__item {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 12px;
+    opacity: 0;
+    filter: drop-shadow(0 2px 2px #555);
+    will-change: transform, opacity;
+    animation: carousel-animate-vertical $animation-timing linear infinite;
+  }
+
+  @for $i from 1 through ($carousel-items - 1) {
+    .carousel__item:nth-child(#{$i}) {
+      animation-delay: calc(#{$animation-delay-fraction} * #{$i - 2});
+    }
+  }
+
+  .carousel__item:last-child {
+    animation-delay: calc(-#{$animation-delay-fraction} * 2);
+  }
+
+  .carousel__item-body {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 16px 20px 16px 70px;
+  }
+
+  @keyframes carousel-animate-vertical {
+    0% {
+      transform: translateY(100%) scale(0.5);
+      opacity: 0;
+      visibility: hidden;
+    }
+    #{$slide-change-timing}%,
+    #{$animation-steps-fraction}% {
+      transform: translateY(100%) scale(0.7);
+      opacity: 0.4;
+      visibility: visible;
+    }
+    #{$animation-steps-fraction + $slide-change-timing}%,
+    #{$animation-steps-fraction * 2}% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+      visibility: visible;
+    }
+    #{($animation-steps-fraction * 2) + $slide-change-timing}%,
+    #{$animation-steps-fraction * 3}% {
+      transform: translateY(-100%) scale(0.7);
+      opacity: 0.4;
+      visibility: visible;
+    }
+    #{($animation-steps-fraction * 3) + $slide-change-timing}% {
+      transform: translateY(-100%) scale(0.5);
+      opacity: 0;
+      visibility: visible;
+    }
+    100% {
+      transform: translateY(-100%) scale(0.5);
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}

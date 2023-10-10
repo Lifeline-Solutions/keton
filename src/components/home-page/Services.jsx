@@ -1,7 +1,6 @@
 import { BsCart } from 'react-icons/bs';
 import { MdOutlineMedicalServices } from 'react-icons/md';
 import { HiUserGroup } from 'react-icons/hi';
-import maskImage from '/images/medical-mask.png';
 import StatisticsCard from './StatisticsCard';
 
 const cards = [
@@ -62,24 +61,25 @@ const Services = () => {
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16">
-          <div className="col-span-1 flex flex-col items-center">
-            <h1 className="sm:text-8xl text-6xl text-primaryBlue font-bold">
-              10
+          <div className="col-span-1 flex flex-col items-start gap-6">
+            <h1 className="sm:text-8xl text-6xl text-primaryBlue font-bold text-left">
+              06
             </h1>
-            <h6 className="font-medium capitalize mt-2 text-sm">
+            <h6 className="font-medium capitalize mt-2 text-sm text-left">
               Years of Service
             </h6>
             <p className="text-left mt-2 text-sm leading-6">
               In a world of pandemics, epidemics and chronic ailments lies
               quality laboratory solutions provided by Keton Group of companies.
-              A solution and knowledge driven biomedicine firm, providing key
-              solutions
+              We translate the voice of customers in the suit of products and
+              services that we provide ,covering the whole eco system of
+              laboratory medicine- Knowledge equipments and lab essentials.
             </p>
           </div>
 
           <div className="col-span-1 flex flex-col">
             <img
-              src={maskImage}
+              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1696918224/keton/Mask_group_gh9feb.png"
               alt="logo"
               className="w-full h-full rounded-lg"
             />
