@@ -1,6 +1,6 @@
 const clinicalChemistry = {
   id: 1,
-  title: 'Clinical Chemistry',
+  title: 'Clinical Chemistry & Urinalysis',
   products: [
     {
       id: 101,

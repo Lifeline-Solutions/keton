@@ -373,6 +373,28 @@ const Resources = () => {
           </ol>
         </p>
       </div>
+
+      <div className="flex flex-col justify-center items-center gap-4 sm:-mt-72 -mt-40">
+        <img
+        src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1696949999/keton/TABLES-01_jfes2z.png"
+        alt="table"
+        />
+        <img
+        src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1696949999/keton/TABLES-02_mdvd3p.png"
+        alt="table"
+        />
+        <img
+        src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1696949999/keton/TABLES-03_g1pcpj.png"
+        alt="table"
+        />
+        <button
+          type="button"
+          className="bg-primaryGreen text-white text-sm capitalize py-2 px-8 rounded mt-4 w-1/2 font-bold"
+        >
+          Download file
+        </button>
+
+      </div>
     </div>
   );
 };

@@ -22,7 +22,14 @@ const Eqa = () => {
     <>
       <Header />
       {renderComponent()}
-      <InquiryForm />
+      {
+        path !== '/eqa/rca-resources' && (
+          <>
+            <InquiryForm />
+          </>
+        )
+      }
+      
     </>
   );
 };
