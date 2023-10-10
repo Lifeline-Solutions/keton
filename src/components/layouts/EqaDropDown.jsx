@@ -20,7 +20,7 @@ const EqaDropDown = () => {
         )}
       </button>
       <div
-        className={`absolute top-10 bg-primaryBlue w-64 h-20 flex flex-col items-center justify-center rounded shadow-lg z-[20] ${
+        className={`absolute top-10 bg-primaryBlue w-72 h-40 flex flex-col items-center gap-2 justify-center rounded shadow-lg z-[20] ${
           isOpen ? 'block' : 'hidden'
         }`}
       >
@@ -42,6 +42,16 @@ const EqaDropDown = () => {
           }}
         >
           EQA process
+        </a>
+        <hr className="w-3/4 my-2" />
+        <a
+          href="/eqa/rca-resources"
+          className="text-white text-center"
+          onClick={() => {
+            setIsOpen(false);
+          }}
+        >
+          RCA resources
         </a>
       </div>
     </div>
