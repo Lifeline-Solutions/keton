@@ -3,22 +3,21 @@ import { BiSolidQuoteLeft } from 'react-icons/bi';
 const reviews = [
   {
     id: 1,
-    name: 'Mary Wangui',
-    img: 'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693402826/r1_sgivhm.png',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    name: ' Leonida Were( Laboratory Manager Kisumu Specialilty)',
+    content:
+      'We pride ourselves in working with Keton for over 5 years now especially in provision of third parties controls for hermatology, EQA services, Coaguluation Equipments and other lab supplies.They are reliable, Consistence and provide timely services.',
   },
   {
     id: 2,
-    name: 'Sigh R. Matel',
-    img: 'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693402826/r2_walmbc.png',
+    name: 'Dr. Martin Bundi ( Director research and capacity development KEMRI)',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+      'This is a company that is home grown and we have the right competences that we don’t need to engage other consultancies out there from over seas.We believe we have a bright and very fruitful engagement with Keton.',
   },
   {
     id: 3,
-    name: 'Stella W. Chea',
-    img: 'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693402826/r3_euuae1.png',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    name: ' Dr. Jamilla Rajab (UON Department of Pathology)',
+    content:
+      'We like that Keton is improving laboratory management system for rapid realiable laboratory results for better patient care and management.',
   },
 ];
 
@@ -47,7 +46,7 @@ const Reviews = () => {
         <div className="col-span-1 sm:px-4">
           <div className="flex flex-col gap-8 px-12">
             {reviews.map((review) => {
-              const { id, name, img, content } = review;
+              const { id, name, content } = review;
               return (
                 <div
                   key={id}
@@ -58,11 +57,6 @@ const Reviews = () => {
                     <p className="text-left text-xs leading-6 pt-6">
                       {content}
                     </p>
-                    <img
-                      src={img}
-                      alt={name}
-                      className="w-16 h-16 rounded-full object-cover"
-                    />
                   </div>
                   <div className="flex items-center py-6">
                     <p className="text-sm font-bold absolute left-8">

@@ -6,8 +6,6 @@ import {
 
 import clientsPartners from '../../data/clientsPartners';
 
-
-
 const ClientPartners = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerPage = 6;

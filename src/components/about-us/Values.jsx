@@ -35,7 +35,9 @@ const values = [
 
 const Values = () => {
   return (
-    <div className="h-full flex justify-center items-center bg-gradient-to-l from-primaryBlue/40 sm:py-10 py-6">
+    <div className="h-full flex flex-col justify-center items-center bg-gradient-to-l from-primaryBlue/40 sm:py-10 py-6">
+      <hr className="w-20 border-2 border-primaryGreen rounded my-1" />
+      <h2 className="uppercase sm:text-2xl font-bold mt-2">our core values</h2>
       <div className="grid sm:grid-cols-4 grid-cols-1 sm:gap-4 gap-10 sm:mt-16 mt-8 px-10">
         {values.map((value) => (
           <div key={value.id} className="bg-white shadow-lg rounded-lg p-4">

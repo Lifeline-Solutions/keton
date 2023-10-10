@@ -100,7 +100,10 @@ const Quote = () => {
           </button>
         </form>
         <div>
-          <img src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1695229549/genrui_msaq5r.png" alt="quote" />
+          <img
+            src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1695229549/genrui_msaq5r.png"
+            alt="quote"
+          />
         </div>
       </div>
     </>

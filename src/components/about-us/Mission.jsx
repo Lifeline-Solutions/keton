@@ -22,8 +22,7 @@ const Mission = () => {
           </div>
           <div className="col-span-1 sm:px-4 px-16">
             <div>
-              <h2 className="capitalize sm:text-2xl font-bold mt-2">mission</h2>
-              <hr className="w-20 border-2 border-primaryGreen rounded my-1" />
+              <h2 className="capitalize sm:text-xl font-bold mt-2">mission</h2>
             </div>
             <p className="text-left text-sm font-normal mt-4 leading-6 sm:w-8/12">
               To create communities where people continually expand their
@@ -32,9 +31,8 @@ const Mission = () => {
               aspiration is set free for better healthcare outcomes.
             </p>
 
-            <div className="mt-2">
-              <h2 className="capitalize sm:text-2xl font-bold mt-2">vision</h2>
-              <hr className="w-20 border-2 border-primaryGreen rounded my-1" />
+            <div className="mt-10">
+              <h2 className="capitalize sm:text-xl font-bold mt-2">vision</h2>
             </div>
             <p className="text-left text-sm font-normal mt-4 leading-6 sm:w-8/12">
               A leading bio-medicine consultancy firm that creates solutions

@@ -6,31 +6,32 @@ const Founder = () => {
           <div className="col-span-1 flex flex-col items-center mt-8 px-6">
             <hr className="w-20 mx-auto border-2 border-primaryGreen rounded my-1" />
             <h2 className="capitalize sm:text-2xl font-bold">
-              the founder message
+              Who is Antony Jaccodul?
             </h2>
             <p className="text-center mt-6 text-sm leading-6 pb-10">
-              A thought leader, dedicated to expanding advances in laboratory
-              medicine from a global view of best practices into health systems
-              and value chains, translating into customer delights. Creating the
-              laboratory of the future with Africa in mind drove Antony; to
-              constantly think about curating the passion for quality laboratory
-              services into provision of end-to-end laboratory solutions where
-              every client would convert questions marks into solutions whenever
-              they knocked our door. This has come to pass with our one stop
-              shop principle in provision of laboratory services and products
-              from training, mentorship, EQA, third party controls, method
-              verification controls, molecular and clinical laboratory equipment
-              plus consumables to software development for RCA and LIMS,
-              laboratory infrastructure design and laboratory hardware. Hence
-              our mantra We have delivered quality lab solutions.
+              The CEO and founder of KETON, A thought leader, dedicated to
+              expanding advances in laboratory medicine from a global view of
+              best practices into health systems and value chains, translating
+              into customer delights. Creating the laboratory of the future with
+              Africa in mind drove Antony; to constantly think about curating
+              the passion for quality laboratory services into provision of
+              end-to-end laboratory solutions where every client would convert
+              questions marks into solutions whenever they knocked our door.
+              This has come to pass with our one stop shop principle in
+              provision of laboratory services and products from training,
+              mentorship, EQA, third party controls, method verification
+              controls, molecular and clinical laboratory equipment plus
+              consumables to software development for RCA and LIMS, laboratory
+              infrastructure design and laboratory hardware. Hence our mantra We
+              have delivered quality lab solutions.
             </p>
           </div>
           <div className="col sm:col-span-1 flex flex-col">
             <div className="relative bg-primaryBlue">
-              <div className="absolute left-20 bg-primaryBlue w-11/12 sm:h-[27rem] rounded-lg sm:block hidden"></div>
-              <div className="sm:absolute sm:top-24">
+              <div className="absolute left-20 bg-primaryBlue w-11/12 sm:h-[29rem] rounded-lg sm:block hidden"></div>
+              <div className="sm:absolute">
                 <img
-                  src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327524/keton/Keton_Consulting5_iyqeqc.jpg"
+                  src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1696912493/keton/Rectangle_38_bvygae.png"
                   alt="logo"
                   className="w-full h-full rounded-lg"
                   loading="lazy"

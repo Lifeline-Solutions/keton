@@ -23,13 +23,15 @@ const Summary = () => {
             <p className="font-light text-sm leading-6 sm:w-9/12 w-full mt-3">
               Our expertise lies in the deep knowledge and understanding of how
               to operate a modern clinical laboratory optimally both by
-              equipment and capacity of staff to produce reliable, reproducible,
-              rapid quality laboratory reports for optimal patient care. We
-              premise our work on the Intelligent methods wired with modern
-              approaches divided into four strategic business units that
-              communicate effortlessly, buttressed by the requirements of ISO
-              15189:2022 of risk based and patient centric approach of managing
-              laboratory business.
+              equipment and the capacity of staff to produce reliable,
+              reproducible, rapid quality laboratory reports for optimal patient
+              care. We premise our work on the Intelligent methods wired with
+              modern approaches divided into four strategic business units-
+              Laboratory equipment supplies, ISO Based Training and capacity
+              development,Laboratory quality essentials and Laboratory Hardware.
+              This communicates effortlessly, buttressed by the requirements of
+              ISO 15189:2022 of the risk-based and patient-centric approach of
+              managing laboratory business.
             </p>
           </div>
           <div>
@@ -38,13 +40,13 @@ const Summary = () => {
             </h2>
             <p className="font-light text-sm leading-6 sm:w-9/12 w-full mt-3">
               Keton has a board that meets four times a year to evaluate the
-              organizations on tenets of sustainability, accountability and
+              organization on tenets of sustainability, accountability and
               transparency. The board has a good mix of expertise across the
               industry -finance, legal, Lab Medicine, Marketing and banking with
-              all gender represented as a fit for purpose board. The Board Takes
-              Matters ESG seriously and this guides most of the decisions on
-              what to invest in, that protect the environment, communities with
-              best governance practices
+              all genders represented as a fit-for-purpose board. The Board
+              Takes Matters ESG seriously and this guides most of the decisions
+              on what to invest in, that protects the environment, communities
+              with best governance practices.
             </p>
           </div>
         </div>
