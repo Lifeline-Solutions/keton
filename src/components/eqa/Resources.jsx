@@ -390,6 +390,12 @@ const Resources = () => {
         <button
           type="button"
           className="bg-primaryGreen text-white text-sm capitalize py-2 px-8 rounded mt-4 w-1/2 font-bold"
+          onClick={() => {
+            window.open(
+              '/ESfEQA_REPORT INTERPRETATION.pdf',
+              '_blank'
+            );
+          }}
         >
           Download file
         </button>
