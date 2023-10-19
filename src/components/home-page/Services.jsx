@@ -100,13 +100,6 @@ const Services = () => {
               continuous learning, receptive human resource and a management
               that listens and seeks advice.
             </p>
-
-            <button
-              className="bg-primaryBlue text-white px-4 py-2 mt-4 rounded-md capitalize sm:w-60 w-40 hover:bg-primaryGreen"
-              href="/training"
-            >
-              2023 training calendar
-            </button>
           </div>
         </div>
       </div>
