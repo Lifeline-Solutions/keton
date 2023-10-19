@@ -71,7 +71,7 @@ const InquiryForm = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-primaryBlue text-white font-bold uppercase py-2 px-4 rounded hover:bg-primaryGreen w-1/2 shadow-lg"
+            className="bg-primaryGreen text-white font-bold uppercase py-2 px-4 rounded hover:bg-primaryGreen w-1/2 shadow-lg"
           >
             submit
           </button>

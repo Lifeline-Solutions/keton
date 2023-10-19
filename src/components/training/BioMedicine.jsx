@@ -43,7 +43,7 @@ const BioMedicine = () => {
               ))}
             </ul>
             <div className="flex sm:flex-row flex-col gap-4 mt-10">
-              <button className="bg-primaryBlue text-white py-2 px-4 rounded-md capitalize text-sm font-medium">
+              <button className="bg-primaryGreen text-white py-2 px-4 rounded-md capitalize text-sm font-medium">
                 Inquire about training
               </button>
             </div>

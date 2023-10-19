@@ -47,7 +47,7 @@ const ClientPartners = () => {
 
       <div className="sm:flex grid sm:grid-cols-0 grid-cols-2 sm:gap-0  justify-center mt-8 items-center">
         <button onClick={handlePrev} className="sm:mr-2 mr-0 sm:block hidden">
-          <BiSolidChevronLeftCircle className="text-3xl text-secondaryBlue" />
+          <BiSolidChevronLeftCircle className="text-3xl text-primaryGreen" />
         </button>
         {displayedLogos.map((logo) => (
           <div key={logo.id} className="rounded-md mx-1 mb-2">
@@ -59,7 +59,7 @@ const ClientPartners = () => {
           </div>
         ))}
         <button onClick={handleNext} className="sm:ml-2 ml-0 sm:block hidden">
-          <BiSolidChevronRightCircle className="text-3xl text-secondaryBlue" />
+          <BiSolidChevronRightCircle className="text-3xl text-primaryGreen" />
         </button>
       </div>
     </div>

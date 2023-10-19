@@ -54,7 +54,7 @@ const ReplyForm = () => {
             placeholder="Enter your comment"
           ></textarea>
 
-          <button className="text-white bg-primaryGreen px-8 py-4 hover:bg-primaryBlueHover">
+          <button className="text-white bg-primaryGreen px-8 py-4">
             Submit
           </button>
         </form>

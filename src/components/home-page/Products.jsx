@@ -68,7 +68,7 @@ const Products = () => {
 
       <div className="flex sm:flex-row flex-col sm:gap-0 gap-8 justify-center mt-8 items-center">
         <button onClick={handlePrev} className="sm:mr-2 mr-0">
-          <BiSolidChevronLeftCircle className="text-3xl text-secondaryBlue" />
+          <BiSolidChevronLeftCircle className="text-3xl text-primaryGreen" />
         </button>
         {displayedProducts.map((product) => (
           <div
@@ -92,7 +92,7 @@ const Products = () => {
           </div>
         ))}
         <button onClick={handleNext} className="sm:ml-2 ml-0">
-          <BiSolidChevronRightCircle className="text-3xl text-secondaryBlue" />
+          <BiSolidChevronRightCircle className="text-3xl text-primaryGreen" />
         </button>
       </div>
     </div>

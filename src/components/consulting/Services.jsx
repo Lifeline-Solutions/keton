@@ -46,10 +46,10 @@ const Services = () => {
             })}
           </ul>
           <div className="flex sm:flex-row flex-col gap-4 mt-10">
-            <button className="bg-primaryBlue text-white py-2 px-4 rounded-md capitalize text-sm font-medium">
+            <button className="bg-primaryGreen text-white py-2 px-4 rounded-md capitalize text-sm font-medium">
               Inquire about Service
             </button>
-            <button className="border border-primaryBlue text-primaryBlue py-2 px-4 rounded-md capitalize text-sm font-medium mt-4 sm:mt-0">
+            <button className="bg-primaryGreen text-white  py-2 px-4 rounded-md capitalize text-sm font-medium mt-4 sm:mt-0">
               Get a quote
             </button>
           </div>
