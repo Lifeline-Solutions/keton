@@ -4,6 +4,7 @@ import MobileMenu from './MobileMenu';
 import logo from '/logo.png';
 import EqaDropDown from './EqaDropDown';
 import TrainingDropDown from './TrainingDropDown';
+import ThirdPartyControlsDropDown from './ThirdPartyControlsDropDown';
 
 const NavBar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
@@ -70,6 +71,9 @@ const NavBar = () => {
         </li>
         <li>
           <TrainingDropDown />
+        </li>
+        <li>
+          <ThirdPartyControlsDropDown />
         </li>
         <li>
           <a

@@ -12,6 +12,7 @@ import SingleEquipment from './components/lab/SingleEquipment';
 import NewsAndEvents from './pages/NewsAndEvents';
 import SingleNews from './components/news-events/SingleNews';
 import Quote from './components/home-page/Quote';
+import ThirdParty from './pages/ThirdParty';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/news-and-events" element={<NewsAndEvents />} />
         <Route path="/news-and-events/:id" element={<SingleNews />} />
         <Route path="/get-quote" element={<Quote />} />
+        <Route path="/third-party-controls/*" element={<ThirdParty />} />
         <Route
           path="/lab-equipment-and-supplies/:id"
           element={<SingleEquipment />}

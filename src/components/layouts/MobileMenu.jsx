@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { IoCloseSharp } from 'react-icons/io5';
 import EqaDropDown from './EqaDropDown';
 import TrainingDropDown from './TrainingDropDown';
+import ThirdPartyControlsDropDown from './ThirdPartyControlsDropDown';
 
 const MobileMenu = ({ isMobileMenu, toggle }) => {
   return (
@@ -24,6 +25,9 @@ const MobileMenu = ({ isMobileMenu, toggle }) => {
         </li>
         <li>
           <TrainingDropDown />
+        </li>
+        <li>
+          <ThirdPartyControlsDropDown />
         </li>
         <li onClick={toggle}>
           <a href="/lab-equipment-and-supplies">lab equipment and supplies</a>
