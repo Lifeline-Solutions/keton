@@ -4,14 +4,14 @@ const Header = () => {
     if (path === '/eqa/rca-resources') {
       return 'Rca Resources';
     } else {
-      return 'EQA';
+      return 'EQA programme';
     }
   };
   return (
     <header
-      className="bg-cover bg-top sm:h-96 h-[30rem] flex flex-col justify-center items-center text-white bg-no-repeat"
+      className="bg-cover bg-center sm:h-96 h-[30rem] flex flex-col justify-center items-center text-white bg-no-repeat"
       style={{
-        backgroundImage: `url(/images/eqa-1.png)`,
+        backgroundImage: `url(https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327554/keton/Keton_Consulting16_abf6zk.jpg)`,
       }}
     >
       <div className="absolute top-0 left-0 w-full sm:h-96 h-[30rem] bg-black opacity-50"></div>

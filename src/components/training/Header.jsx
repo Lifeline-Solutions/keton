@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header
-      className="bg-cover bg-top sm:h-[26rem] h-[30rem] flex flex-col justify-center items-center text-white bg-no-repeat"
+      className="bg-cover bg-center sm:h-[26rem] h-[30rem] flex flex-col justify-center items-center text-white bg-no-repeat"
       style={{
         backgroundImage: `url(https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327184/keton/Keton1_-_Copy_myczwx.jpg)`,
       }}
