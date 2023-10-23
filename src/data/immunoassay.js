@@ -31,9 +31,39 @@ const immunoassay = {
     {
       id: 302,
       category: 'Immunoassay',
-      title: 'Tests under NAISSA',
+      title: 'Maglumi 800',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694710485/equip--22_dkprqn.png',
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068104/image_4_vlitzg.png',
+      description: [
+        'NAISSA® – a fully-automated Monotest Immunoanalyzer with an unique monotest reagent cartridge, state-of-the-art technology and outstanding flexibility.',
+        'Less human effort',
+        'Wide range of tests',
+        'New tests constantly developed',
+        'Flexible job list',
+        'Rare and routine kits available on one platform',
+      ],
+    },
+    {
+      id: 303,
+      category: 'Immunoassay',
+      title: 'Maglumi  X3',
+      image:
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068104/image_5_ptceqw.png',
+      description: [
+        'NAISSA® – a fully-automated Monotest Immunoanalyzer with an unique monotest reagent cartridge, state-of-the-art technology and outstanding flexibility.',
+        'Less human effort',
+        'Wide range of tests',
+        'New tests constantly developed',
+        'Flexible job list',
+        'Rare and routine kits available on one platform',
+      ],
+    },
+    {
+      id: 304,
+      category: 'Immunoassay',
+      title: 'Maglumi  X8',
+      image:
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068103/image_6_lualte.png',
       description: [
         'NAISSA® – a fully-automated Monotest Immunoanalyzer with an unique monotest reagent cartridge, state-of-the-art technology and outstanding flexibility.',
         'Less human effort',

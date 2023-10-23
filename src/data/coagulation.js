@@ -5,11 +5,11 @@ const coagulation = {
     {
       id: 401,
       category: 'Coagulation',
-      title: 'NAISSA Monolayer',
+      title: 'COAG 4D',
       long_title:
         '· NAISSA® – a fully-automated Mono test Immunoanalyzer with an unique mono test reagent cartridge, state-of-the-art technology and outstanding flexibility.',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233440/equip-6_k7gbah.png',
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068398/image_7_fsaisy.png',
       description: [
         'NAISSA® – a fully-automated Mono test Immunoanalyzer with an unique mono test reagent cartridge, state-of-the-art technology and outstanding flexibility.',
         'Less human effort',
@@ -31,9 +31,9 @@ const coagulation = {
     {
       id: 402,
       category: 'Coagulation',
-      title: 'COAG 4D – DIAGON COAGULATION ANALYZER',
+      title: 'COAG XL',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233434/equip-9_mhtfxh.png',
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068398/image_8_qv7kk1.png',
       description: [
         'CoagM is a compact, continuous random-access hemostasis analyzer for small and middle size laboratories performing routine and special assays. The innovative system ensures efficient, reliable results with built-in QC features, while user friendly graphical interface and connectivity to Laboratory Information Systems support your work.',
       ],
@@ -53,9 +53,9 @@ const coagulation = {
     {
       id: 403,
       category: 'Coagulation',
-      title: 'COAG XL',
+      title: 'COAG M',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694711237/equip-23_a36k4s.png',
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068398/image_9_s948kn.png',
       description: [
         'High-throughput, random-access hemostasis analyzer for mid/high-volume laboratories performing routine and special assays. Innovative system ensures efficient, reliable results with built-in QC features. With 150 sample positions, 44 cooled reagent positions and more STAT positions Coag XL enables to easily manage the workload with minimal operator intervention. User friendly GUI, connectivity to Laboratory Information System and fast remote access service make your work easier.',
         'CoagXL is available with an optional cap-piercing upgrade to simplify and speed up sample preparation and reduce bio-hazard exposure risks.',

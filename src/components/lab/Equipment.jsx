@@ -21,7 +21,7 @@ const Equipment = () => {
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="mx-auto mb-2 w-48 h-48 object-cover"
+                  className="mx-auto mb-2 h-32 object-cover"
                 />
                 <div className="flex flex-col justify-center items-center">
                   <p className="font-semibold mt-4"> {product.title} </p>

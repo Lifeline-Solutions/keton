@@ -47,6 +47,17 @@ const poct = {
         'This is a lightweight and painless diabetes monitor suitable for daily use. The kit contains a meter kit and 50 strips and lancets.',
       ],
     },
+    {
+      id: 803,
+      category: 'POCT',
+      title: 'All-Test HB',
+      image:
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698069354/Rectangle_144_f6urlc.png',
+      description: [
+        'The Glucoleader Enhance Blood Glucose Monitor is a fast and user-friendly blood sugar monitoring kit which can provide a reading in just 5 seconds.',
+        'This is a lightweight and painless diabetes monitor suitable for daily use. The kit contains a meter kit and 50 strips and lancets.',
+      ],
+    },
   ],
 };
 

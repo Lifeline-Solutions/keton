@@ -7,7 +7,7 @@ const molecular = {
       category: 'Molecular Equipment',
       title: 'PCR Max Realtime PCR',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233434/equip-13_t5z4in.png',
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068818/image_10_jx2qdf.png',
       description: [
         ' The PCRmax Eco 48 utilises patented block and optical technologies to deliver extreme speed, sensitivity and data quality, with optimised protocol as fast as 15 minutes, all using standard plasticware and consumables, sensitivity down to 1 copy detection and the world most accurate block the Eco 48 will deliver Speed. Confidence. Performance. Value and Sensitivity.',
         'The PCRmax Eco 48 real time PCR system is a high specification, economically priced real time thermal cycler that accommodates a unique 48-well polypropylene PCR plate utilising the same geometry as standard 384-well plates, but only 1/8 of the size. This enables users to dramatically reduce the qPCR reagent volumes compared to traditional 96-well instruments, whilst still producing a strong fluorescence signal. Minimizing the plate size also significantly improves thermal uniformity. A minimum volume of 5µl is validated, cutting reagent costs in half and making more efficient use of expensive and hard to acquire template DNA samples.',
@@ -29,7 +29,7 @@ const molecular = {
       short_description:
         'SLA-E13200 is a magnetic bead-based nucleic acid extraction system, fully automated, can process 1 to 32 samples simultaneously within a short period of time (40 to 60 min), to obtain high purity nucleic acid. The instrument easy operation eliminates the risk of human error and cross-contamination, replacing traditional centrifuge method.',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233442/equip-14_jzoruz.png',
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068818/image_11_an04d0.png',
       description: [
         'SLA-E13200 is a magnetic bead-based nucleic acid extraction system, fully automated, can process 1 to 32 samples simultaneously within a short period of time (40 to 60 min), to obtain high purity nucleic acid. The instrument easy operation eliminates the risk of human error and cross-contamination, replacing traditional centrifuge method.',
         'Fully Automated • SLA-E13200 can simultaneously process 32 samples • Using TANBead prefilled reagents only need to add samples to run extraction program Easy Operation • Completely automated, highly consistent results • Installation with USB , easy operation, laptop connection is not necessary Stability • Built-in UV light , reduce chance of cross-contamination • Two heating plates, accurate temperature control system, allow running extraction at optimal temperature',

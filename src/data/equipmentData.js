@@ -6,6 +6,8 @@ import immunoassay from './immunoassay';
 import molecular from './molecular';
 import poct from './poct';
 import semenAnalyzer from './semenAnalyzer';
+import histology from './histology';
+import urinalysis from './urinalysis';
 
 export const equipmentData = [
   clinicalChemistry,
@@ -16,4 +18,6 @@ export const equipmentData = [
   molecular,
   semenAnalyzer,
   poct,
+  histology,
+  urinalysis
 ];
