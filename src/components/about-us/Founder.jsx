@@ -27,13 +27,13 @@ const Founder = () => {
             </p>
           </div>
           <div className="col sm:col-span-1 flex flex-col">
-            <div className="relative bg-primaryBlue">
-              <div className="absolute left-20 bg-primaryBlue w-11/12 sm:h-[29rem] rounded-lg sm:block hidden"></div>
+            <div className="relative">
+              <div className="absolute left-20 bg-primaryBlue w-11/12 sm:h-[28rem] rounded-lg sm:block hidden"></div>
               <div className="sm:absolute">
                 <img
                   src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1696912493/keton/Rectangle_38_bvygae.png"
                   alt="logo"
-                  className="w-full h-full rounded-lg"
+                  className="w-11/12 h-3/4 rounded-lg "
                   loading="lazy"
                 />
               </div>

@@ -32,6 +32,9 @@ const MobileMenu = ({ isMobileMenu, toggle }) => {
         <li onClick={toggle}>
           <a href="/lab-equipment-and-supplies">lab equipment and supplies</a>
         </li>
+        <li onClick={toggle}>
+          <a href="/gallery">gallery</a>
+        </li>
       </ul>
     )
   );

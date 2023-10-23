@@ -23,7 +23,7 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <div className="py-24 sm:h-screen h-[110vh] bg-secondaryBlue text-white sm:justify-center sm:items-center flex sm:flex-row flex-col">
+    <div className="py-24 sm:h-screen h-[140vh] bg-secondaryBlue text-white sm:justify-center sm:items-center flex sm:flex-row flex-col">
       <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-4 gap-20 mt-4">
         <div className="col-span-1 px-8 flex flex-col justify-center">
           <h2 className="uppercase sm:text-3xl text-xl font-bold">
@@ -43,7 +43,7 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div className="col-span-1 sm:px-4 sm:mt-20 mt-44">
+        <div className="col-span-1 sm:px-4 sm:mt-20 mt-64">
           <div className="relative flex flex-col gap-8 w-full justify-center items-center">
             {reviews.map((review) => {
               const { id, name, content } = review;

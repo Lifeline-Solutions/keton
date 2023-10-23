@@ -88,6 +88,19 @@ const NavBar = () => {
             lab equipment and supplies
           </a>
         </li>
+        <li>
+          <a
+            href="/gallery"
+            className={`hover:underline ${
+              activePage === 'gallery'
+                ? 'border-b-2 border-green-500 font-bold'
+                : ''
+            }`}
+            onClick={() => setActivePage('gallery')}
+          >
+            gallery
+          </a>
+        </li>
       </ul>
       <div>
         <div className="absolute md:hidden right-8 sm:mt-0 mt-4">

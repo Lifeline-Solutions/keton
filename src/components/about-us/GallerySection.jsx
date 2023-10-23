@@ -106,6 +106,12 @@ const GallerySection = () => {
           })}
         </div>
       </div>
+      
+      <a href='/gallery'>
+        <button className="bg-primaryGreen text-white px-4 py-2 mt-10 rounded">
+          View More
+        </button>
+      </a>
     </div>
   );
 };
