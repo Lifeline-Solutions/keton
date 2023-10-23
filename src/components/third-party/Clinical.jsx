@@ -78,39 +78,36 @@ const Clinical = () => {
                         <h1 className="text-xl capitalize mb-4 font-bold">
                           {microcontrol.title}
                         </h1>
-                        {microcontrol.description && microcontrol.description.length > 0 && (
-                        <>
-                        {microcontrol.description}
-                        </>
-                        )}
+                        {microcontrol.description &&
+                          microcontrol.description.length > 0 && (
+                            <>{microcontrol.description}</>
+                          )}
                       </div>
                     </div>
-                    <div className='px-8 py-4 text-sm leading-6'>
-                    {microcontrol.features && microcontrol.features.length > 0 && (
-                        <div className='py-4'>
-                        <h4 className="text-md capitalize mb-4 font-bold">
-                          Features
-                        </h4>
-                        {
-                          microcontrol.features.map((feature) => (
-                            <p key={feature}>{feature}</p>
-                          ))
-                        }
-                        </div>
+                    <div className="px-8 py-4 text-sm leading-6">
+                      {microcontrol.features &&
+                        microcontrol.features.length > 0 && (
+                          <div className="py-4">
+                            <h4 className="text-md capitalize mb-4 font-bold">
+                              Features
+                            </h4>
+                            {microcontrol.features.map((feature) => (
+                              <p key={feature}>{feature}</p>
+                            ))}
+                          </div>
                         )}
-                    {microcontrol.analytes && microcontrol.analytes.length > 0 && (
-                        <>
-                        <h4 className="text-md capitalize mb-4 font-bold">
-                          analytes
-                        </h4>
-                        <ul className='list-disc list-inside'>
-                        {
-                          microcontrol.analytes.map((feature) => (
-                            <li key={feature}>{feature}</li>
-                          ))
-                        }
-                        </ul>
-                        </>
+                      {microcontrol.analytes &&
+                        microcontrol.analytes.length > 0 && (
+                          <>
+                            <h4 className="text-md capitalize mb-4 font-bold">
+                              analytes
+                            </h4>
+                            <ul className="list-disc list-inside">
+                              {microcontrol.analytes.map((feature) => (
+                                <li key={feature}>{feature}</li>
+                              ))}
+                            </ul>
+                          </>
                         )}
                     </div>
                   </div>

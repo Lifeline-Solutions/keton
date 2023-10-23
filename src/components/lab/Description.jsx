@@ -1,7 +1,7 @@
 import PropType from 'prop-types';
 
 const Description = ({ equipment }) => {
-  const { description, features } = equipment;
+  const { description, features, short_description } = equipment;
 
   const renderDescription = (description) => {
     return (
@@ -19,9 +19,9 @@ const Description = ({ equipment }) => {
     return (
       <div className="flex flex-col gap-6">
         {features.map((item, index) => (
-          <div className="text-sm flex flex-col gap-6" key={index}>
-            <p>§ {item}</p>
-          </div>
+          <ul className="text-sm flex flex-col gap-6 list-disc" key={index}>
+            <li> {item}</li>
+          </ul>
         ))}
       </div>
     );
@@ -29,6 +29,14 @@ const Description = ({ equipment }) => {
 
   return (
     <div className="px-10 pb-10">
+      {short_description && short_description.length > 0 && (
+        <>
+          <div className="mt-4 flex flex-col gap-6 mb-6">
+            {renderDescription(short_description)}
+          </div>
+        </>
+      )}
+
       {description && description.length > 0 && (
         <>
           <h2 className="text-md font-semibold">Description</h2>
@@ -38,7 +46,7 @@ const Description = ({ equipment }) => {
 
           {features && features.length > 0 && (
             <>
-              <h2 className="text-md font-semibold mt-8">Advanced Features</h2>
+              <h2 className="text-md font-semibold mt-8">Features</h2>
               <div className="mt-4 flex flex-col gap-10">
                 {renderFeatures(features)}
               </div>

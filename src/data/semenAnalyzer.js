@@ -11,8 +11,6 @@ const semenAnalyzer = {
       description: [
         'The LensHooke X1 is a Semen Quality Analyzer that offers more parameters from CASA assessment to further evaluate the sperm quality and motility',
         'X1 PRO SE Semen Quality Analyzer',
-      ],
-      features: [
         '4 Key Data Analysis',
         '3.5” Touch Panel',
         'High Resolution',
@@ -40,8 +38,6 @@ const semenAnalyzer = {
       description: [
         'The LensHooke X12 is a Semen Quality Analyzer that offers more parameters from CASA assessment to further evaluate the sperm quality and motility and DNA Fragmentation Index',
         'LensHooke X12 PRO Semen Analysis System',
-      ],
-      features: [
         'Fast & Simple, Only 3-6 minutes',
         'Auto focus & Full HD',
         'Automatic XY Table',

@@ -12,16 +12,16 @@ const RelatedProducts = ({ equipment }) => {
   return (
     <div className="h-full py-10 bg-primaryBg text-black flex px-4 items-center">
       {relatedEquipment.length > 0 ? (
-        <div className="grid grid-cols-4 gap-4 px-4">
+        <div className="grid grid-cols-4 gap-6 px-4">
           {relatedEquipment.map((product) => (
             <div
               className="flex flex-col gap-4 bg-white rounded-lg sm:w-96 sm:h-88 w-72 h-full justify-center items-center px-4 py-4"
               key={product.id}
             >
               <img
-                className="w-3/4 h-full object-cover flex justify-center items-center my-3"
                 src={product.image}
                 alt={product.title}
+                className="mx-auto mb-2 h-32 object-cover"
               />
               <h5 className="text-sm font-semibold">{product.title}</h5>
               <a href={`/lab-equipment-and-supplies/${product.id}`}>

@@ -19,7 +19,7 @@ const bloodGas = {
         'Relative Humidity: 5% - 95% (non-Condensing)',
         'Available Languages: English, Spanish, French, Italian, German, Japanese, Polish, Portuguese, Romanian, Russian and Turkish',
       ],
-    }
+    },
   ],
 };
 

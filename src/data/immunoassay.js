@@ -35,12 +35,14 @@ const immunoassay = {
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068104/image_4_vlitzg.png',
       description: [
-        'NAISSA® – a fully-automated Monotest Immunoanalyzer with an unique monotest reagent cartridge, state-of-the-art technology and outstanding flexibility.',
-        'Less human effort',
-        'Wide range of tests',
-        'New tests constantly developed',
-        'Flexible job list',
-        'Rare and routine kits available on one platform',
+        'Technical Specifications:',
+        'Principle: Chemiluminesence [CLIA ]',
+        '40 samples onboard',
+        '9 Reagents onboard',
+        'Random Batch and Station Function',
+        'Continous loading',
+        'Cuvette detection to avoid overflow',
+        'Strong magnetic field helps better separation',
       ],
     },
     {
@@ -50,12 +52,12 @@ const immunoassay = {
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068104/image_5_ptceqw.png',
       description: [
-        'NAISSA® – a fully-automated Monotest Immunoanalyzer with an unique monotest reagent cartridge, state-of-the-art technology and outstanding flexibility.',
-        'Less human effort',
-        'Wide range of tests',
-        'New tests constantly developed',
-        'Flexible job list',
-        'Rare and routine kits available on one platform',
+        'Technical Specifications:',
+        'Throughput: maximum 200 tests/hour',
+        'Continue to use MAGLUMI® reagent kits with perfect compatibility (194 parameters)',
+        'Reagent positions: 20',
+        'Sample positions: 72',
+        'Single reaction cup with integrated packaging',
       ],
     },
     {
@@ -65,12 +67,12 @@ const immunoassay = {
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698068103/image_6_lualte.png',
       description: [
-        'NAISSA® – a fully-automated Monotest Immunoanalyzer with an unique monotest reagent cartridge, state-of-the-art technology and outstanding flexibility.',
-        'Less human effort',
-        'Wide range of tests',
-        'New tests constantly developed',
-        'Flexible job list',
-        'Rare and routine kits available on one platform',
+        'Technical Specifications:',
+        'Throughput: Maximum 600 tests/ hour',
+        'Up to 2400 tests/hour (Four modules combined)',
+        '24 hours ready to use',
+        'Time to first result: 15',
+        'Capable to link Laboratory Automation system (TLA/LAS)',
       ],
     },
   ],

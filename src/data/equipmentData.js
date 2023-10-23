@@ -19,5 +19,5 @@ export const equipmentData = [
   semenAnalyzer,
   poct,
   histology,
-  urinalysis
+  urinalysis,
 ];

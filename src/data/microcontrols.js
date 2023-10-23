@@ -4,7 +4,8 @@ const microcontrols = [
     image:
       'https://res.cloudinary.com/dlahz5ciz/image/upload/v1697899388/keton/equip-29_upluj7.png',
     title: 'Cal Ver LQ Blood Gas',
-    description: "Blood Gas Calibration Verification is assayed quality control material consisting of five levels of buffers and salts in a bovine based material and equilibrated with known levels of Carbon Dioxide (CO2), Oxygen (O2), and Nitrogen.Cal Ver LQ Blood Gas. Blood Gas Calibration Verification is assayed quality control material consisting of five levels of buffers and salts in a bovine based material and equilibrated with known levels of Carbon Dioxide (CO2), Oxygen (O2), and Nitrogen.",
+    description:
+      'Blood Gas Calibration Verification is assayed quality control material consisting of five levels of buffers and salts in a bovine based material and equilibrated with known levels of Carbon Dioxide (CO2), Oxygen (O2), and Nitrogen.Cal Ver LQ Blood Gas. Blood Gas Calibration Verification is assayed quality control material consisting of five levels of buffers and salts in a bovine based material and equilibrated with known levels of Carbon Dioxide (CO2), Oxygen (O2), and Nitrogen.',
     features: [
       'A quality control material intended for use in the quantitative verification of calibration and reportable range.',
       'Storage',

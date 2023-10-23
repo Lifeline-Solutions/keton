@@ -9,15 +9,13 @@ const urinalysis = {
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698070799/image_17_dqctjc.png',
       description: [
-        'PH, PCO2, PO2, THB, SO2, NA+, K+, CA++, CL, GLUCOSE, BUN(Urea), Lactate, Barometric Pressure',
-        'Minimum Sample Size: 125 µL, 60µL for B-60 cassette',
-        'Sample Type: Whole Blood, Plasma, or Serum (depends on analyte tested)',
-        'Sample Application: Syringe, Capillary or Comfort Sampler™',
-        'Sample Input: Automatic Aspiration',
-        'Analysis Time (Time to Results): < 120 Seconds',
-        'Ambient Temperature: 10° C - 30° C (50°F - 86°F)',
-        'Relative Humidity: 5% - 95% (non-Condensing)',
-        'Available Languages: English, Spanish, French, Italian, German, Japanese, Polish, Portuguese, Romanian, Russian and Turkish',
+        'NUA-50 is a semi-automated urine biochemistry analyzer with dual wavelength reflectance photometer and spherical integrator. This analyzer provides you accurate and reliable results with 10 or 11 parameters within 60 seconds. In normal mode analyzer can perform 60 samples per hour, while in continuous mode analyzer can perform 120 samples per hour.',
+        'This high-quality, compact and easy-to-use analyzer comes with an integrated printer. Its overall characteristics combined with the affordable price make NUA 50 a must-have for laboratories of all sizes and throughputs.',
+        'Measurement Principle: Dual wavelength reflectance photometer and spherical integrator',
+        'Two test mode:',
+        'Normal mode, 60 samples/hour',
+        'Continuos mode, 120 samples/hour',
+        'Memory capacity: 5000 samples',
       ],
     },
     {
@@ -27,17 +25,14 @@ const urinalysis = {
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698070799/image_18_pxenuy.png',
       description: [
-        'PH, PCO2, PO2, THB, SO2, NA+, K+, CA++, CL, GLUCOSE, BUN(Urea), Lactate, Barometric Pressure',
-        'Minimum Sample Size: 125 µL, 60µL for B-60 cassette',
-        'Sample Type: Whole Blood, Plasma, or Serum (depends on analyte tested)',
-        'Sample Application: Syringe, Capillary or Comfort Sampler™',
-        'Sample Input: Automatic Aspiration',
-        'Analysis Time (Time to Results): < 120 Seconds',
-        'Ambient Temperature: 10° C - 30° C (50°F - 86°F)',
-        'Relative Humidity: 5% - 95% (non-Condensing)',
-        'Available Languages: English, Spanish, French, Italian, German, Japanese, Polish, Portuguese, Romanian, Russian and Turkish',
+        'Compact design together with automatic transmission of test strips and automatic collection of waste strips make this analyzer an ideal solution for middle-sized laboratories as well as for laboratories with a big number of samples per day. NUA-500 is characterized by automatic continuous high test speed of 510 samples per hour and accurate results provided by dual wavelength reflectance photometry. In addition to these characteristics, this device is able to analyze 10 or 11 test parameters, possesses internal calibration for sensitive strips as well as a cold light source facility with long life and high stability. In combination with our urine sediment analyzer NUA-150, your laboratory is equipped with a complete, reliable and accurate urine analysis.',
+
+        'Measurement Principle: Dual wavelength reflectance photometer',
+        'Throughput: 510 samples/hour',
+        'Memory capacity: 10000 results',
+        'Easy maintenance design for daily cleaning',
       ],
-    }
+    },
   ],
 };
 
