@@ -24,9 +24,9 @@ const TrainingCollection = () => {
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
           <a href="/gallery/training">
-          <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold hover:bg-green-300">
-            View all
-          </button>
+            <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold hover:bg-green-300">
+              View all
+            </button>
           </a>
         </div>
         <div className="flex flex-col  gap-2 px-10">

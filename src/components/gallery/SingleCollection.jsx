@@ -2,9 +2,8 @@ import {
   awardsImages,
   staffImages,
   eventsImages,
-  trainingImages
- } from "../../data/gallery";
-
+  trainingImages,
+} from '../../data/gallery';
 
 const SingleCollection = () => {
   const path = window.location.pathname;
@@ -13,13 +12,13 @@ const SingleCollection = () => {
   let images = [];
 
   if (page === 'staff') {
-     images = staffImages;
+    images = staffImages;
   } else if (page === 'training') {
-     images = trainingImages;
+    images = trainingImages;
   } else if (page === 'awards') {
-     images = awardsImages;
+    images = awardsImages;
   } else if (page === 'events') {
-     images = eventsImages;
+    images = eventsImages;
   }
 
   return (
@@ -33,21 +32,19 @@ const SingleCollection = () => {
           {page} collection
         </h4>
       </div>
-    
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-2 px-10">
-         {images.map((image, index) => {
-            return (
-              <img
-                key={index}
-                src={image}
-                alt={page}
-                className="w-full sm:h-72 h-44 object-cover"
-              />
-            )
-          }
-          )}
-        </div>
 
+      <div className="grid sm:grid-cols-2 grid-cols-1 gap-2 px-10">
+        {images.map((image, index) => {
+          return (
+            <img
+              key={index}
+              src={image}
+              alt={page}
+              className="w-full sm:h-72 h-44 object-cover"
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

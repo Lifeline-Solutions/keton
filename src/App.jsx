@@ -32,10 +32,7 @@ function App() {
         <Route path="/get-quote" element={<Quote />} />
         <Route path="/third-party-controls/*" element={<ThirdParty />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route
-          path="/gallery/*"
-          element={<SingleCollection />}
-        />
+        <Route path="/gallery/*" element={<SingleCollection />} />
         <Route
           path="/lab-equipment-and-supplies/:id"
           element={<SingleEquipment />}

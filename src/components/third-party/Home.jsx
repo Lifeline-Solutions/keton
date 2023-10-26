@@ -26,17 +26,6 @@ const Home = () => {
         </div>
 
         <div>
-          <h1 className="text-2xl font-bold capitalize ">
-            KETON CONSULTING OFFERS
-          </h1>
-          <div className="flex flex-col gap-3 text-sm mt-4 w-3/4 leading-6">
-            <p>Haematology Controls</p>
-            <p>Clinical Chemistry & Serology</p>
-            <p>Coagulation Controls</p>
-          </div>
-        </div>
-
-        <div>
           <hr className="sm:w-80  border-4 border-primaryGreen rounded-xl my-3" />
           <h1 className="text-2xl font-bold uppercase ">
             keton third party controls
