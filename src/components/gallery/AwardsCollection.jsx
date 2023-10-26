@@ -1,3 +1,5 @@
+import { awardsImages } from '../../data/gallery';
+
 const AwardsCollection = () => {
   return (
     <div className="bg-primaryBg pb-40">
@@ -12,11 +14,7 @@ const AwardsCollection = () => {
       </div>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
         <div className="flex flex-col justify-center px-10">
-          <img
-            src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698083676/keton/Rectangle_258_g4uv6e.png"
-            alt="Awards"
-            className=""
-          />
+          <img src={awardsImages[0]} alt="Awards" className="" />
           <h5 className="text-2xl font-bold mt-6 mb-2 capitalize">
             Receiving our flowers{' '}
           </h5>
@@ -27,33 +25,35 @@ const AwardsCollection = () => {
             laboriosam, nisi
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
-          <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold">
+          <a href="/gallery/awards">
+          <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold hover:bg-green-300">
             View all
           </button>
+          </a>
         </div>
         <div className="flex flex-col  gap-2 px-10">
           <div className="flex justify-center items-center gap-2">
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698083676/keton/Rectangle_258_g4uv6e.png"
+              src={awardsImages[1]}
               alt="Awards"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698083675/keton/Rectangle_261_qjftpg.png"
+              src={awardsImages[2]}
               alt="Awards"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
           </div>
           <div className="flex gap-2">
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698083677/keton/Rectangle_260_ilcuyy.png"
+              src={awardsImages[3]}
               alt="Awards"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327536/keton/Keton_Consulting38_1_akqg69.jpg"
+              src={awardsImages[4]}
               alt="Awards"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
           </div>
         </div>

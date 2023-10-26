@@ -7,7 +7,7 @@ const clinicalChemistry = {
       category: 'Clinical Chemistry',
       title: 'SNIBE Bioassay 240 Plus',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698073075/Rectangle_95_xx7n8n.png',
+        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233421/equip-1_cnrero.png',
       description: [
         'Principle: Sheath flow and Tri-angle laser scattering for WBC differentiation',
         'and counting, Impedance for RBC and PLT',

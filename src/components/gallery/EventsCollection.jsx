@@ -1,3 +1,4 @@
+import { eventsImages } from '../../data/gallery';
 const EventsCollection = () => {
   return (
     <div className="bg-primaryBg pb-40">
@@ -12,11 +13,7 @@ const EventsCollection = () => {
       </div>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
         <div className="flex flex-col justify-center px-10">
-          <img
-            src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698083972/keton/Rectangle_264_wwpvq7.png"
-            alt="Events"
-            className=""
-          />
+          <img src={eventsImages[0]} alt="Events" className="" />
           <h5 className="text-2xl font-bold mt-6 mb-2 capitalize">
             our Events
           </h5>
@@ -27,33 +24,35 @@ const EventsCollection = () => {
             laboriosam, nisi
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
-          <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold">
-            View all
-          </button>
+          <a href="/gallery/events">
+            <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold hover:bg-green-300">
+              View all
+            </button>
+          </a>
         </div>
         <div className="flex flex-col  gap-2 px-10">
           <div className="flex justify-center items-center gap-2">
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698083675/keton/Rectangle_261_qjftpg.png"
+              src={eventsImages[1]}
               alt="Events"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327536/keton/Keton_Consulting38_1_akqg69.jpg"
+              src={eventsImages[2]}
               alt="Events"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
           </div>
           <div className="flex gap-2">
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698083676/keton/Rectangle_258_g4uv6e.png"
+              src={eventsImages[3]}
               alt="Events"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698082558/Rectangle_245_leqejd.png"
+              src={eventsImages[4]}
               alt="Events"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
           </div>
         </div>

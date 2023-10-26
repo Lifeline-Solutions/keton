@@ -1,3 +1,5 @@
+import { staffImages } from '../../data/gallery';
+
 const StaffCollection = () => {
   return (
     <div className="bg-primaryBg pb-4">
@@ -12,10 +14,7 @@ const StaffCollection = () => {
       </div>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
         <div className="flex flex-col justify-center px-10">
-          <img
-            src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327250/keton/Keton_Consulting61_sv465q.jpg"
-            alt="staff"
-          />
+          <img src={staffImages[0]} alt="staff" />
           <h5 className="text-2xl font-bold mt-6 mb-2 capitalize">
             meet the staff
           </h5>
@@ -26,33 +25,35 @@ const StaffCollection = () => {
             laboriosam, nisi
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
-          <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold">
+          <a href="/gallery/staff">
+          <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold hover:bg-green-300">
             View all
           </button>
+          </a>
         </div>
-        <div className="flex flex-col  gap-2 px-10">
+        <div className="flex flex-col  gap-2 px-10 sm:mt-0 mt-10">
           <div className="flex justify-center items-center gap-2">
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1698082558/Rectangle_245_leqejd.png"
+              src={staffImages[1]}
               alt="staff"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-44 sm:h-72 h-44 object-cover"
             />
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327519/keton/Keton_Consulting9_q8bfbu.jpg"
+              src={staffImages[2]}
               alt="staff"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-40 sm:h-72 h-44 object-cover"
             />
           </div>
           <div className="flex gap-2">
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327519/keton/Keton_Consulting9_q8bfbu.jpg"
+              src={staffImages[3]}
               alt="staff"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-40 sm:h-72 h-44 object-cover"
             />
             <img
-              src="https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327539/keton/Keton_Consulting25_1_xepenq.jpg"
+              src={staffImages[4]}
               alt="staff"
-              className="w-3/4 h-72 object-cover"
+              className="sm:w-72 w-40 sm:h-72 h-44 object-cover"
             />
           </div>
         </div>

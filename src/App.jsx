@@ -14,6 +14,7 @@ import SingleNews from './components/news-events/SingleNews';
 import Quote from './components/home-page/Quote';
 import ThirdParty from './pages/ThirdParty';
 import Gallery from './pages/Gallery';
+import SingleCollection from './components/gallery/SingleCollection';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
         <Route path="/get-quote" element={<Quote />} />
         <Route path="/third-party-controls/*" element={<ThirdParty />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route
+          path="/gallery/*"
+          element={<SingleCollection />}
+        />
         <Route
           path="/lab-equipment-and-supplies/:id"
           element={<SingleEquipment />}
