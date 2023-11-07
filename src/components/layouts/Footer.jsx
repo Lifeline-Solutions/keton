@@ -55,7 +55,7 @@ const Footer = () => {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://www.instagram.com/kentonconsulting/"
+            href="https://www.instagram.com/keton.consulting/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primaryGreen"
@@ -63,7 +63,7 @@ const Footer = () => {
             <BiLogoInstagram className="text-2xl" />
           </a>
           <a
-            href="https://www.facebook.com/kentonconsulting/"
+            href="https://www.facebook.com/ketonconsultingKE"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primaryGreen"
