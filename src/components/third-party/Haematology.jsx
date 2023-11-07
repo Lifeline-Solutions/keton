@@ -80,6 +80,11 @@ const Haematology = () => {
   return (
     <div className="flex flex-col justify-center gap-4 sm:p-6 p-2 bg-primaryBg">
       <>
+        <div className="flex flex-col justify-center rounded-full h-10 sm:w-full w-3/4">
+          <h1 className="text-md text-black  capitalize p-4 ml-2">
+            Haematology Controls
+          </h1>
+        </div>
         <div className="flex flex-col justify-center  bg-primaryBlue rounded-full h-10 sm:w-full w-3/4">
           <h1 className="text-md font-bold text-black capitalize p-4 ml-2">
             Biotechne R&D controls
