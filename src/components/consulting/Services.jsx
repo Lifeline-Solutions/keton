@@ -16,10 +16,8 @@ const services = [
 const Services = () => {
   return (
     <div className="h-full flex flex-col justify-center items-start bg-primaryBg py-10 px-4">
-      <h1 className="uppercase sm:text-2xl text-xl font-bold mb-4">
-        PROVIDING YOU WITH THE BEST
-        <br />
-        SERVICES AND CONSULTING.
+      <h1 className="uppercase sm:text-2xl text-xl font-bold mb-4 ml-6">
+        PROVIDING YOU WITH THE BEST SERVICES AND CONSULTING.
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-20 gap-4 mt-4 sm:px-10">
@@ -34,7 +32,7 @@ const Services = () => {
         <div className="col-span-2">
           <hr className="w-20  border-2 border-primaryGreen rounded my-1" />
           <h2 className="uppercase sm:text-2xl font-semibold mt-2">
-            mentorship & ema
+            mentorship & consultancy
           </h2>
           <ul className="text-left mt-8 text-sm leading-6 list-disc flex flex-col gap-4 px-6">
             {services.map((service) => {

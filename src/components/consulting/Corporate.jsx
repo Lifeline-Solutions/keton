@@ -1,10 +1,8 @@
 const Corporate = () => {
   return (
     <div className="h-full flex flex-col justify-center items-start bg-primaryBg py-16 sm:px-20 px-4">
-      <h1 className="uppercase sm:text-2xl text-xl font-bold mb-4 mx-6">
-        WE ARE SETTING STANDARD WITH THE
-        <br />
-        TOP NOTCH CONSULTANCY
+      <h1 className="uppercase sm:text-2xl text-xl font-bold mb-4 mx-2">
+        WE ARE SETTING STANDARD WITH THE TOP NOTCH CONSULTANCY
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-10 gap-4 mt-4">
