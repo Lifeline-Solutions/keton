@@ -1,6 +1,6 @@
 const clinicalChemistry = {
   id: 1,
-  title: 'Clinical Chemistry & Urinalysis',
+  title: 'Clinical Chemistry & Electrolyte Analyzers',
   products: [
     {
       id: 101,
@@ -9,14 +9,13 @@ const clinicalChemistry = {
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233421/equip-1_cnrero.png',
       description: [
-        'Principle: Sheath flow and Tri-angle laser scattering for WBC differentiation',
-        'and counting, Impedance for RBC and PLT',
-        '30 parameters + 4 scatter-grams + 2 histograms',
-        'Throughput: 60 samples /hour',
-        'Storage: 60,000 results with scattergrams and histograms',
-        'Reagent: 3 Reagents for test, reagent room for lyses',
-        'Input: 10.4-inch color touch screen, built-in card closed system',
-        'Output: Built-in printer, support external printer',
+        '240 tests per hour',
+        '90 sample positions',
+        'Low water consumption',
+        'Hifh efficiency wash station for cuvettes',
+        'Reusable cuvettes',
+        '24 Hour Refrigetation System',
+        'Uses serum, plasma, urine, CSF',
       ],
       reviews: [
         {
@@ -44,14 +43,12 @@ const clinicalChemistry = {
       image:
         'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694233420/equip-2_blgn5u.png',
       description: [
-        'Principle: Sheath flow and Tri-angle laser scattering for WBC differentiation',
-        'and counting, Impedance for RBC and PLT',
-        '30 parameters + 4 scatter-grams + 2 histograms',
-        'Throughput: 60 samples /hour',
-        'Storage: 60,000 results with scattergrams and histograms',
-        'Reagent: 3 Reagents for test, reagent room for lyses',
-        'Input: 10.4-inch color touch screen, built-in card closed system',
-        'Output: Built-in printer, support external printer',
+        'principle: ISE Ion Selective Electrode',
+        '60 Samples per hour',
+        '5-6 Inch colour screen',
+        'Autosampling wash, calibration',
+        'Real time display of volume reagent',
+        'Easy to Maintain',
       ],
     },
   ],
