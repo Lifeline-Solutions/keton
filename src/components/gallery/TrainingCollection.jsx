@@ -17,10 +17,12 @@ const TrainingCollection = () => {
           <img src={trainingImages[0]} alt="Training" className="" />
           <h5 className="text-2xl font-bold mt-6 mb-2 capitalize">Training</h5>
           <p className="text-sm font-normal leading-6 w-3/4">
-            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
-            tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrum exercitationem ullam corporis suscipit
-            laboriosam, nisi
+            Our team of training experts boasts a collective experience of 40 years in the laboratory medicine industry.
+            We have had the opportunity to travel and provide training on all continents.
+            This extensive experience has enabled us to develop a broad perspective on quality management systems, statistical process control,
+            and best practices in medical laboratories. With this wealth of knowledge,
+            all our classes are designed to be masterclasses.
+            Additionally, we actively participate in various technical committees worldwide that focus on laboratory medicine ecosystems.
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
           <a href="/gallery/training">
