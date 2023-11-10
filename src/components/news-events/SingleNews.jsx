@@ -32,7 +32,7 @@ const SingleNews = () => {
         </div>
         <div className="flex flex-col justify-center items-start gap-2 mt-2">
           <img
-            className="w-full h-96 object-cover rounded-lg"
+            className="w-full h-full rounded-lg"
             src={news.image}
             alt={news.title}
           />
