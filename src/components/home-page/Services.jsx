@@ -9,21 +9,21 @@ const cards = [
     icon: <BsCart />,
     title: 'Keton Products',
     description:
-      'We offer a wide range of products ranging from clinical lab equipment among others',
+      'We offer a wide range of products ranging from clinical lab, molecular, research equipment and laboratory quality essentials like EQA, IQC and linearity controls.',
   },
   {
     id: 2,
     icon: <MdOutlineMedicalServices />,
     title: 'Keton Services',
     description:
-      "Keton is renowned for offering exceptional services to it's various clients globally",
+      "Keton is renowned for offering exceptional technical support services to it's various clients globally.",
   },
   {
     id: 3,
     icon: <HiUserGroup />,
     title: 'Keton Training',
     description:
-      'Keton Consulting is the leading agency that offers different ISO/IEC trainings in Kenya.',
+      'Keton Consulting is the leading biomedicine firm that offers different ISO/IEC based trainings, mentorship and consultancies in Africa.',
   },
 ];
 
@@ -62,18 +62,18 @@ const Services = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16">
           <div className="col-span-1 flex flex-col items-start gap-6">
-            <h1 className="sm:text-8xl text-6xl text-primaryBlue font-bold text-left">
+            <h1 className="text-[200px] text-primaryBlue font-bold text-left">
               06
             </h1>
             <h6 className="font-medium capitalize mt-2 text-sm text-left">
               Years of Service
             </h6>
-            <p className="text-left mt-2 text-sm leading-6">
+            <p className="text-left mt-2 text-xl leading-6">
               In a world of pandemics, epidemics and chronic ailments lies
               quality laboratory solutions provided by Keton Group of companies.
               We translate the voice of customers in the suit of products and
               services that we provide ,covering the whole eco system of
-              laboratory medicine- Knowledge equipments and lab essentials.
+              laboratory medicine.
             </p>
           </div>
 
@@ -89,16 +89,14 @@ const Services = () => {
             <h2 className="capitalize sm:text-xl font-bold mt-2">who we are</h2>
             <hr className="w-20 ml-4 border-2 border-primaryGreen rounded my-1" />
 
-            <p className="text-left mt-2 text-sm w-10/12 leading-6">
-              Keton Consulting Limited is a multiagency biomedicine supply &
-              service firm grounded on creating communities where people
-              continually expand their capacity to create the results they truly
-              desire, where new and expansive patterns of thinking are nurtured,
+            <p className="text-left mt-2 text-xl w-10/12 leading-6">
+              Keton Consulting Limited is a multiagency biomedicine supply & service firm grounded on creating communities where people continually expand their capacity to create the results they truly desire, where new and expansive patterns of thinking are nurtured,
               where collective aspiration is set free, and where people are
               continually learning to see the whole together. We believe the
               pulse of a strong institution lies in vibrant communities,
               continuous learning, receptive human resource and a management
-              that listens and seeks advice.
+              that listens and seeks advice. We are committed on sustainablilty
+              through following the framework of ESG (Environmental, Social and Governance) in our operations.
             </p>
           </div>
         </div>

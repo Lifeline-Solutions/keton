@@ -8,13 +8,6 @@ const Equipment = () => {
           <div className="bg-primaryBlue py-4 px-6 rounded-lg capitalize font-medium">
             {category.title}
           </div>
-          <div className="absolute top-16 right-8">
-            <p>
-              <a href="/" className="text-primaryGreen">
-                See All &gt; &gt; &gt;
-              </a>
-            </p>
-          </div>
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 p-4 pt-28">
             {category.products.map((product) => (
               <div key={product.id} className="p-2">

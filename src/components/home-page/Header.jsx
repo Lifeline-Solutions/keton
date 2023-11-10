@@ -48,7 +48,7 @@ const Header = () => {
                 with big brands such as Biotechne, Diamex, ESfEQA, Audit Micro
                 controls, Euromex, Liofilchem, Vitassay, Snibe, Neumedica,
                 Genrui, Diagon, ZeptoMetrix, Headway, KEQA, Myr, Optimedical,
-                IKEN among other reputable life sciences organizations globally.
+                AIKEN among other reputable life sciences organizations globally.
               </p>
             </div>
             <div className="sm:mt-8 xs:mt-16 mt-4 flex xs:flex-row flex-col xs:space-y-0 space-y-2 items-center space-x-0.5 xs:text-base  text-xs">

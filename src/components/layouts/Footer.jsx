@@ -41,8 +41,8 @@ const Footer = () => {
         <div className="col-span-1">
           <h1 className="font-bold text-sm mt-4 capitalize">our location</h1>
           <div className="mt-4 capitalize flex flex-col gap-4 text-sm font-light leading-6">
-            <p>Hazina Place, 2nd Floor, Off Ngong Road</p>
-            <p>+254 724 491 757,+254 779 865 372</p>
+            <p>Hazina Place, 2nd Floor, Off Ngong Road, Nairobi, Kenya.</p>
+            <p>+254 724 491 757, +254 779 865 372</p>
             <p>Mon – Fri 08:00am – 05:00pm</p>
             <p>Saturday-9:00am – 1:00pm</p>
           </div>
@@ -55,7 +55,7 @@ const Footer = () => {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://www.instagram.com/kentonconsulting/"
+            href="https://www.instagram.com/keton.consulting/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primaryGreen"
@@ -63,7 +63,7 @@ const Footer = () => {
             <BiLogoInstagram className="text-2xl" />
           </a>
           <a
-            href="https://www.facebook.com/kentonconsulting/"
+            href="https://www.facebook.com/ketonconsultingKE"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primaryGreen"

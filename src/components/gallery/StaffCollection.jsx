@@ -19,10 +19,11 @@ const StaffCollection = () => {
             meet the staff
           </h5>
           <p className="text-sm font-normal leading-6 w-3/4">
-            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
-            tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrum exercitationem ullam corporis suscipit
-            laboriosam, nisi
+            Our staff's commitment to delivering our suit products and services is unparalleled,
+            and this is enabled by our continuous capacity building and knowledge management of the team.
+            We have a sufficient number of staff members who cover all our core activities,
+            including application specialists, biomedical engineers, sales executives,
+            and operations and administration teams.
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
           <a href="/gallery/staff">

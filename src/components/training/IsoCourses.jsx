@@ -1,11 +1,11 @@
 const courses = [
-  'ISO/IEC 17043:2010 Implementation training',
+  'ISO/IEC 17043:2023 Implementation training',
   'ISO/IEC 17025:2017 Implementation training',
-  'ISO/IEC 15189:2012 Implementation',
-  'ISO 13528:2015 Statistical methods for use in proficiency testing by interlaboratory comparison',
-  'ISO 19011:2011 Guidelines for Auditing Management Systems',
+  'ISO 15189:2022 Implementation',
+  'ISO 13528:2022 Statistical methods for use in proficiency testing by interlaboratory comparison',
+  'ISO 19011:2018 Guidelines for Auditing Management Systems',
   'ISO 9001:2015 Quality Management Systems Requirements Implementation',
-  'ISO 31000 Risk Management Training',
+  'ISO 22367:2020 Risk Management Training',
 ];
 
 const IsoCourses = () => {
