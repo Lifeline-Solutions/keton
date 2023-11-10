@@ -2,7 +2,7 @@ const blogs = [
   {
     id: 1,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327163/keton/Keton21_lk1tjm.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699605164/Keton/keton-in-germany.jpg',
     title: 'Keton Consulting Ltd-ESfEQA Meeting Heidelberg-Germany',
     content:
       'Keton Consulting continues partnership with ESfEQA to provide quality\nExternal Assurance Services in the region Kenya, Uganda &amp; Tanzania. We provide reliable and cost effective programs with great report content.\nOur programs are fully Accredited to ISO/IEC 17043:2010 by German Accreditation Body DAKKS\nWe offer monthly programs and the Quarterly Surveys cover the months of\nFebruary, April, July &amp; October.\nReports also applicable to up-to 2 back up machines at no extra cost.\nKeton is a regional collaborator of European society for EQA present in over 30 countries – Kenya, Nigeria, Botswana, Uganda, Tanzania, Zimbabwe, Zambia,Ghana, India, Italy, United Arab Emirates, China, Turkey, Serbia, Romania, Portugal, Pakistan, Germany, Malaysia, Israel, Jordan, Iran, Greece, Georgia, Egypt, United Kingdom, France, Croatia, Costa Rica, Chile &amp; Belgium.',
@@ -12,7 +12,7 @@ const blogs = [
   {
     id: 2,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327165/keton/Keton20_a2waer.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595845/Keton/Lab_Tecs49_gprgn9.jpg',
     title: '2022 – TOP 40 UNDER 40 AWARDS CEREMONY – KE.',
     content:
       'Keton Consulting continues partnership with ESfEQA to provide quality\nExternal Assurance Services in the region Kenya, Uganda &amp; Tanzania. We provide reliable and cost effective programs with great report content.\nOur programs are fully Accredited to ISO/IEC 17043:2010 by German Accreditation Body DAKKS\nWe offer monthly programs and the Quarterly Surveys cover the months of\nFebruary, April, July &amp; October.\nReports also applicable to up-to 2 back up machines at no extra cost.\nKeton is a regional collaborator of European society for EQA present in over 30 countries – Kenya, Nigeria, Botswana, Uganda, Tanzania, Zimbabwe, Zambia,Ghana, India, Italy, United Arab Emirates, China, Turkey, Serbia, Romania, Portugal, Pakistan, Germany, Malaysia, Israel, Jordan, Iran, Greece, Georgia, Egypt, United Kingdom, France, Croatia, Costa Rica, Chile &amp; Belgium.',

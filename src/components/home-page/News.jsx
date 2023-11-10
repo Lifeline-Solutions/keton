@@ -12,7 +12,7 @@ const News = () => {
           <div key={item.id} className="p-2">
             <div className="relative">
               <img
-                className="w-full h-full object-cover rounded-lg"
+                className="w-full h-[300px] object-cover rounded-lg"
                 src={item.image}
                 alt={item.title}
               />
