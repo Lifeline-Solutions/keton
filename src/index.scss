@@ -65,34 +65,35 @@
       transform: translateY(100%) scale(0.5);
       opacity: 0;
       visibility: hidden;
-    }
-    #{$slide-change-timing}%,
-    #{$animation-steps-fraction}% {
-      transform: translateY(100%) scale(0.7);
-      opacity: 0.4;
-      visibility: visible;
-    }
-    #{$animation-steps-fraction + $slide-change-timing}%,
-    #{$animation-steps-fraction * 2}% {
-      transform: translateY(0) scale(1);
-      opacity: 1;
-      visibility: visible;
-    }
-    #{($animation-steps-fraction * 2) + $slide-change-timing}%,
-    #{$animation-steps-fraction * 3}% {
-      transform: translateY(-100%) scale(0.7);
-      opacity: 0.4;
-      visibility: visible;
-    }
-    #{($animation-steps-fraction * 3) + $slide-change-timing}% {
-      transform: translateY(-100%) scale(0.5);
-      opacity: 0;
-      visibility: visible;
-    }
-    100% {
-      transform: translateY(-100%) scale(0.5);
-      opacity: 0;
-      visibility: hidden;
-    }
+
+      #{$slide-change-timing}%,
+      #{$animation-steps-fraction}% {
+        transform: translateY(100%) scale(0.7);
+        opacity: 0.4;
+        visibility: visible;
+      }
+  #{$animation-steps-fraction + $slide-change-timing}%,
+  #{$animation-steps-fraction * 2}% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    visibility: visible;
   }
+  #{($animation-steps-fraction * 2) + $slide-change-timing}%,
+  #{$animation-steps-fraction * 3}% {
+    transform: translateY(-100%) scale(0.7);
+    opacity: 0.4;
+    visibility: visible;
+  }
+  #{($animation-steps-fraction * 3) + $slide-change-timing}% {
+    transform: translateY(-100%) scale(0.5);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(-100%) scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+}
 }

@@ -3,7 +3,7 @@ const Header = () => {
   const headerTitle = () => {
     if (path === '/eqa/rca-resources') {
       return 'Rca Resources';
-    } else {
+    } else if (path === '/eqa/programs') {
       return 'EQA programme';
     }
   };
