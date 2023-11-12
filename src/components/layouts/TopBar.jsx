@@ -30,7 +30,7 @@ const SocialMediaIcons = () => {
     <>
       <div className="flex items-center space-x-4">
         <a
-          href="https://www.instagram.com/kentonconsulting/"
+          href="https://www.instagram.com/keton.consulting/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-primaryGreen"
@@ -38,7 +38,7 @@ const SocialMediaIcons = () => {
           <BiLogoInstagram className="text-2xl" />
         </a>
         <a
-          href="https://www.facebook.com/kentonconsulting/"
+          href="https://www.facebook.com/ketonconsultingKE"
           target="_blank"
           rel="noreferrer"
           className="hover:text-primaryGreen"
@@ -46,23 +46,7 @@ const SocialMediaIcons = () => {
           <BiLogoFacebook className="text-2xl" />
         </a>
         <a
-          href="https://twitter.com/kentonconsultin"
-          target="_blank"
-          rel="noreferrer"
-          className="hover:text-primaryGreen"
-        >
-          <BiLogoTwitter className="text-2xl" />
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UC8JH4dU1O0x5YzX7YQ5xY1g"
-          target="_blank"
-          rel="noreferrer"
-          className="hover:text-primaryGreen"
-        >
-          <AiOutlineYoutube className="text-2xl" />
-        </a>
-        <a
-          href="https://www.linkedin.com/company/kenton-consulting-limited/"
+          href="https://www.linkedin.com/company/keton-consulting/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-primaryGreen"

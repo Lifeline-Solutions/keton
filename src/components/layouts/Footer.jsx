@@ -1,4 +1,4 @@
-import { BiLogoInstagram, BiLogoFacebook, BiLogoTwitter } from 'react-icons/bi';
+import {BiLogoInstagram, BiLogoFacebook, BiLogoLinkedinSquare} from 'react-icons/bi';
 
 const Footer = () => {
   return (
@@ -71,12 +71,12 @@ const Footer = () => {
             <BiLogoFacebook className="text-2xl" />
           </a>
           <a
-            href="https://twitter.com/kentonconsultin"
+            href="https://www.linkedin.com/company/keton-consulting/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primaryGreen"
           >
-            <BiLogoTwitter className="text-2xl" />
+            <BiLogoLinkedinSquare className="text-2xl" />
           </a>
         </div>
       </div>
