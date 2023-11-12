@@ -1,8 +1,8 @@
 export const staffImages = [
   'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327250/keton/Keton_Consulting61_sv465q.jpg',
-  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698082558/Rectangle_245_leqejd.png',
+  'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699594964/Keton/Keton_Consulting22_xcmp1w.jpg',
   'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327519/keton/Keton_Consulting9_q8bfbu.jpg',
-  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327519/keton/Keton_Consulting9_q8bfbu.jpg',
+  'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595426/Keton/Keton_Consulting57_fl6gqm.jpg',
   'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327539/keton/Keton_Consulting25_1_xepenq.jpg',
 ];
 
