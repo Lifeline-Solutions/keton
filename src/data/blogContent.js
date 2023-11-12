@@ -18,9 +18,9 @@ const blogs = [
       'Keton Consulting continues partnership with ESfEQA to provide quality\nExternal Assurance Services in the region Kenya, Uganda &amp; Tanzania. We provide reliable and cost effective programs with great report content.\nOur programs are fully Accredited to ISO/IEC 17043:2010 by German Accreditation Body DAKKS\nWe offer monthly programs and the Quarterly Surveys cover the months of\nFebruary, April, July &amp; October.\nReports also applicable to up-to 2 back up machines at no extra cost.\nKeton is a regional collaborator of European society for EQA present in over 30 countries – Kenya, Nigeria, Botswana, Uganda, Tanzania, Zimbabwe, Zambia,Ghana, India, Italy, United Arab Emirates, China, Turkey, Serbia, Romania, Portugal, Pakistan, Germany, Malaysia, Israel, Jordan, Iran, Greece, Georgia, Egypt, United Kingdom, France, Croatia, Costa Rica, Chile &amp; Belgium.',
     content_hidden: true,
     images: [
-      'https://www.ketonconsulting.com/wp-content/uploads/2022/11/DSC00015-2-683x1024.jpg',
-      'https://www.ketonconsulting.com/wp-content/uploads/2022/11/DSC00233-3-1024x683.jpg',
-      'https://www.ketonconsulting.com/wp-content/uploads/2022/11/DSC00237-1-683x1024.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699779769/Keton/o1ezt6dvizwvh33zcrsh.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699779770/Keton/qiiiunl02tcm98s6zfn6.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699779770/Keton/uxsslevbwcwy6stevvzf.jpg',
     ],
     month: 'nov',
     day: '12',
