@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import {Link} from "react-router-dom";
 
 const images = [
   'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693384557/keton/keton_new_bbqbao.jpg',
@@ -56,11 +57,11 @@ const Header = () => {
                 className="border border-gray-300 rounded-md px-4 py-2 sm:w-96 w-36  xs:rounded-r-none"
                 placeholder="Search Here"
               />
-              <a href="/get-quote">
+              <Link to="/get-quote">
                 <button className="bg-primaryGreen text-white px-4 py-2 xs:rounded-l-none rounded-md xs:w-40 w-40">
                   Get a Quote
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

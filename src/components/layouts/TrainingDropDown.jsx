@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
+import {Link} from "react-router-dom";
 
 const TrainingDropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,25 +25,23 @@ const TrainingDropDown = () => {
           isOpen ? 'block' : 'hidden'
         }`}
       >
-        <a
-          href="/training-services/iso-training"
+        <Link to="/training-services/iso-training"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
           ISO training
-        </a>
+        </Link>
         <hr className="w-3/4 my-2" />
-        <a
-          href="/training-services/bio-medicine-courses"
+        <Link to="/training-services/bio-medicine-courses"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
           Bio medicine courses
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -2,10 +2,8 @@ import NavBar from './Navbar';
 import {
   BiLogoInstagram,
   BiLogoFacebook,
-  BiLogoTwitter,
   BiLogoLinkedinSquare,
 } from 'react-icons/bi';
-import { AiOutlineYoutube } from 'react-icons/ai';
 const TopBar = () => {
   return (
     <>

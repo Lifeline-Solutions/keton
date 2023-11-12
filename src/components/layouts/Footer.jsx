@@ -1,4 +1,5 @@
 import {BiLogoInstagram, BiLogoFacebook, BiLogoLinkedinSquare} from 'react-icons/bi';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,21 +21,21 @@ const Footer = () => {
         <div className="col-span-1">
           <h1 className="font-bold text-sm mt-4">Quick access</h1>
           <div className="mt-4 capitalize flex flex-col gap-4 text-sm font-light leading-6">
-            <a className="hover:text-primaryGreen" href="/">
+            <Link to="/" className="hover:text-primaryGreen" >
               about us
-            </a>
-            <a className="hover:text-primaryGreen" href="/about">
+            </Link>
+            <Link to="/about" className="hover:text-primaryGreen" >
               consulting
-            </a>
-            <a className="hover:text-primaryGreen uppercase" href="/services">
+            </Link>
+            <Link to="/services" className="hover:text-primaryGreen uppercase" >
               eqa
-            </a>
-            <a className="hover:text-primaryGreen" href="/about">
+            </Link>
+            <Link to="/training-services" className="hover:text-primaryGreen">
               training services
-            </a>
-            <a className="hover:text-primaryGreen" href="/about">
+            </Link>
+            <Link className="hover:text-primaryGreen">
               lab equipment and supplier
-            </a>
+            </Link>
           </div>
         </div>
 

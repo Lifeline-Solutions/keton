@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { equipmentData } from '../../data/equipmentData';
+import {Link} from "react-router-dom";
 
 const RelatedProducts = ({ equipment }) => {
   const relatedEquipment = equipmentData.flatMap((category) =>
@@ -24,11 +25,11 @@ const RelatedProducts = ({ equipment }) => {
                 className="mx-auto mb-2 h-32 object-cover"
               />
               <h5 className="text-sm font-semibold">{product.title}</h5>
-              <a href={`/lab-equipment-and-supplies/${product.id}`}>
+              <Link to={`/lab-equipment-and-supplies/${product.id}`}>
                 <button className="border border-primaryGreen text-primaryGreen rounded-full py-2 px-4 mt-2 text-xs">
                   Read More &gt; &gt; &gt;
                 </button>
-              </a>
+              </Link>
             </div>
           ))}
         </div>

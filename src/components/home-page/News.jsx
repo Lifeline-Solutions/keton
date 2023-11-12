@@ -1,4 +1,5 @@
 import blogs from '../../data/blogContent';
+import {Link} from "react-router-dom";
 
 const News = () => {
   return (
@@ -23,22 +24,21 @@ const News = () => {
               <p className="text-gray-500 mt-6 text-sm">
                 {item.content && item.content.slice(0, 100)}...
               </p>
-              <a href={`/news-and-events/${item.id}`}>
+              <Link to={`/news-and-events/${item.id}`}>
                 <button className="text-white text-sm font-semibold mt-6 border bg-primaryGreen px-4 py-2 rounded-lg">
                   Read More &gt; &gt; &gt;
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         ))}
       </div>
       <div className="p-2 flex justify-center items-center">
-        <a
-          href="/news-and-events"
+        <Link to="/news-and-events"
           className="text-white text-sm font-semibold mt-6  bg-primaryGreen px-4 py-2 rounded-lg"
         >
           View All News &gt; &gt; &gt;
-        </a>
+        </Link>
       </div>
     </div>
   );

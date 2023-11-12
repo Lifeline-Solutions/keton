@@ -4,6 +4,7 @@ import {
   BiSolidChevronLeftCircle,
 } from 'react-icons/bi';
 import { equipmentData } from '../../data/equipmentData';
+import {Link} from "react-router-dom";
 
 //   {
 //     id: 1,
@@ -83,12 +84,11 @@ const Products = () => {
             <h3 className="text-center sm:text-base text-sm">
               {product.title}
             </h3>
-            <a
-              href={`lab-equipment-and-supplies/${product.id}`}
+            <Link to ={`lab-equipment-and-supplies/${product.id}`}
               className="block mx-auto mt-4 bg-primaryGreen text-white px-4 py-2 rounded sm:text-sm text-xs text-center"
             >
               Read More
-            </a>
+            </Link>
           </div>
         ))}
         <button onClick={handleNext} className="sm:ml-2 ml-0">
