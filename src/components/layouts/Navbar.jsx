@@ -5,6 +5,8 @@ import logo from '/logo.png';
 import EqaDropDown from './EqaDropDown';
 import TrainingDropDown from './TrainingDropDown';
 import ThirdPartyControlsDropDown from './ThirdPartyControlsDropDown';
+import { Link } from 'react-router-dom';
+
 
 const NavBar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
@@ -18,7 +20,7 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between items-center mx-auto py-10 px-10 right-0 transition-all duration-500 ease-in-out text-white w-full absolute top-10 z-10">
       <div className="sm:mt-0 mt-4">
-        <a href="/">
+        <Link to="/">
           <img
             src={logo}
             alt="logo"
@@ -26,23 +28,23 @@ const NavBar = () => {
             height={100}
             className="sm:mt-0 mt-8"
           />
-        </a>
+        </Link>
       </div>
       <ul className="hidden md:flex gap-6 p-2 font-normal text-sm capitalize ml-auto">
         <li>
-          <a
-            href="/"
+          <Link
+            to="/"
             className={`hover:underline ${
               activePage === '' ? 'border-b-2 border-green-500 font-bold' : ''
             }`}
             onClick={() => setActivePage('')}
           >
             home
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/about-us"
+          <Link
+            to="/about-us"
             className={`hover:underline ${
               activePage === 'about-us'
                 ? 'border-b-2 border-green-500 font-bold'
@@ -51,11 +53,11 @@ const NavBar = () => {
             onClick={() => setActivePage('about-us')}
           >
             about us
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/consulting"
+          <Link
+            to="/consulting"
             className={`hover:underline ${
               activePage === 'consulting'
                 ? 'border-b-2 border-green-500 font-bold'
@@ -64,7 +66,7 @@ const NavBar = () => {
             onClick={() => setActivePage('consulting')}
           >
             consulting
-          </a>
+          </Link>
         </li>
         <li>
           <EqaDropDown />
@@ -76,8 +78,8 @@ const NavBar = () => {
           <ThirdPartyControlsDropDown />
         </li>
         <li>
-          <a
-            href="/lab-equipment-and-supplies"
+          <Link
+            to="/lab-equipment-and-supplies"
             className={`hover:underline ${
               activePage === 'lab-equipment-and-supplies'
                 ? 'border-b-2 border-green-500 font-bold'
@@ -86,11 +88,11 @@ const NavBar = () => {
             onClick={() => setActivePage('lab-equipment-and-supplies')}
           >
             lab equipment and supplies
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/gallery"
+          <Link
+            to="/gallery"
             className={`hover:underline ${
               activePage === 'gallery'
                 ? 'border-b-2 border-green-500 font-bold'
@@ -99,7 +101,7 @@ const NavBar = () => {
             onClick={() => setActivePage('gallery')}
           >
             gallery
-          </a>
+          </Link>
         </li>
       </ul>
       <div>

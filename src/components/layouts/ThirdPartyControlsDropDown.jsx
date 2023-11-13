@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const ThirdPartyControlsDropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,55 +29,55 @@ const ThirdPartyControlsDropDown = () => {
           isOpen ? 'block' : 'hidden'
         }`}
       >
-        <a
-          href="/third-party-controls"
+        <Link
+          to="/third-party-controls"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
           3rd Party Controls
-        </a>
+        </Link>
         <hr className="w-3/4 my-2" />
-        <a
-          href="/third-party-controls/haematology-controls"
+        <Link
+          to="/third-party-controls/haematology-controls"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
           Haematology Controls
-        </a>
+        </Link>
         <hr className="w-3/4 my-2" />
-        <a
-          href="/third-party-controls/bacterial-control"
+        <Link
+          to="/third-party-controls/bacterial-control"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
           Bacterial Control
-        </a>
+        </Link>
         <hr className="w-3/4 my-2" />
-        <a
-          href="/third-party-controls/clinical-chemistry-and-serology-controls"
+        <Link
+          to="/third-party-controls/clinical-chemistry-and-serology-controls"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
           Clinical Chemistry & Serology Controls
-        </a>
+        </Link>
         <hr className="w-3/4 my-2" />
-        <a
-          href="/third-party-controls/coagulation-controls"
+        <Link
+          to="/third-party-controls/coagulation-controls"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
           }}
         >
           Coagulation Controls
-        </a>
+        </Link>
       </div>
     </div>
   );

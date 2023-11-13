@@ -1,4 +1,6 @@
 import { eventsImages } from '../../data/gallery';
+import { Link } from 'react-router-dom';
+
 const EventsCollection = () => {
   return (
     <div className="bg-primaryBg pb-40">
@@ -26,11 +28,11 @@ const EventsCollection = () => {
             the OMLTA Conference in Uganda, and many more.
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
-          <a href="/gallery/events">
+          <Link to="/gallery/events">
             <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold hover:bg-green-300">
               View all
             </button>
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col  gap-2 px-10">
           <div className="flex justify-center items-center gap-2">

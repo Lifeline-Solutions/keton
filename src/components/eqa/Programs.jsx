@@ -25,7 +25,6 @@ const Programs = () => {
         <hr className="w-44 border-4 border-primaryGreen rounded my-1" />
         <ul className="text-left mt-8 text-sm leading-6 list-none flex flex-col gap-4 w-full">
           {programs.map((program, index) => (
-            <>
               <div
                 key={program.id}
                 className={`py-10 flex flex-col justify-center items-center relative ${
@@ -36,7 +35,7 @@ const Programs = () => {
                   <span onClick={() => toggleProgram(program.id)}>
                     {program.title}
                   </span>
-                  <span span onClick={() => toggleProgram(program.id)}>
+                  <span onClick={() => toggleProgram(program.id)}>
                     {program.isOpen ? <PiCaretUpBold /> : <PiCaretDownBold />}
                   </span>
                 </h5>
@@ -76,7 +75,6 @@ const Programs = () => {
                   )}
                 </div>
               </div>
-            </>
           ))}
         </ul>
       </div>

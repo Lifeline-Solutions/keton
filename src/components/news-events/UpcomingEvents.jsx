@@ -1,4 +1,6 @@
 import blogs from '../../data/blogContent';
+import { Link } from 'react-router-dom';
+
 
 const UpcomingEvents = () => {
   return (
@@ -48,12 +50,12 @@ const UpcomingEvents = () => {
                     {item.content.substring(0, 200)}...
                   </p>
                 )}
-                <a
-                  href={`/news-and-events/${item.id}`}
+                <Link
+                  to={`/news-and-events/${item.id}`}
                   className="text-primary text-sm font-semibold mt-6 text-primaryBlue px-4 py-2 rounded-lg hover:text-white"
                 >
                   View More &gt; &gt; &gt;
-                </a>
+                </Link>
               </div>
             </div>
             <hr className="w-full border border-black" />

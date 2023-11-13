@@ -2,10 +2,10 @@ import NavBar from './Navbar';
 import {
   BiLogoInstagram,
   BiLogoFacebook,
-  BiLogoTwitter,
   BiLogoLinkedinSquare,
 } from 'react-icons/bi';
-import { AiOutlineYoutube } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+
 const TopBar = () => {
   return (
     <>
@@ -29,30 +29,30 @@ const SocialMediaIcons = () => {
   return (
     <>
       <div className="flex items-center space-x-4">
-        <a
-          href="https://www.instagram.com/keton.consulting/"
+        <Link
+          to="https://www.instagram.com/keton.consulting/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-primaryGreen"
         >
           <BiLogoInstagram className="text-2xl" />
-        </a>
-        <a
-          href="https://www.facebook.com/ketonconsultingKE"
+        </Link>
+        <Link
+          to="https://www.facebook.com/ketonconsultingKE"
           target="_blank"
           rel="noreferrer"
           className="hover:text-primaryGreen"
         >
           <BiLogoFacebook className="text-2xl" />
-        </a>
-        <a
-          href="https://www.linkedin.com/company/keton-consulting/"
+        </Link>
+        <Link
+          to="https://www.linkedin.com/company/keton-consulting/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-primaryGreen"
         >
           <BiLogoLinkedinSquare className="text-2xl" />
-        </a>
+        </Link>
       </div>
     </>
   );

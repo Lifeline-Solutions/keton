@@ -3,6 +3,8 @@ import { IoCloseSharp } from 'react-icons/io5';
 import EqaDropDown from './EqaDropDown';
 import TrainingDropDown from './TrainingDropDown';
 import ThirdPartyControlsDropDown from './ThirdPartyControlsDropDown';
+import { Link } from 'react-router-dom';
+
 
 const MobileMenu = ({ isMobileMenu, toggle }) => {
   return (
@@ -12,13 +14,13 @@ const MobileMenu = ({ isMobileMenu, toggle }) => {
           <IoCloseSharp className="text-xl" onClick={toggle} />
         </div>
         <li onClick={toggle} className="sm:mt-0 mt-12">
-          <a href="/">home</a>
+          <Link to="/">home</Link>
         </li>
         <li onClick={toggle}>
-          <a href="about-us">about us</a>
+          <Link to="about-us">about us</Link>
         </li>
         <li onClick={toggle}>
-          <a href="/consulting">consulting</a>
+          <Link to="/consulting">consulting</Link>
         </li>
         <li>
           <EqaDropDown />
@@ -30,10 +32,10 @@ const MobileMenu = ({ isMobileMenu, toggle }) => {
           <ThirdPartyControlsDropDown />
         </li>
         <li onClick={toggle}>
-          <a href="/lab-equipment-and-supplies">lab equipment and supplies</a>
+          <Link to="/lab-equipment-and-supplies">lab equipment and supplies</Link>
         </li>
         <li onClick={toggle}>
-          <a href="/gallery">gallery</a>
+          <Link to="/gallery">gallery</Link>
         </li>
       </ul>
     )

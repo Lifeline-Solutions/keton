@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+
 
 const EqaDropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,35 +26,38 @@ const EqaDropDown = () => {
           isOpen ? 'block' : 'hidden'
         }`}
       >
-        <a
-          href="/eqa/programs"
+        <Link
+          to="/eqa/programs"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+             window.location.href = '/eqa/programs';
           }}
         >
           EQA programs
-        </a>
+        </Link>
         <hr className="w-3/4 my-2" />
-        <a
-          href="/eqa/process"
+        <Link
+          to="/eqa/process"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/eqa/process';
           }}
         >
           EQA process
-        </a>
+        </Link>
         <hr className="w-3/4 my-2" />
-        <a
-          href="/eqa/rca-resources"
+        <Link
+          to="/eqa/rca-resources"
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/eqa/rca-resources';
           }}
         >
           RCA resources
-        </a>
+        </Link>
       </div>
     </div>
   );

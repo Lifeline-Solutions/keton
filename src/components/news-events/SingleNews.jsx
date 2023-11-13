@@ -1,6 +1,8 @@
 import blogs from '../../data/blogContent';
 import { useParams } from 'react-router-dom';
 import ReplyForm from './ReplyForm';
+import { Link } from 'react-router-dom';
+
 
 const SingleNews = () => {
   const { id } = useParams();
@@ -22,9 +24,9 @@ const SingleNews = () => {
         </div>
       </div>
       <hr className="w-full border border-gray-500" />
-      {/* <a href='/news-and-events' className='text-primary text-sm font-semibold mt-6 border border-primaryBlue px-4 py-2 rounded-lg hover:bg-primaryBlue hover:text-white'>
+      {/* <Link to='/news-and-events' className='text-primary text-sm font-semibold mt-6 border border-primaryBlue px-4 py-2 rounded-lg hover:bg-primaryBlue hover:text-white'>
         &lt; &lt; &lt; Back to News & Events
-      </a> */}
+      </Link> */}
       <div className="flex sm:flex-row flex-col  items-start gap-12 mt-8">
         <div className="bg-white flex flex-col justify-center items-center shadow-md px-8 py-4 gap-2">
           <h3 className="text-sm capitalize">{news.month}</h3>
@@ -47,12 +49,12 @@ const SingleNews = () => {
               </p>
             ))}
           {news.link && (
-            <a
-              href={news.link}
+            <Link
+              to={news.link}
               className="text-primary text-sm font-semibold mt-6 text-primaryBlue px-4 py-2 rounded-lg hover:text-white"
             >
               {news.link}
-            </a>
+            </Link>
           )}
         </div>
       </div>

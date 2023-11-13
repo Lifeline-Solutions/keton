@@ -1,4 +1,6 @@
 import { trainingImages } from '../../data/gallery';
+import { Link } from 'react-router-dom';
+
 
 const TrainingCollection = () => {
   return (
@@ -25,11 +27,11 @@ const TrainingCollection = () => {
             Additionally, we actively participate in various technical committees worldwide that focus on laboratory medicine ecosystems.
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
-          <a href="/gallery/training">
+          <Link to="/gallery/training">
             <button className="bg-primaryGreen w-1/2 py-2 px-4 rounded uppercase text-sm font-bold hover:bg-green-300">
               View all
             </button>
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col  gap-2 px-10">
           <div className="flex justify-center items-center gap-2">

@@ -1,4 +1,6 @@
 import { equipmentData } from '../../data/equipmentData';
+import { Link } from 'react-router-dom';
+
 
 const Equipment = () => {
   return (
@@ -18,11 +20,11 @@ const Equipment = () => {
                 />
                 <div className="flex flex-col justify-center items-center">
                   <p className="font-semibold mt-4"> {product.title} </p>
-                  <a href={`lab-equipment-and-supplies/${product.id}`}>
+                  <Link to={`lab-equipment-and-supplies/${product.id}`}>
                     <button className="border border-primaryGreen text-primaryGreen rounded-full py-2 px-6 mt-4 text-xs">
                       Read More &gt; &gt; &gt;
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
