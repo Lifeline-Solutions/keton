@@ -34,6 +34,7 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/third-party-controls';
           }}
         >
           3rd Party Controls
@@ -44,6 +45,7 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/third-party-controls/haematology-controls';
           }}
         >
           Haematology Controls
@@ -54,6 +56,7 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/third-party-controls/bacterial-control';
           }}
         >
           Bacterial Control
@@ -64,6 +67,7 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/third-party-controls/clinical-chemistry-and-serology-controls';
           }}
         >
           Clinical Chemistry & Serology Controls
@@ -74,6 +78,7 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/third-party-controls/coagulation-controls';
           }}
         >
           Coagulation Controls

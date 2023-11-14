@@ -30,6 +30,7 @@ const TrainingDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/training-services/iso-training';
           }}
         >
           ISO training
@@ -40,6 +41,7 @@ const TrainingDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
+            window.location.href = '/training-services/bio-medicine-courses';
           }}
         >
           Bio medicine courses
