@@ -1,4 +1,4 @@
-const programsArray = [
+const programsData = [
   {
     id: 1,
     title: 'Biochemistry programs',
@@ -117,4 +117,4 @@ const programsArray = [
   },
 ];
 
-export default programsArray;
+export default programsData;

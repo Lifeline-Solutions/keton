@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { PiCaretDownBold, PiCaretUpBold } from 'react-icons/pi';
-import programsArray from './programs';
+import programsData from './programsData';
 import Header from './Header';
 import InquiryForm from './InquiryForm';
 
 const Programs = () => {
-  const [programs, setPrograms] = useState(programsArray);
+  const [programs, setPrograms] = useState(programsData);
 
   const toggleProgram = (programId) => {
     const updatedPrograms = programs.map((program) => {
