@@ -25,19 +25,19 @@ const Footer = () => {
         <div className="col-span-1">
           <h1 className="font-bold text-sm mt-4">Quick access</h1>
           <div className="mt-4 capitalize flex flex-col gap-4 text-sm font-light leading-6">
-            <Link className="hover:text-primaryGreen" to="/">
+            <Link className="hover:text-primaryGreen capitalize" to="/about-us">
               about us
             </Link>
-            <Link className="hover:text-primaryGreen" to="/about">
+            <Link className="hover:text-primaryGreen capitalize" to="/consulting">
               consulting
             </Link>
-            <Link className="hover:text-primaryGreen uppercase" to="/services">
-              eqa
+            <Link className="hover:text-primaryGreen capitalize" to="/eqa/programs">
+              eqa programs
             </Link>
-            <Link className="hover:text-primaryGreen" to="/about">
-              training services
+            <Link className="hover:text-primaryGreen capitalize" to="/training-services/iso-training">
+              iso training services
             </Link>
-            <Link className="hover:text-primaryGreen" to="/about">
+            <Link className="hover:text-primaryGreen capitalize" to="/lab-equipment-and-supplies">
               lab equipment and supplier
             </Link>
           </div>
