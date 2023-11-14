@@ -20,12 +20,14 @@ const EventsCollection = () => {
             our Events
           </h5>
           <p className="text-sm font-normal leading-6 w-3/4">
-            We have actively participated in various events, both within our country and abroad.
-            Since our inception five years ago, we have been an integral part of more than 80 events.
-            These include prominent conferences like the AACC Conference in Chicago, USA in 2022, the
-            Medica Conference in Germany, the Medilab Conference in Dubai, the ASLM Conference in Capetown,
-            the AKMLSO Conferences in Kisumu and Diani, the Kenya Hospital Association Conferences,
-            the OMLTA Conference in Uganda, and many more.
+            We have actively participated in various events, both within our
+            country and abroad. Since our inception five years ago, we have been
+            an integral part of more than 80 events. These include prominent
+            conferences like the AACC Conference in Chicago, USA in 2022, the
+            Medica Conference in Germany, the Medilab Conference in Dubai, the
+            ASLM Conference in Capetown, the AKMLSO Conferences in Kisumu and
+            Diani, the Kenya Hospital Association Conferences, the OMLTA
+            Conference in Uganda, and many more.
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
           <Link to="/gallery/events">

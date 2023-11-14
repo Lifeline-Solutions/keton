@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
-
 const EqaDropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,7 +30,6 @@ const EqaDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-             window.location.href = '/eqa/programs';
           }}
         >
           EQA programs
@@ -42,7 +40,6 @@ const EqaDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-            window.location.href = '/eqa/process';
           }}
         >
           EQA process
@@ -53,7 +50,6 @@ const EqaDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-            window.location.href = '/eqa/rca-resources';
           }}
         >
           RCA resources

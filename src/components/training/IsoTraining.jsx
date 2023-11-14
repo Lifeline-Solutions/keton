@@ -1,8 +1,10 @@
 import IsoCourses from './IsoCourses';
+import Header from './Header';
 
 const IsoTraining = () => {
   return (
     <>
+      <Header />
       <div className="h-full flex flex-col justify-center items-start bg-primaryBg py-10 px-4">
         <h1 className="uppercase sm:text-2xl text-xl font-bold mb-4">
           PROVIDING YOU WITH THE BEST SERVICES AND TRAINING.

@@ -1,7 +1,6 @@
 import blogs from '../../data/blogContent';
 import { Link } from 'react-router-dom';
 
-
 const UpcomingEvents = () => {
   return (
     <div className="flex flex-col justify-center items-start bg-primaryBg pt-48 pb-10 px-16">

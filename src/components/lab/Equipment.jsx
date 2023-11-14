@@ -1,7 +1,6 @@
 import { equipmentData } from '../../data/equipmentData';
 import { Link } from 'react-router-dom';
 
-
 const Equipment = () => {
   return (
     <div className="py-10 md:px-40 px-8 bg-primaryBg">

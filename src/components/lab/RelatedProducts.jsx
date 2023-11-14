@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { equipmentData } from '../../data/equipmentData';
 import { Link } from 'react-router-dom';
 
-
 const RelatedProducts = ({ equipment }) => {
   const relatedEquipment = equipmentData.flatMap((category) =>
     category.products.filter(

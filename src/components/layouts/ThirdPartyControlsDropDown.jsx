@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const ThirdPartyControlsDropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-  const navigate = useNavigate();
 
   return (
     <div className="relative flex flex-col items-center">
@@ -14,7 +13,6 @@ const ThirdPartyControlsDropDown = () => {
         className="hover:underline flex flex-row items-center justify-center capitalize"
         onClick={() => {
           toggle();
-          navigate('/third-party-controls');
         }}
       >
         3rd Party Controls
@@ -34,7 +32,6 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-            window.location.href = '/third-party-controls';
           }}
         >
           3rd Party Controls
@@ -45,7 +42,6 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-            window.location.href = '/third-party-controls/haematology-controls';
           }}
         >
           Haematology Controls
@@ -56,7 +52,6 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-            window.location.href = '/third-party-controls/bacterial-control';
           }}
         >
           Bacterial Control
@@ -67,7 +62,6 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-            window.location.href = '/third-party-controls/clinical-chemistry-and-serology-controls';
           }}
         >
           Clinical Chemistry & Serology Controls
@@ -78,7 +72,6 @@ const ThirdPartyControlsDropDown = () => {
           className="text-white text-center"
           onClick={() => {
             setIsOpen(false);
-            window.location.href = '/third-party-controls/coagulation-controls';
           }}
         >
           Coagulation Controls

@@ -90,13 +90,17 @@ const Services = () => {
             <hr className="w-20 ml-4 border-2 border-primaryGreen rounded my-1" />
 
             <p className="text-left mt-2 text-xl w-10/12 leading-6">
-              Keton Consulting Limited is a multiagency biomedicine supply & service firm grounded on creating communities where people continually expand their capacity to create the results they truly desire, where new and expansive patterns of thinking are nurtured,
+              Keton Consulting Limited is a multiagency biomedicine supply &
+              service firm grounded on creating communities where people
+              continually expand their capacity to create the results they truly
+              desire, where new and expansive patterns of thinking are nurtured,
               where collective aspiration is set free, and where people are
               continually learning to see the whole together. We believe the
               pulse of a strong institution lies in vibrant communities,
               continuous learning, receptive human resource and a management
               that listens and seeks advice. We are committed on sustainablilty
-              through following the framework of ESG (Environmental, Social and Governance) in our operations.
+              through following the framework of ESG (Environmental, Social and
+              Governance) in our operations.
             </p>
           </div>
         </div>

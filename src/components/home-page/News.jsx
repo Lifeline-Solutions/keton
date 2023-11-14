@@ -1,7 +1,6 @@
 import blogs from '../../data/blogContent';
 import { Link } from 'react-router-dom';
 
-
 const News = () => {
   return (
     <div className="h-full flex flex-col justify-center items-center bg-primaryBg pt-20">

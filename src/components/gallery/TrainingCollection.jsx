@@ -1,7 +1,6 @@
 import { trainingImages } from '../../data/gallery';
 import { Link } from 'react-router-dom';
 
-
 const TrainingCollection = () => {
   return (
     <div className="bg-primaryBg py-40">
@@ -19,12 +18,15 @@ const TrainingCollection = () => {
           <img src={trainingImages[0]} alt="Training" className="" />
           <h5 className="text-2xl font-bold mt-6 mb-2 capitalize">Training</h5>
           <p className="text-sm font-normal leading-6 w-3/4">
-            Our team of training experts boasts a collective experience of 40 years in the laboratory medicine industry.
-            We have had the opportunity to travel and provide training on all continents.
-            This extensive experience has enabled us to develop a broad perspective on quality management systems, statistical process control,
-            and best practices in medical laboratories. With this wealth of knowledge,
-            all our classes are designed to be masterclasses.
-            Additionally, we actively participate in various technical committees worldwide that focus on laboratory medicine ecosystems.
+            Our team of training experts boasts a collective experience of 40
+            years in the laboratory medicine industry. We have had the
+            opportunity to travel and provide training on all continents. This
+            extensive experience has enabled us to develop a broad perspective
+            on quality management systems, statistical process control, and best
+            practices in medical laboratories. With this wealth of knowledge,
+            all our classes are designed to be masterclasses. Additionally, we
+            actively participate in various technical committees worldwide that
+            focus on laboratory medicine ecosystems.
           </p>
           <hr className="w-full  border-1 border-primaryGreen rounded my-3" />
           <Link to="/gallery/training">

@@ -22,8 +22,7 @@ const Founder = () => {
               mentorship, EQA, third party controls, method verification
               controls, molecular and clinical laboratory equipment plus
               consumables to software development for RCA and LIMS, laboratory
-              infrastructure design and laboratory hardware. Hence our mantra
-              {" "}
+              infrastructure design and laboratory hardware. Hence our mantra{' '}
               {/* eslint-disable-next-line react/no-unescaped-entities */}
               "We deliver quality lab solutions."
             </p>

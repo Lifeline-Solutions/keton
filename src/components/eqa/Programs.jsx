@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { PiCaretDownBold, PiCaretUpBold } from 'react-icons/pi';
 import programsArray from './programs';
+import Header from './Header';
+import InquiryForm from './InquiryForm';
 
 const Programs = () => {
   const [programs, setPrograms] = useState(programsArray);
@@ -17,14 +19,16 @@ const Programs = () => {
   };
 
   return (
-    <div>
-      <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-10 px-4 ">
-        <h2 className="uppercase sm:text-2xl font-medium mt-2">
-          KETON EQA PROGRAMS
-        </h2>
-        <hr className="w-44 border-4 border-primaryGreen rounded my-1" />
-        <ul className="text-left mt-8 text-sm leading-6 list-none flex flex-col gap-4 w-full">
-          {programs.map((program, index) => (
+    <>
+      <Header />
+      <div>
+        <div className="h-full flex flex-col justify-center items-center bg-primaryBg py-10 px-4 ">
+          <h2 className="uppercase sm:text-2xl font-medium mt-2">
+            KETON EQA PROGRAMS
+          </h2>
+          <hr className="w-44 border-4 border-primaryGreen rounded my-1" />
+          <ul className="text-left mt-8 text-sm leading-6 list-none flex flex-col gap-4 w-full">
+            {programs.map((program, index) => (
               <div
                 key={program.id}
                 className={`py-10 flex flex-col justify-center items-center relative ${
@@ -75,10 +79,12 @@ const Programs = () => {
                   )}
                 </div>
               </div>
-          ))}
-        </ul>
+            ))}
+          </ul>
+        </div>
       </div>
-    </div>
+      <InquiryForm />
+    </>
   );
 };
 

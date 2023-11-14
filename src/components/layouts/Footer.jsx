@@ -1,6 +1,9 @@
-import {BiLogoInstagram, BiLogoFacebook, BiLogoLinkedinSquare} from 'react-icons/bi';
+import {
+  BiLogoInstagram,
+  BiLogoFacebook,
+  BiLogoLinkedinSquare,
+} from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-
 
 const Footer = () => {
   return (

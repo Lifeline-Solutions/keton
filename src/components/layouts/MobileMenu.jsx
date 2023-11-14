@@ -5,7 +5,6 @@ import TrainingDropDown from './TrainingDropDown';
 import ThirdPartyControlsDropDown from './ThirdPartyControlsDropDown';
 import { Link } from 'react-router-dom';
 
-
 const MobileMenu = ({ isMobileMenu, toggle }) => {
   return (
     isMobileMenu && (
@@ -32,7 +31,9 @@ const MobileMenu = ({ isMobileMenu, toggle }) => {
           <ThirdPartyControlsDropDown />
         </li>
         <li onClick={toggle}>
-          <Link to="/lab-equipment-and-supplies">lab equipment and supplies</Link>
+          <Link to="/lab-equipment-and-supplies">
+            lab equipment and supplies
+          </Link>
         </li>
         <li onClick={toggle}>
           <Link to="/gallery">gallery</Link>

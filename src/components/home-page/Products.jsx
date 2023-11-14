@@ -6,7 +6,6 @@ import {
 import { equipmentData } from '../../data/equipmentData';
 import { Link } from 'react-router-dom';
 
-
 //   {
 //     id: 1,
 //     image: '/images/medicine-bottles.png',

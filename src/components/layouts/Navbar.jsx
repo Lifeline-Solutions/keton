@@ -7,7 +7,6 @@ import TrainingDropDown from './TrainingDropDown';
 import ThirdPartyControlsDropDown from './ThirdPartyControlsDropDown';
 import { Link } from 'react-router-dom';
 
-
 const NavBar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
   const toggle = () => setIsMobileMenu(!isMobileMenu);

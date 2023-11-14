@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import ReplyForm from './ReplyForm';
 import { Link } from 'react-router-dom';
 
-
 const SingleNews = () => {
   const { id } = useParams();
 
