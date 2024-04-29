@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const images = [
-  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693384557/keton/keton_new_bbqbao.jpg',
-  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693326949/keton/Lab_Tecs7_akq2wq.jpg',
-  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327554/keton/Keton_Consulting16_abf6zk.jpg',
-  'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327554/keton/Keton_Consulting13_fzzijw.jpg',
+  'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595568/Keton/keton_new_b8mgow.jpg',
+  'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595699/Keton/Lab_Tecs7_ivrojt.jpg',
+  'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699594871/Keton/Keton_Consulting16_hczeoc.jpg',
+  'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699594743/Keton/Keton_Consulting13_gwpuum.jpg',
 ];
 
 const Header = () => {

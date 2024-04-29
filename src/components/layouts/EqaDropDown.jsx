@@ -21,7 +21,7 @@ const EqaDropDown = () => {
         )}
       </button>
       <div
-        className={`absolute top-10 bg-primaryBlue w-72 h-40 flex flex-col items-center gap-2 justify-center rounded shadow-lg z-[20] ${
+        className={`absolute top-10 bg-primaryBlue w-72 h-52 flex flex-col items-center gap-2 justify-center rounded shadow-lg z-[20] ${
           isOpen ? 'block' : 'hidden'
         }`}
       >
@@ -54,6 +54,10 @@ const EqaDropDown = () => {
         >
           RCA resources
         </Link>
+          <hr className="w-3/4 my-2" />
+          <Link to='https://teqa.esfeqa.eu/Default.aspx?ReturnUrl=%2fProtectedApp%2fApplicationHome.aspx' target='_blank'>
+              EQA Portal
+          </Link>
       </div>
     </div>
   );
