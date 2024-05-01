@@ -102,82 +102,82 @@ const clientsPartners = [
   {
     id: 21,
     image:
-      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596406/Keton/5-300x300_1_etsyof.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596407/Keton/6-300x300_1_ainuji.png',
   },
   {
     id: 22,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349731/keton/4-300x300_1_ho3tin.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596405/Keton/4-300x300_1_vkwn9j.png',
   },
   {
     id: 23,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349698/keton/4-300x300_vd7dq2.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596405/Keton/4-300x300_pa9uwe.png'
   },
   {
     id: 24,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349666/keton/4-300x300_qvww5m.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596402/Keton/4-300x300_vuykea.jpg',
   },
   {
     id: 25,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349636/keton/3-300x300_1_rdgifr.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596401/Keton/3-300x300_1_ohr1au.png',
   },
   {
     id: 26,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349604/keton/3-300x300_oz587d.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596400/Keton/3-300x300_lgtlje.jpg',
   },
   {
     id: 27,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349573/keton/3-300x300_kljwvr.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596401/Keton/3-300x300_ack7cg.png',
   },
   {
     id: 28,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349573/keton/2-300x300_uqsatf.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596397/Keton/2-300x300_nropib.jpg',
   },
   {
     id: 29,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349573/keton/2-300x300_1_xrttb5.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596399/Keton/2-300x300_1_smjmtm.png',
   },
   {
     id: 30,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349572/keton/1-300x300_kymee0.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596396/Keton/1-300x300_s9broe.png',
   },
   {
     id: 31,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349572/keton/1-300x300_1_ajlqed.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596396/Keton/1-300x300_1_vekska.png',
   },
   {
     id: 32,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349572/keton/2-300x300_xnlz1m.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596395/Keton/1-300x300_nxhjyy.jpg',
   },
   {
     id: 33,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695349572/keton/1-300x300_zwhyh4.jpg',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596396/Keton/1-300x300_s9broe.png',
   },
   {
     id: 34,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695351648/keton/17-300x300_rzqlq9.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596424/Keton/17-300x300_kpsz11.png',
   },
   {
     id: 35,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695351648/keton/16-300x300_augswa.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596424/Keton/16-300x300_ayargn.png',
   },
   {
     id: 36,
     image:
-      'https://res.cloudinary.com/dlahz5ciz/image/upload/v1695351647/keton/15-300x300_bgxxnk.png',
+      'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596396/Keton/1-300x300_1_vekska.png',
   },
 ];
 
