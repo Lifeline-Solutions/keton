@@ -1,12 +1,169 @@
 const blogs = [
   {
-    id: 1,
+    id: 12,
+    image: 'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1721925663/images_d9pcer.png',
+    title: 'Technical Sales Executive - Medical Lab Science',
+    content:
+        'Technical Sales Executive - Medical Lab Science \n'+
+
+        ' 📌 Location: *  Nairobi Kenya. \n' +
+
+        ' Job Specification:  \n' +
+        'We are seeking an energetic and driven Technical Sales Executive to join our team. This role is ideal for  ' +
+        'recent graduates with a background in Medical Laboratory Science who are eager to transition into a ' +
+        'sales career. The successful candidate will play a key role in promoting and selling our range of ' +
+        'laboratory products and solutions. \n' +
+
+        ' 📌 *Key Responsibilities: * \n' +
+
+
+        '•⁠  ⁠  Develop and implement sales strategies to meet or exceed sales targets.\n' +
+        '•⁠  ⁠  Identify and engage potential clients, including hospitals, diagnostic labs, and healthcare providers. \n' +
+        '•⁠  ⁠  Conduct product presentations, demonstrations, and training sessions for clients. \n' +
+        '•⁠  ⁠  Provide technical support and address client inquiries about our laboratory products. \n' +
+        '•⁠  ⁠  Collaborate with the marketing team to create promotional materials and sales campaigns.. \n' +
+        '•⁠  ⁠  Keep abreast of industry trends, competitor products, and new technologies. \n' +
+        '•⁠  ⁠  Prepare and submit sales reports, forecasts, and market analyses. \n' +
+
+        '📌 *Qualifications: * \n' +
+
+        '- Bachelor’s degree in Medical Laboratory Science or Biomedical Science  \n' +
+        '- Strong interest in sales and customer service. \n' +
+        '- Excellent communication, presentation, and interpersonal skills. \n' +
+        '- Ability to build and maintain strong relationships with clients and stakeholders. \n' +
+        '- Self-motivated, goal-oriented, and capable of working independently and as part of a team. \n' +
+        '- Basic knowledge of laboratory equipment and solutions is an advantage. \n' +
+        '- Willingness to travel as required. \n' +
+
+        'EMAIL: hr@ketonconsulting.com\n' +
+
+        'How to Apply:  \n' +
+
+        'If you are passionate about Technical Sales and eager to start your career with a company \n' +
+        ' committed to innovation and excellence, we want to hear from you! Please send your resume and a cover \n' +
+        'letter outlining your qualifications and interest in the position to hr@ketonconsulting.com \n' +
+        '*Application Deadline: 5th August 2024',
+
+    month: 'July',
+    day: '25',
+  },
+
+    // 2. Entry-Level Biomedical Engineer
+  {
+    id: 11,
+    image: 'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1721925663/images_d9pcer.png',
+    title: 'Vacancy - Entry-Level Biomedical Engineer',
+    content:
+        'Entry-Level Biomedical Engineer \n'+
+
+        ' 📌 Location: * Kampala Uganda. \n' +
+
+        '  Job Specification:  \n' +
+
+        '  We are seeking a talented and enthusiastic Entry-Level Biomedical Engineer to join our team. This is a  * \n' +
+        ' fantastic opportunity for a recent graduate to begin their career in biomedical engineering, working with  \n' +
+        ' cutting-edge technology and contributing to meaningful healthcare improvements. \n' +
+
+
+        ' 📌 *Key Responsibilities: * \n' +
+
+
+
+        '•⁠  ⁠  Assist in the installation, maintenance, and repair of biomedical equipment. \n' +
+        '•⁠  ⁠  Provide technical support and training to healthcare staff on the use of medical devices. \n' +
+        '•⁠  ⁠  Conduct regular inspections and performance testing of equipment for compliance with standards. \n' +
+        '•⁠  ⁠  Collaborate with senior engineers on research and development projects. \n' +
+        '•⁠  ⁠  Document and report technical issues, maintenance activities, and repair logs. \n' +
+        '•⁠  ⁠  Stay updated on emerging technologies and industry best practices. \n' +
+
+
+        '📌 *Qualifications: * \n' +
+
+
+
+        '- Bachelor’s degree in Biomedical Engineering or a related field. \n' +
+        '- Strong technical aptitude and problem-solving skills. \n' +
+        '- Excellent communication and interpersonal skills. \n' +
+        '- Ability to work well both independently and as part of a team. \n' +
+        '- Eagerness to learn and adapt in a fast-paced environment. \n' +
+        '- Basic knowledge of medical devices and healthcare technology is a plus. \n' +
+
+        'EMAIL: hr@ketonconsulting.com\n' +
+        
+        'How to Apply:  \n' +
+
+        'If you are passionate about biomedical engineering and eager to start your career with a company \n' +
+        'committed to innovation and excellence, we want to hear from you! Please send your resume and a cover \n' +
+        'letter outlining your qualifications and interest in the position to hr@ketonconsulting.com \n' +
+        '*Application Deadline: 5th August 2024',
+
+    month: 'July',
+    day: '25',
+  },
+
+    // Comercial Manager
+  {
+    id: 10,
+    image: 'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1721925663/images_d9pcer.png',
+    title: 'Commercial Manager - Medical Lab Devices and Diagnostics',
+    content:
+        'Vacancy - Commercial Manager - Medical Lab Devices and Diagnostics\n'+
+
+        ' 🔍 Location: Nairobi. \n' +
+
+        ' - Job Specification:  \n' +
+
+        ' We are seeking an experienced and dynamic Commercial Manager to lead our sales and business * \n' +
+        ' development efforts in the medical lab devices and diagnostics sector. The successful candidate will be  \n' +
+        ' responsible for driving revenue growth, managing key accounts, and developing strategic partnerships. \n' +
+
+        ' 📌 *Key Responsibilities: * \n' +
+
+        '•⁠  ⁠ Develop and execute commercial strategies to achieve sales targets and expand market presence \n' +
+        '•⁠  ⁠ Identify and pursue new business opportunities, including key accounts and strategic partnerships. \n' +
+        '•⁠  ⁠ Lead and mentor a team of sales professionals to ensure high performance and goal attainment.\n' +
+        '•⁠  ⁠ Develop and deliver compelling sales presentations, proposals, and product demonstrations. \n' +
+        '•⁠  ⁠ Negotiate and close high-value deals with key clients and stakeholders \n' +
+        '•⁠  ⁠ Collaborate with marketing, product development, and technical teams to align commercial activities with company objectives. \n' +
+        '•⁠  ⁠ Monitor sales performance, analyze data, and prepare detailed reports for senior management. \n' +
+        '•⁠  ⁠ Maintain strong relationships with existing clients and provide exceptional customer service. \n' +
+
+        '\n' +
+        '📣 *Qualifications: * \n' +
+        '\n' +
+        '- Bachelor’s degree in Medical Laboratory Science, Biomedical Engineering, Business Administration, or a related field. A Master\'s degree is a plus \n' +
+        '- Proven experience in sales or commercial management within the medical devices or diagnostics.\n' +
+        '- Strong understanding of medical lab devices and diagnostic solutions.\n' +
+        '- Excellent leadership, communication, and negotiation skills.\n' +
+        '- Ability to build and maintain strong relationships with clients and stakeholders. \n' +
+        '- Analytical mindset with the ability to interpret sales data and market trends. \n' +
+        '- Results-oriented, self-motivated, and able to work independently. \n' +
+        '- Willingness to travel as required. \n' +
+        '\n' +
+        'EMAIL: hr@ketonconsulting.com\n' +
+        '\n' +
+        'How to Apply:  \n' +
+
+        'If you are passionate about Commercial Management and eager to further your career with a dynamic company, \n' +
+        'committed to innovation and excellence, we want to hear from you! Please send your resume and a cover \n' +
+        'letter outlining your qualifications and interest in the position to hr@ketonconsulting.com \n' +
+        '*Application Deadline: 5th August 2024 \n',
+
+    month: 'July',
+    day: '25',
+  },
+
+
+
+  {
+    id: 9,
     image:
         'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1714577630/Keton/iso_implement_training_at_00.15.36_lkr3ra.jpg',
     title: 'ISO 15189:2022 IMPLEMENTATION TRAINING',
     content:
-        'Are you ready to elevate your understanding of quality management systems? We\'re thrilled to invite you to our upcoming ISO training session! 📚 🚀 Why Attend?\n' +
-        '🔍 Event Details:\n' +
+        'Are you ready to elevate your understanding of quality management systems? We\'re thrilled to invite you to our upcoming ISO training session! 📚\n'+
+        ' 🚀 Why Attend?\n' +
+        ' 🔍 Event Details:\n' +
         ' 🗓️ Date: 4TH – 5TH MAY 2024\n' +
         '🕒 Time: 8AM -5PM \n' +
         '📍 Location: ONLINE \n' +
@@ -30,7 +187,7 @@ const blogs = [
     day: '4 - 5',
   },
   {
-    id: 1,
+    id: 8,
     image:
       'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699605164/Keton/keton-in-germany.jpg',
     title: 'Keton Consulting Ltd-ESfEQA Meeting Heidelberg-Germany',
@@ -40,7 +197,7 @@ const blogs = [
     day: '22',
   },
   {
-    id: 2,
+    id: 7,
     image:
       'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595845/Keton/Lab_Tecs49_gprgn9.jpg',
     title: '2022 – TOP 40 UNDER 40 AWARDS CEREMONY – KE.',
@@ -56,7 +213,7 @@ const blogs = [
     day: '12',
   },
   {
-    id: 3,
+    id: 6,
     image:
       'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595179/Keton/Keton_Consulting39_c1tkzr.jpg',
     title: 'KETON CEO IS A TOP 40 UNDER 40 MEN 2022',
@@ -66,7 +223,7 @@ const blogs = [
     day: '31',
   },
   {
-    id: 4,
+    id: 5,
     image:
       'https://res.cloudinary.com/dlahz5ciz/image/upload/v1693327059/keton/Lab_Tecs38_fdah4u.jpg',
     title: 'INVITATION TO ISO 15189:2012 IMPLEMENTATION TRAINING',
@@ -76,7 +233,7 @@ const blogs = [
     day: '19',
   },
   {
-    id: 5,
+    id: 4,
     image:
       'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699594841/Keton/Keton_Consulting9_ugnynd.jpg',
     title: 'EQA 2023 ENROLMENT AND RENEWALS',
@@ -87,7 +244,7 @@ const blogs = [
     day: '05',
   },
   {
-    id: 6,
+    id: 3,
     image:
       'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595715/Keton/Lab_Tecs8_umrxks.jpg',
     title: 'NAISSA INSTALLATION AT PANDYA MEMORIAL HOSPITAL',
@@ -97,7 +254,7 @@ const blogs = [
     day: '20',
   },
   {
-    id: 7,
+    id: 2,
     image:
       'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595328/Keton/Keton_Consulting43_wwymay.jpg',
     title: 'Training on Implementation, Internal Audit and Method Validation',
@@ -107,7 +264,7 @@ const blogs = [
     day: '06',
   },
   {
-    id: 8,
+    id: 1,
     image:
       'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699595973/Keton/Lab_Tecs58_n2xzla.jpg',
     title: '27th AKMLSO CONFERENCE – KETON.',
