@@ -52,6 +52,51 @@ const poct = {
       image:
         'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596336/Keton/Rectangle_144_iplznb.png',
     },
+    {
+      id: 805,
+      category: 'POCT',
+      title: 'All-Test Glucose Meter',
+      image:
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1753466743/WhatsApp_Image_2025-07-25_at_18.29.26_bs8szz.jpg',
+      description: [
+        'AllTest Glucose Meter – Key Features',
+        'Fast Results',
+        'Delivers glucose readings in 5–10 seconds.',
+        '  Low Sample Volume\n',
+        'Requires only 0.5–1.0 µL of capillary blood.\n',
+        '  High Accuracy & Precision\n',
+        'Meets ISO 15197 standards for glucose monitoring.',
+        '  Easy-to-Use Design\n',
+        'Simple interface with one-button operation.',
+        '  Large Display\n',
+        'Clear LCD screen for easy result reading, even in low light.',
+        '  Memory Storage\n',
+        'Stores up to 200–500 test results with date and time.',
+        '  Strip-Based Testing\n',
+        'Uses disposable glucose test strips with capillary action for easy sampling.',
+        '  No Manual Coding\n',
+        'Auto-coding strips prevent errors and simplify use.',
+        '  Battery Operated\n',
+        'Runs on standard AAA batteries or button cells (model-dependent).',
+        '  Portable & Lightweight\n',
+        'Designed for home, clinic, or mobile health use.',
+      ],
+    },
+    {
+      id: 806,
+      categoty: 'POCT',
+      title: 'POCT blood gas analysis\n',
+      image:
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1753467882/WhatsApp_Image_2025-07-25_at_18.32.16_pomlje.jpg',
+      description: [
+        'POCT blood gas analysis',
+        'Lightweight and portable',
+        '34 indicators of blood gases, electrolytes and metabolites',
+        '10 measured indicators: K+, Na+, Cl-, iCa2+, pH, pCO2, pO2, Glu, Lac, Hct',
+        '24 calculated indicators: HCO3 -, TCO2, BE-ecf, SO2, Gap, Gap-K+, pO2(T), pCO2(T), pH(T), BE(b), pO2(A-a), pO2(a/A)',
+        ],
+
+    }
   ],
 };
 
