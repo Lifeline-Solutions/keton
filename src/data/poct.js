@@ -51,6 +51,28 @@ const poct = {
       title: 'All-Test HB',
       image:
         'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596336/Keton/Rectangle_144_iplznb.png',
+      description: [
+        'AllTest Hemoglobin Meter – Key Feature Rapid Testing\n',
+        'Provides results within 15–30 seconds.\n',
+        'Small Sample Volume \n',
+        'Requires only 10 µL of capillary or venous blood.\n',
+        'Portable & Lightweight \n',
+        'Compact handheld design for easy use in field settings or bedside testing. \n',
+        'Wide Measuring Range\n',
+        'Measures hemoglobin levels typically from 4.5–25.6 g/dL.\n',
+        'User-Friendly Operation\n',
+        'Simple 3-step process: apply blood → insert strip → read result.\n',
+        'High Accuracy\n',
+        'Comparable to standard laboratory methods (±0.5 g/dL precision under optimal use).\n',
+        'Battery Operated\n',
+        'Powered by standard batteries, making it ideal for off-grid environments.\n',
+        'Strip-Based System \n',
+        'Uses disposable test strips with embedded reagents (dry chemistry).\n',
+        'Memory Function \n',
+        'Stores up to 200 test results for easy tracking and reference. \n',
+        'Auto Calibration \n',
+        'No manual calibration needed—auto strip recognition ensures reliable results. \n',
+      ]
     },
     {
       id: 805,
