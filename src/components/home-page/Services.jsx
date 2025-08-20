@@ -63,7 +63,7 @@ const Services = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16">
           <div className="col-span-1 flex flex-col items-start gap-6">
             <h1 className="text-[200px] text-primaryBlue font-bold text-left">
-              06
+              08
             </h1>
             <h6 className="font-medium capitalize mt-2 text-sm text-left">
               Years of Service
