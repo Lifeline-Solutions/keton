@@ -7,7 +7,7 @@ const poct = {
       category: 'POCT',
       title: 'HALO Dry Fluorescence Immunoanalyzer',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694756006/equip-27_xnlp8d.png',
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596240/Keton/equip-27_mvkhy0.png',
       description: [
         'YOUR BEST SOLUTION FOR IN VITRO RAPID DIAGNOSTICS!',
         'Rapid (result in 15 secs);',
@@ -29,7 +29,7 @@ const poct = {
       category: 'POCT',
       title: 'Calmark Neo-bilirubinometer',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694756007/equip-28_d4nhq0.png',
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596241/Keton/equip-28_zc0xwe.png',
       description: [
         "With Calmark's test, a test result is obtained directly at the patient's site. By shortening the time from sampling to response, decisions on measures can be made more quickly. Phototherapy can be initiated more quickly, or the child can be sent home sooner. Calmark's proprietary point-of-care testing platform consists of a portable instrument and a standardized test cassette",
       ],
@@ -39,7 +39,7 @@ const poct = {
       category: 'POCT',
       title: 'Glucoleader Glucometer',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1694756007/equip-29_jheyvo.png',
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596241/Keton/equip-29_s17kbk.png',
       description: [
         'The Glucoleader Enhance Blood Glucose Monitor is a fast and user-friendly blood sugar monitoring kit which can provide a reading in just 5 seconds.',
         'This is a lightweight and painless diabetes monitor suitable for daily use. The kit contains a meter kit and 50 strips and lancets.',
@@ -50,8 +50,75 @@ const poct = {
       category: 'POCT',
       title: 'All-Test HB',
       image:
-        'https://res.cloudinary.com/dlahz5ciz/image/upload/v1698069354/Rectangle_144_f6urlc.png',
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1699596336/Keton/Rectangle_144_iplznb.png',
+      description: [
+        'AllTest Hemoglobin Meter – Key Feature Rapid Testing\n',
+        'Provides results within 15–30 seconds.\n',
+        'Small Sample Volume \n',
+        'Requires only 10 µL of capillary or venous blood.\n',
+        'Portable & Lightweight \n',
+        'Compact handheld design for easy use in field settings or bedside testing. \n',
+        'Wide Measuring Range\n',
+        'Measures hemoglobin levels typically from 4.5–25.6 g/dL.\n',
+        'User-Friendly Operation\n',
+        'Simple 3-step process: apply blood → insert strip → read result.\n',
+        'High Accuracy\n',
+        'Comparable to standard laboratory methods (±0.5 g/dL precision under optimal use).\n',
+        'Battery Operated\n',
+        'Powered by standard batteries, making it ideal for off-grid environments.\n',
+        'Strip-Based System \n',
+        'Uses disposable test strips with embedded reagents (dry chemistry).\n',
+        'Memory Function \n',
+        'Stores up to 200 test results for easy tracking and reference. \n',
+        'Auto Calibration \n',
+        'No manual calibration needed—auto strip recognition ensures reliable results. \n',
+      ]
     },
+    {
+      id: 805,
+      category: 'POCT',
+      title: 'All-Test Glucose Meter',
+      image:
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1753466743/WhatsApp_Image_2025-07-25_at_18.29.26_bs8szz.jpg',
+      description: [
+        'AllTest Glucose Meter – Key Features',
+        'Fast Results',
+        'Delivers glucose readings in 5–10 seconds.',
+        '  Low Sample Volume\n',
+        'Requires only 0.5–1.0 µL of capillary blood.\n',
+        '  High Accuracy & Precision\n',
+        'Meets ISO 15197 standards for glucose monitoring.',
+        '  Easy-to-Use Design\n',
+        'Simple interface with one-button operation.',
+        '  Large Display\n',
+        'Clear LCD screen for easy result reading, even in low light.',
+        '  Memory Storage\n',
+        'Stores up to 200–500 test results with date and time.',
+        '  Strip-Based Testing\n',
+        'Uses disposable glucose test strips with capillary action for easy sampling.',
+        '  No Manual Coding\n',
+        'Auto-coding strips prevent errors and simplify use.',
+        '  Battery Operated\n',
+        'Runs on standard AAA batteries or button cells (model-dependent).',
+        '  Portable & Lightweight\n',
+        'Designed for home, clinic, or mobile health use.',
+      ],
+    },
+    {
+      id: 806,
+      categoty: 'POCT',
+      title: 'POCT blood gas analysis\n',
+      image:
+        'https://res.cloudinary.com/dqfoxx9mz/image/upload/v1753467882/WhatsApp_Image_2025-07-25_at_18.32.16_pomlje.jpg',
+      description: [
+        'POCT blood gas analysis',
+        'Lightweight and portable',
+        '34 indicators of blood gases, electrolytes and metabolites',
+        '10 measured indicators: K+, Na+, Cl-, iCa2+, pH, pCO2, pO2, Glu, Lac, Hct',
+        '24 calculated indicators: HCO3 -, TCO2, BE-ecf, SO2, Gap, Gap-K+, pO2(T), pCO2(T), pH(T), BE(b), pO2(A-a), pO2(a/A)',
+        ],
+
+    }
   ],
 };
 

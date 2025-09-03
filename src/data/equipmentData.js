@@ -7,7 +7,6 @@ import molecular from './molecular';
 import poct from './poct';
 import semenAnalyzer from './semenAnalyzer';
 import histology from './histology';
-import urinalysis from './urinalysis';
 
 export const equipmentData = [
   clinicalChemistry,
@@ -19,5 +18,4 @@ export const equipmentData = [
   semenAnalyzer,
   poct,
   histology,
-  urinalysis,
 ];
